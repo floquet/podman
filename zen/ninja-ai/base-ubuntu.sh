@@ -8,14 +8,12 @@ function new_step() { counter=$((counter+1)); subcounter=0; echo -e "\nStep ${co
 function sub_step() { subcounter=$((subcounter+1)); echo -e "\n  Substep ${counter}.${subcounter}: $1"; }
 function elapsed()  { secs=$((SECONDS-start_time)); printf "\nTotal elapsed time: %02d:%02d (MM:SS)\n" $((secs/60)) $((secs%60)); }
 
-if [[ $# -ne 1 ]]; then
-    echo "Usage: $0 <target-dir>"
-    echo "Example: $0 /tmp/install-$(date +%Y%m%d_%H%M%S)"
-    exit 1
-fi
-
-TARGET_DIR="$1"
+TARGET_DIR="/home/user/repos-xiuhcoatl/github/podman/zen/ninja-ai/base-ubuntu-$(date +%Y%m%d_%H%M%S)"
+new_step "Create directories $TARGET_DIR/{show,depends,policy,rdepends}"
 mkdir -p "$TARGET_DIR"/{show,depends,policy,rdepends}
+
+# Then run it as:
+# source base-ubuntu.sh 2>&1 | tee "$TARGET_DIR/master-log.txt"
 
 echo "System settings to select: Region 2 (Americas), Timezone 47 (Denver)"
 
