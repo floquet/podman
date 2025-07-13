@@ -8,6 +8,15 @@ function new_step() { counter=$((counter+1)); subcounter=0; echo -e "\nStep ${co
 function sub_step() { subcounter=$((subcounter+1)); echo -e "\n  Substep ${counter}.${subcounter}: $1"; }
 function elapsed()  { secs=$((SECONDS-start_time)); printf "\nTotal elapsed time: %02d:%02d (MM:SS)\n" $((secs/60)) $((secs%60)); }
 
+if [[ $# -ne 1 ]]; then
+    echo "Usage: $0 <target-dir>"
+    echo "Example: $0 /tmp/install-$(date +%Y%m%d_%H%M%S)"
+    exit 1
+fi
+
+TARGET_DIR="$1"
+mkdir -p "$TARGET_DIR"/{show,depends,policy,rdepends}
+
 echo "System settings to select: Region 2 (Americas), Timezone 47 (Denver)"
 
 new_step "Update package manager: apt-get update && apt-get upgrade -y"
@@ -110,7 +119,6 @@ diagnostics_packages=(
   valgrind-mpi
 )
 
-
 function install_packages() {
   local step_name="$1"
   local -n packages=$2
@@ -123,11 +131,18 @@ function install_packages() {
     apt-cache show "$package" > "$TARGET_DIR/show/$package.txt" &
     sub_step "apt-cache depends $package"
     apt-cache depends "$package" > "$TARGET_DIR/depends/$package.txt" &
+    sub_step "apt-cache rdepends $package"
+    apt-cache depends "$package" > "$TARGET_DIR/rdepends/$package.txt" &
     sub_step "apt-cache policy $package"
     apt-cache policy "$package" > "$TARGET_DIR/policy/$package.txt" &
   done
   wait  # Wait for background apt-cache commands
 }
+
+# Add these calls before the alternatives section:
+install_packages "Install essential build tools" essential_packages
+install_packages "Install compiler packages" compiler_packages  
+install_packages "Install diagnostic packages" diagnostics_packages
 
 new_step "Set up alternatives for easy switching"
 # Get actual installed versions dynamically
@@ -144,6 +159,18 @@ update-alternatives --install /usr/bin/gfortran gfortran /usr/bin/gfortran-${GCC
 sub_step "Setting up Clang alternatives"
 update-alternatives --install /usr/bin/clang clang /usr/bin/clang-${CLANG_VER} 100
 update-alternatives --install /usr/bin/clang++ clang++ /usr/bin/clang++-${CLANG_VER} 100
+
+new_step "Ubuntu tools for package management"
+    sub_step "dpkg --get-selections > $TARGET_DIR/all-installed-packages.txt"
+    dpkg --get-selections > "$TARGET_DIR/all-installed-packages.txt"
+    sub_step "apt-mark showmanual > $TARGET_DIR/manually-installed.txt"
+    apt-mark showmanual > "$TARGET_DIR/manually-installed.txt" 
+    sub_step "apt-mark showauto > $TARGET_DIR/auto-installed.txt"
+    apt-mark showauto > "$TARGET_DIR/auto-installed.txt"
+    sub_step "apt list --installed > $TARGET_DIR/installed-with-versions.txt"
+    apt list --installed > "$TARGET_DIR/installed-with-versions.txt"
+    sub_step "df -h > $TARGET_DIR/disk-usage-post-install.txt"
+    df -h > "$TARGET_DIR/disk-usage-post-install.txt"
 
 new_step "Close with elapsed time"
 elapsed
