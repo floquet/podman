@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+printf "%s\n" "$(tput bold)$(date) ${BASH_SOURCE[0]}$(tput sgr0)"
+
+# Flang is part of LLVM, let's build it from source for latest version
+cd /opt
+git clone https://github.com/llvm/llvm-project.git
+cd llvm-project
+mkdir build && cd build
+
+# Configure LLVM with Flang
+cmake -G Ninja \
+  -DCMAKE_BUILD_TYPE=Release \
+  -DLLVM_ENABLE_PROJECTS="clang;flang" \
+  -DLLVM_TARGETS_TO_BUILD="X86" \
+  -DCMAKE_INSTALL_PREFIX=/usr/local \
+  ../llvm
+
+# Build (this will take a while)
+ninja -j$(nproc)
+ninja install
+

@@ -1,0 +1,147 @@
+=== SYSTEM INTERROGATION ===
+Date: Sat Jul 12 16:17:18 MDT 2025
+Container ID: 68e3e1fb023b
+Created by: /home/user/repos-xiuhcoatl/github/podman/zen/ninja-ai/interrogate.sh
+
+=== OPERATING SYSTEM ===
+PRETTY_NAME="Ubuntu 24.04.2 LTS"
+NAME="Ubuntu"
+VERSION_ID="24.04"
+VERSION="24.04.2 LTS (Noble Numbat)"
+VERSION_CODENAME=noble
+ID=ubuntu
+ID_LIKE=debian
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+UBUNTU_CODENAME=noble
+LOGO=ubuntu-logo
+Kernel: Linux 68e3e1fb023b 6.12.13-200.fc41.x86_64 #1 SMP PREEMPT_DYNAMIC Sat Feb  8 20:05:26 UTC 2025 x86_64 x86_64 x86_64 GNU/Linux
+Architecture: x86_64
+
+=== HARDWARE RESOURCES ===
+CPU Info:
+Architecture:                         x86_64
+CPU op-mode(s):                       32-bit, 64-bit
+Address sizes:                        39 bits physical, 48 bits virtual
+Byte Order:                           Little Endian
+CPU(s):                               8
+On-line CPU(s) list:                  0-7
+Vendor ID:                            GenuineIntel
+Model name:                           Intel(R) Core(TM) i7-8700B CPU @ 3.20GHz
+CPU family:                           6
+Model:                                158
+Thread(s) per core:                   1
+Core(s) per socket:                   8
+Socket(s):                            1
+Stepping:                             10
+BogoMIPS:                             6384.03
+Flags:                                fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch pti fsgsbase bmi1 hle avx2 smep bmi2 erms rdseed adx smap clflushopt xsaveopt xsavec xgetbv1 arat
+L1d cache:                            256 KiB (8 instances)
+L1i cache:                            256 KiB (8 instances)
+L2 cache:                             2 MiB (8 instances)
+L3 cache:                             12 MiB (1 instance)
+
+Memory:
+               total        used        free      shared  buff/cache   available
+Mem:            23Gi       742Mi        21Gi       948Ki       2.0Gi        22Gi
+Swap:             0B          0B          0B
+
+Disk Usage:
+Filesystem                            Size  Used Avail Use% Mounted on
+tmpfs                                 2.4G  156K  2.4G   1% /etc/hosts
+shm                                    63M     0   63M   0% /dev/shm
+a2a0ee2c717462feb1de2f5afd59de5fd2d8  1.9T  441G  1.4T  24% /home/user
+overlay                               120G  6.0G  114G   5% /
+tmpfs                                  64M     0   64M   0% /dev
+
+=== INSTALLED COMPILERS ===
+GCC:
+gcc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0
+Copyright (C) 2023 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+
+G++:
+g++ (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0
+Copyright (C) 2023 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+
+Gfortran:
+GNU Fortran (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0
+Copyright (C) 2023 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+
+Clang:
+Ubuntu clang version 18.1.3 (1ubuntu1)
+Target: x86_64-pc-linux-gnu
+Thread model: posix
+InstalledDir: /usr/bin
+
+Clang++:
+Ubuntu clang version 18.1.3 (1ubuntu1)
+Target: x86_64-pc-linux-gnu
+Thread model: posix
+InstalledDir: /usr/bin
+
+=== DEVELOPMENT TOOLS ===
+Make: GNU Make 4.3
+CMake: cmake version 3.28.3
+Ninja: 1.11.1
+Git: git version 2.43.0
+Python3: Python 3.12.3
+Pip3: pip 24.0 from /usr/lib/python3/dist-packages/pip (python 3.12)
+
+=== INSTALLED PACKAGES (APT) ===
+ii  appstream                       1.0.2-1build6                     amd64        Software component metadata management
+ii  autoconf                        2.71-3                            all          automatic configure script builder
+ii  base-passwd                     3.6.3build1                       amd64        Debian base system master password and group files
+ii  bison                           2:3.8.2+dfsg-1build2              amd64        YACC-compatible parser generator
+ii  build-essential                 12.10ubuntu1                      amd64        Informational list of build-essential packages
+ii  bzip2                           1.0.8-5.1build0.1                 amd64        high-quality block-sorting file compressor - utilities
+ii  clang                           1:18.0-59~exp2                    amd64        C, C++ and Objective-C compiler (LLVM based), clang binary
+ii  clang-18                        1:18.1.3-1ubuntu1                 amd64        C, C++ and Objective-C compiler
+ii  cmake                           3.28.3-1build7                    amd64        cross-platform, open-source make system
+ii  cmake-data                      3.28.3-1build7                    all          CMake data files (modules, templates and documentation)
+ii  debianutils                     5.17build1                        amd64        Miscellaneous utilities specific to Debian
+ii  diffutils                       1:3.10-1build1                    amd64        File comparison utilities
+ii  file                            1:5.45-3build1                    amd64        Recognize the type of data in a file using "magic" numbers
+ii  findutils                       4.9.0-5build1                     amd64        utilities for finding files--find, xargs
+ii  flex                            2.6.4-8.2build1                   amd64        fast lexical analyzer generator
+ii  gcc                             4:13.2.0-7ubuntu1                 amd64        GNU C compiler
+ii  gcc-13                          13.3.0-6ubuntu2~24.04             amd64        GNU C compiler
+ii  gcc-13-base:amd64               13.3.0-6ubuntu2~24.04             amd64        GCC, the GNU Compiler Collection (base package)
+ii  gcc-13-x86-64-linux-gnu         13.3.0-6ubuntu2~24.04             amd64        GNU C compiler for the x86_64-linux-gnu architecture
+ii  gcc-14-base:amd64               14.2.0-4ubuntu2~24.04             amd64        GCC, the GNU Compiler Collection (base package)
+
+=== ENVIRONMENT VARIABLES ===
+PATH: /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+LD_LIBRARY_PATH: 
+CC: 
+CXX: 
+FC: 
+
+=== NETWORK CONFIGURATION ===
+Network info not available
+
+=== RUNNING PROCESSES ===
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.0  0.0   4720  3980 pts/0    Ss   15:37   0:00 /bin/bash
+root        8382  0.0  0.0   7888  4084 pts/0    R+   16:17   0:00 ps aux
+root        8383  0.0  0.0   2708  1508 pts/0    S+   16:17   0:00 head -10
+
+=== MOUNTED FILESYSTEMS ===
+
+=== ALTERNATIVES CONFIGURATION ===
+c89                            auto     /usr/bin/c89-gcc
+c99                            auto     /usr/bin/c99-gcc
+cc                             auto     /usr/bin/gcc
+clang                          auto     /usr/bin/clang-18
+clang++                        auto     /usr/bin/clang++-18
+gcc                            auto     /usr/bin/gcc-13
