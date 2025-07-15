@@ -8,14 +8,15 @@ function new_step() { counter=$((counter+1)); subcounter=0; echo -e "\nStep ${co
 function sub_step() { subcounter=$((subcounter+1)); echo -e "\n  Substep ${counter}.${subcounter}: $1"; }
 function elapsed()  { secs=$((SECONDS-start_time)); printf "\nTotal elapsed time: %02d:%02d (MM:SS)\n" $((secs/60)) $((secs%60)); }
 
-TARGET_DIR="/home/user/repos-xiuhcoatl/github/podman/zen/ninja-ai/base-ubuntu-$(date +%Y%m%d_%H%M%S)"
+TARGET_DIR="/workspace/podman/zen/ninja-ai/logs/base-ubuntu-$(date +%Y%m%d_%H%M%S)"
+
 new_step "Create directories $TARGET_DIR/{show,depends,policy,rdepends}"
 mkdir -p "$TARGET_DIR"/{show,depends,policy,rdepends}
 
 # Then run it as:
 # source base-ubuntu.sh 2>&1 | tee "$TARGET_DIR/master-log.txt"
 
-echo "System settings to select: Region 2 (Americas), Timezone 47 (Denver)"
+echo "System settings to select: Region 2 (America), Timezone 47 (Denver)"
 
 new_step "Update package manager: apt-get update && apt-get upgrade -y"
 apt-get update && apt-get upgrade -y
@@ -162,15 +163,16 @@ update-alternatives --install /usr/bin/clang++ clang++ /usr/bin/clang++-${CLANG_
 
 new_step "Ubuntu tools for package management"
     sub_step "dpkg --get-selections > $TARGET_DIR/all-installed-packages.txt"
-    dpkg --get-selections > "$TARGET_DIR/all-installed-packages.txt"
+        dpkg --get-selections > "$TARGET_DIR/all-installed-packages.txt"
     sub_step "apt-mark showmanual > $TARGET_DIR/manually-installed.txt"
-    apt-mark showmanual > "$TARGET_DIR/manually-installed.txt" 
+        apt-mark showmanual > "$TARGET_DIR/manually-installed.txt" 
     sub_step "apt-mark showauto > $TARGET_DIR/auto-installed.txt"
-    apt-mark showauto > "$TARGET_DIR/auto-installed.txt"
+        apt-mark showauto > "$TARGET_DIR/auto-installed.txt"
     sub_step "apt list --installed > $TARGET_DIR/installed-with-versions.txt"
-    apt list --installed > "$TARGET_DIR/installed-with-versions.txt"
+        dpkg -l  > "$TARGET_DIR/installed-with-versions.txt"
+        #apt list --installed > "$TARGET_DIR/installed-with-versions.txt"
     sub_step "df -h > $TARGET_DIR/disk-usage-post-install.txt"
-    df -h > "$TARGET_DIR/disk-usage-post-install.txt"
+        df -h > "$TARGET_DIR/disk-usage-post-install.txt"
 
 new_step "Configure vim"
 cat > ~/.vimrc << 'EOF'
