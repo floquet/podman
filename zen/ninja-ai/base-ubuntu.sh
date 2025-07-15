@@ -20,7 +20,7 @@ echo "System settings to select: Region 2 (Americas), Timezone 47 (Denver)"
 new_step "Update package manager: apt-get update && apt-get upgrade -y"
 apt-get update && apt-get upgrade -y
 
-# Region: 2 (Americas)
+# Region: 2 (America)
 # Time zone: 49 (Denver)
 
 new_step "Define essential build tools and dependencies"
@@ -113,6 +113,8 @@ diagnostics_packages=(
   strace
   sysprof
   sysstat
+  tau
+  unzip
   valgrind
   valgrind-mpi
 )
@@ -169,6 +171,64 @@ new_step "Ubuntu tools for package management"
     apt list --installed > "$TARGET_DIR/installed-with-versions.txt"
     sub_step "df -h > $TARGET_DIR/disk-usage-post-install.txt"
     df -h > "$TARGET_DIR/disk-usage-post-install.txt"
+
+new_step "Configure vim"
+cat > ~/.vimrc << 'EOF'
+" Basic settings
+set number              " Show line numbers
+set relativenumber      " Show relative line numbers
+set ruler               " Show cursor position
+set showcmd             " Show command in bottom bar
+set showmatch           " Highlight matching brackets
+set hlsearch            " Highlight search results
+set incsearch           " Incremental search
+set ignorecase          " Case insensitive search
+set smartcase           " Case sensitive if uppercase used
+
+" Indentation and formatting
+set autoindent          " Auto indent new lines
+set smartindent         " Smart indentation
+set tabstop=4           " Tab width
+set shiftwidth=4        " Indent width
+set expandtab           " Use spaces instead of tabs
+set softtabstop=4       " Soft tab width
+
+" Visual enhancements
+syntax on               " Enable syntax highlighting
+set background=dark     " Dark background
+set cursorline          " Highlight current line
+set colorcolumn=80      " Show column at 80 characters
+set laststatus=2        " Always show status line
+set wildmenu            " Enhanced command completion
+
+" File handling
+set backup              " Keep backup files
+set backupdir=~/.vim/backup//
+set directory=~/.vim/swap//
+set undofile            " Persistent undo
+set undodir=~/.vim/undo//
+
+" Create backup directories
+silent !mkdir -p ~/.vim/backup ~/.vim/swap ~/.vim/undo
+
+" Programming features
+set foldmethod=indent   " Code folding based on indentation
+set foldlevelstart=10   " Start with folds open
+filetype plugin indent on  " Enable file type detection
+
+" Key mappings
+nnoremap <F2> :set number!<CR>          " Toggle line numbers
+nnoremap <F3> :set paste!<CR>           " Toggle paste mode
+nnoremap <F4> :set hlsearch!<CR>        " Toggle search highlight
+
+" Status line
+set statusline=%F%m%r%h%w\ [%l,%c]\ [%L\ lines]\ [%p%%]
+
+" Mouse support (if available)
+if has('mouse')
+    set mouse=a
+endif
+EOF
 
 new_step "Close with elapsed time"
 elapsed
