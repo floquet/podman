@@ -1,0 +1,3 @@
+libisl-dev
+  Depends: libisl23
+  Conflicts: <libcloog-isl-dev>

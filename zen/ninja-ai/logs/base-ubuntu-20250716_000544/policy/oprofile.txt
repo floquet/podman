@@ -1,0 +1,7 @@
+oprofile:
+  Installed: 1.4.0-0ubuntu7
+  Candidate: 1.4.0-0ubuntu7
+  Version table:
+ *** 1.4.0-0ubuntu7 500
+        500 http://archive.ubuntu.com/ubuntu jammy/universe amd64 Packages
+        100 /var/lib/dpkg/status

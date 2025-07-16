@@ -1,0 +1,52 @@
+Package: libgomp1
+Architecture: amd64
+Version: 12.3.0-1ubuntu1~22.04
+Multi-Arch: same
+Priority: optional
+Build-Essential: yes
+Section: libs
+Source: gcc-12
+Origin: Ubuntu
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 320
+Depends: gcc-12-base (= 12.3.0-1ubuntu1~22.04), libc6 (>= 2.34)
+Breaks: gcc-4.3 (<< 4.3.6-1), gcc-4.4 (<< 4.4.6-4), gcc-4.5 (<< 4.5.3-2)
+Filename: pool/main/g/gcc-12/libgomp1_12.3.0-1ubuntu1~22.04_amd64.deb
+Size: 126478
+MD5sum: 4b5d08a7d7b19579dfcb2fd43426dae8
+SHA1: a155cf0bd224d556473f6d121fb74ae5769aeb54
+SHA256: 072a7ee2dc00bc92a816e11ae62ad5a497c86fc1f0473c0a095f29e13003da72
+SHA512: 29fe087c7537797c21a97cbc1f2749be11a9fc58bba36058bec4d334a6242fe50b9de39b42c326c827601a48b605eb0f1cbfbeabd07047eb436d9de3eca66ca6
+Homepage: http://gcc.gnu.org/
+Description: GCC OpenMP (GOMP) support library
+Description-md5: 9651123458dd1bf3c162dfb6a6292ff4
+Task: ubuntu-desktop-minimal, ubuntu-desktop, ubuntu-desktop-raspi, kubuntu-desktop, xubuntu-core, xubuntu-desktop, lubuntu-desktop, ubuntustudio-desktop-core, ubuntustudio-desktop, ubuntukylin-desktop, ubuntu-mate-core, ubuntu-mate-desktop, ubuntu-budgie-desktop, ubuntu-budgie-desktop-raspi
+
+Package: libgomp1
+Architecture: amd64
+Version: 12-20220319-1ubuntu1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: gcc-12
+Origin: Ubuntu
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 320
+Depends: gcc-12-base (= 12-20220319-1ubuntu1), libc6 (>= 2.34)
+Breaks: gcc-4.3 (<< 4.3.6-1), gcc-4.4 (<< 4.4.6-4), gcc-4.5 (<< 4.5.3-2)
+Filename: pool/main/g/gcc-12/libgomp1_12-20220319-1ubuntu1_amd64.deb
+Size: 126360
+MD5sum: e4b85550956df6f97bacab4753d5fa61
+SHA1: ec57a743b81ddc47070bc7667c4d5c692ec1804f
+SHA256: 8627999dd5f3d38473774ce7924a62af9a2840b2238bc52611e38257bc140b5d
+SHA512: a8e08a4cbeb846755414b65eb08396aedbb96e767ef49b56af3b55130e9a7b37ecc3233c2145dc02463fe32e451f7a0c2e897fbbc7f8c5c6bf279898e0fe496f
+Homepage: http://gcc.gnu.org/
+Description: GCC OpenMP (GOMP) support library
+Description-md5: 9651123458dd1bf3c162dfb6a6292ff4
+Task: ubuntu-desktop-minimal, ubuntu-desktop, ubuntu-desktop-raspi, kubuntu-desktop, xubuntu-core, xubuntu-desktop, lubuntu-desktop, ubuntustudio-desktop-core, ubuntustudio-desktop, ubuntukylin-desktop, ubuntu-mate-core, ubuntu-mate-desktop, ubuntu-budgie-desktop, ubuntu-budgie-desktop-raspi
+Build-Essential: yes
+

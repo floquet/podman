@@ -1,0 +1,22 @@
+Package: heaptrack-gui
+Architecture: amd64
+Version: 1.3.0-1ubuntu1
+Priority: optional
+Section: universe/devel
+Source: heaptrack
+Origin: Ubuntu
+Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
+Original-Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 1319
+Depends: kio, libboost-filesystem1.74.0 (>= 1.74.0), libboost-iostreams1.74.0 (>= 1.74.0), libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libkchart2 (>= 2.6.0), libkf5configcore5 (>= 4.97.0), libkf5configwidgets5 (>= 4.96.0), libkf5coreaddons5 (>= 5.16.0), libkf5i18n5 (>= 4.97.0), libkf5iconthemes5 (>= 4.96.0), libkf5kiowidgets5 (>= 4.96.0), libkf5threadweaver5 (>= 4.98.0), libkf5widgetsaddons5 (>= 5.16.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5widgets5 (>= 5.11.0~rc1), libstdc++6 (>= 11)
+Filename: pool/universe/h/heaptrack/heaptrack-gui_1.3.0-1ubuntu1_amd64.deb
+Size: 395774
+MD5sum: 568b4ae74ea519b05d3808eb9a3ac5be
+SHA1: f6f0429ca8e55233f35b037c49957ff47ebd6a97
+SHA256: 354e23e2be18de7376e43dcec7685c43bc26c25fa4e8c7e711f649bd7b174a76
+SHA512: 6bb7c4008ce9d501413e29319c97c471093eea0275845756ea0f21a1c05e4f5c1c9e6e3fe8bb38a524d3304f68a24efe4a4f3da84e7e545f6b2052c93ce91ec0
+Homepage: https://github.com/KDE/heaptrack
+Description: heap memory profiler for Linux
+Description-md5: 81174acb789b6d87eef358fb7119aacf
+

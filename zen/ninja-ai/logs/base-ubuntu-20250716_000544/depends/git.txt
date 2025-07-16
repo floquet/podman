@@ -1,0 +1,37 @@
+git
+  Depends: libc6
+  Depends: libcurl3-gnutls
+  Depends: libexpat1
+  Depends: libpcre2-8-0
+  Depends: zlib1g
+  Depends: perl
+  Depends: liberror-perl
+  Depends: git-man
+  Depends: git-man
+  Breaks: bash-completion
+  Breaks: <cogito>
+  Breaks: dgit
+  Breaks: git-buildpackage
+  Breaks: <git-el>
+  Breaks: <gitosis>
+  Breaks: gitpkg
+  Breaks: guilt
+  Breaks: openssh-client
+  Breaks: stgit
+  Breaks: stgit-contrib
+  Recommends: ca-certificates
+  Recommends: patch
+  Recommends: less
+  Recommends: <ssh-client>
+    openssh-client
+  Suggests: gettext-base
+ |Suggests: git-daemon-run
+  Suggests: git-daemon-sysvinit
+  Suggests: git-doc
+  Suggests: git-email
+  Suggests: git-gui
+  Suggests: gitk
+  Suggests: gitweb
+  Suggests: git-cvs
+  Suggests: git-mediawiki
+  Suggests: git-svn

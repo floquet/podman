@@ -1,0 +1,89 @@
+octave
+  Depends: libamd2
+  Depends: libarpack2
+ |Depends: libblas3
+  Depends: <libblas.so.3>
+    libatlas3-base
+    libblas3
+    libblis3-openmp
+    libblis3-pthread
+    libblis3-serial
+    libopenblas0-openmp
+    libopenblas0-pthread
+    libopenblas0-serial
+  Depends: libbz2-1.0
+  Depends: libc6
+  Depends: libccolamd2
+  Depends: libcholmod3
+  Depends: libcolamd2
+  Depends: libcurl3-gnutls
+  Depends: libcxsparse3
+  Depends: libfftw3-double3
+  Depends: libfftw3-single3
+  Depends: libfltk-gl1.3
+  Depends: libfltk1.3
+  Depends: libfontconfig1
+  Depends: libfreetype6
+  Depends: libgcc-s1
+  Depends: libgfortran5
+  Depends: libgl1
+  Depends: libgl2ps1.4
+  Depends: libglpk40
+ |Depends: libglu1-mesa
+  Depends: <libglu1>
+    libglu1-mesa
+  Depends: libgomp1
+  Depends: libgraphicsmagick++-q16-12
+  Depends: libgraphicsmagick-q16-3
+  Depends: libhdf5-103-1
+ |Depends: liblapack3
+  Depends: <liblapack.so.3>
+    libatlas3-base
+    liblapack3
+    libopenblas0-openmp
+    libopenblas0-pthread
+    libopenblas0-serial
+  Depends: libpcre3
+  Depends: libportaudio2
+  Depends: libqhull8.0
+  Depends: libqrupdate1
+  Depends: libqscintilla2-qt5-15
+  Depends: libqt5core5a
+ |Depends: libqt5gui5
+  Depends: libqt5gui5-gles
+  Depends: libqt5help5
+  Depends: libqt5network5
+  Depends: libqt5printsupport5
+  Depends: libqt5widgets5
+  Depends: libqt5xml5
+  Depends: libreadline8
+  Depends: libsndfile1
+  Depends: libstdc++6
+  Depends: libsuitesparseconfig5
+  Depends: libsundials-ida4
+  Depends: libsundials-sunlinsol2
+  Depends: libumfpack5
+  Depends: libx11-6
+  Depends: zlib1g
+  Depends: texinfo
+  Depends: octave-common
+  Breaks: <liboctave3v5>
+  Breaks: <liboctave4>
+  Breaks: <liboctave5>
+  Breaks: <liboctave6>
+  Breaks: <liboctave7>
+  Breaks: <liboctave8>
+  Breaks: octave-nlopt
+ |Recommends: gnuplot-qt
+ |Recommends: gnuplot-x11
+    gnuplot-qt
+  Recommends: gnuplot-nox
+    gnuplot-qt
+    gnuplot-x11
+ |Recommends: libopenblas0
+  Recommends: libatlas3-base
+  Recommends: pstoedit
+  Recommends: epstool
+  Recommends: default-jre-headless
+  Recommends: octave-doc
+  Suggests: octave-dev

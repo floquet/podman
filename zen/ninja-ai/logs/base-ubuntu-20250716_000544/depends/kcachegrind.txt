@@ -1,0 +1,23 @@
+kcachegrind
+  Depends: kio
+  Depends: libc6
+  Depends: libkf5archive5
+  Depends: libkf5configcore5
+  Depends: libkf5configwidgets5
+  Depends: libkf5coreaddons5
+  Depends: libkf5dbusaddons5
+  Depends: libkf5i18n5
+  Depends: libkf5jobwidgets5
+  Depends: libkf5kiocore5
+  Depends: libkf5widgetsaddons5
+  Depends: libkf5xmlgui5
+  Depends: libqt5core5a
+  Depends: libqt5dbus5
+ |Depends: libqt5gui5
+  Depends: libqt5gui5-gles
+  Depends: libqt5widgets5
+  Depends: libstdc++6
+  Recommends: graphviz
+  Recommends: valgrind
+  Suggests: kcachegrind-converters
+  Suggests: khelpcenter

@@ -1,0 +1,4 @@
+libmpc-dev
+  Depends: libmpc3
+  Depends: libmpfr-dev
+  Depends: libgmp-dev

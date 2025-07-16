@@ -1,0 +1,42 @@
+Package: iotop
+Architecture: amd64
+Version: 0.6-24-g733f3f8-1.1ubuntu0.1
+Priority: optional
+Section: admin
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Paul Wise <pabs@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 90
+Depends: python3:any
+Filename: pool/main/i/iotop/iotop_0.6-24-g733f3f8-1.1ubuntu0.1_amd64.deb
+Size: 23106
+MD5sum: 908ec5748e946983e8904ea2f88baee5
+SHA1: 4a44254a25d4ad636702b6578fa9cdbe7b889fe5
+SHA256: 2944ff3af5c50c9e76323e6e0aa9b10859f05fc4b5fee885fb28e9f5808b4a44
+SHA512: 1dce531c0fc1af5899d8f417364516abd105b12a30ede011dd53430ad7c4eb5f67ff4651f79ccb8684d0f5bb4ed972edc914e7643d2ea695c1641831087b8cb6
+Homepage: http://guichaz.free.fr/iotop/
+Description: simple top-like I/O monitor
+Description-md5: c4f12688909987c39522befde2f1ee20
+
+Package: iotop
+Architecture: amd64
+Version: 0.6-24-g733f3f8-1.1build2
+Priority: optional
+Section: admin
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Paul Wise <pabs@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 90
+Depends: python3:any
+Filename: pool/main/i/iotop/iotop_0.6-24-g733f3f8-1.1build2_amd64.deb
+Size: 23030
+MD5sum: 2fd00157969533b7fb646cfdd38469b1
+SHA1: ce24a97be0912445e178b5613df4f91dd2250244
+SHA256: 059d9041b5831028d8df1dfb0f1de2973fa3672ea1b5a44eab5aeca86a3fc2a4
+SHA512: fc5ba56d1a951b87f8b5a6bd759c92f620eb593c34727a73d1d3771eceda40c856f32f278a97d23d2459ff0476ea99a08e302b2790d1414b213ca454d3896285
+Homepage: http://guichaz.free.fr/iotop/
+Description: simple top-like I/O monitor
+Description-md5: c4f12688909987c39522befde2f1ee20
+

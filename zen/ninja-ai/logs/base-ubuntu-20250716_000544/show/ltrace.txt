@@ -1,0 +1,40 @@
+Package: ltrace
+Architecture: amd64
+Version: 0.7.3-6.1ubuntu6.22.04.1
+Priority: optional
+Section: universe/utils
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Juan Cespedes <cespedes@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 332
+Depends: libc6 (>= 2.34), libelf1 (>= 0.131), libselinux1 (>= 3.1~)
+Filename: pool/universe/l/ltrace/ltrace_0.7.3-6.1ubuntu6.22.04.1_amd64.deb
+Size: 132548
+MD5sum: cb77d4c2ee7075f35c5e063156bcb511
+SHA1: e91a1c769e53c511fdf854699958e00a5e18de49
+SHA256: 344cd04b08c23dcfc2aab97904d3a9b10eaf2ede83ea5d2312731faa1813caa1
+SHA512: 6595aa1ab30cf538170ef439b3816299fe99d5e749cb420160093f3c2885f52ef47a262e830778e8ff052a1f171c3377f57d342db014e04086525c74fb747735
+Description: Tracks runtime library calls in dynamically linked programs
+Description-md5: ff2cc28bbc4f3ce119d059af641ea073
+
+Package: ltrace
+Architecture: amd64
+Version: 0.7.3-6.1ubuntu6
+Priority: optional
+Section: universe/utils
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Juan Cespedes <cespedes@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 332
+Depends: libc6 (>= 2.34), libelf1 (>= 0.131), libselinux1 (>= 3.1~)
+Filename: pool/universe/l/ltrace/ltrace_0.7.3-6.1ubuntu6_amd64.deb
+Size: 132328
+MD5sum: 5b5a28ff267bbe82d9e4d73b72cd2dc6
+SHA1: 783000953312c0135971dfe33e5985728771e032
+SHA256: e2536aaa35ef3277aa9939702cc9a2581f6e735a3eb12283ed65ffc0adc792fe
+SHA512: 53a888db8172b807935d99d76085ea578efcc239806527ecfc5a52eb6927ed4ce4f1a46159891fdcb036a375117afc46ba688f922e258cee8d9a929447f1f6b6
+Description: Tracks runtime library calls in dynamically linked programs
+Description-md5: ff2cc28bbc4f3ce119d059af641ea073
+

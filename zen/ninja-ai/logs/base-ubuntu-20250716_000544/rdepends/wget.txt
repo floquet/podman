@@ -1,0 +1,10 @@
+wget
+  Depends: libc6
+  Depends: libidn2-0
+  Depends: libpcre2-8-0
+  Depends: libpsl5
+  Depends: libssl3
+  Depends: libuuid1
+  Depends: zlib1g
+  Conflicts: <wget-ssl>
+  Recommends: ca-certificates

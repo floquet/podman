@@ -1,0 +1,7 @@
+sysprof:
+  Installed: 3.44.0-1
+  Candidate: 3.44.0-1
+  Version table:
+ *** 3.44.0-1 500
+        500 http://archive.ubuntu.com/ubuntu jammy/universe amd64 Packages
+        100 /var/lib/dpkg/status

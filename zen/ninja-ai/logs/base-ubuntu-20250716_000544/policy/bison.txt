@@ -1,0 +1,7 @@
+bison:
+  Installed: 2:3.8.2+dfsg-1build1
+  Candidate: 2:3.8.2+dfsg-1build1
+  Version table:
+ *** 2:3.8.2+dfsg-1build1 500
+        500 http://archive.ubuntu.com/ubuntu jammy/main amd64 Packages
+        100 /var/lib/dpkg/status

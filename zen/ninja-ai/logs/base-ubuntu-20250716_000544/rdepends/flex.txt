@@ -1,0 +1,26 @@
+flex
+ |PreDepends: debconf
+  PreDepends: <debconf-2.0>
+    cdebconf
+    debconf
+  Depends: libc6
+  Depends: m4
+ |Recommends: gcc
+  Recommends: <c-compiler>
+    bcc
+    clang-11
+    clang-12
+    clang-13
+    clang-14
+    clang-15
+    gcc
+    gcc-10
+    gcc-11
+    gcc-12
+    gcc-9
+    pcc
+    tcc
+  Recommends: libfl-dev
+  Suggests: bison
+  Suggests: build-essential
+  Suggests: flex-doc

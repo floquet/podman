@@ -1,0 +1,22 @@
+Package: libomp-dev
+Architecture: amd64
+Version: 1:14.0-55~exp2
+Multi-Arch: same
+Priority: extra
+Section: universe/libdevel
+Source: llvm-defaults (0.55~exp2)
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 16
+Depends: libomp-14-dev (>= 14~)
+Filename: pool/universe/l/llvm-defaults/libomp-dev_14.0-55~exp2_amd64.deb
+Size: 3074
+MD5sum: e36568cabd91924b5158979ddc670e12
+SHA1: 09ea25565a7d225432800404b1fae96c954f2fda
+SHA256: 445f75e6fd75fe5606e7a2855b8bf13ddb4301ae4ed6d364d30b5e403f86e634
+SHA512: 2a79b3a5ae5bf9ecf6a757588ab99086962053a46397318152fa59d039a761f7c09fc34c28608c682ea1bd01e68846916505349d6e6dc4469b49023c170c1df7
+Description: LLVM OpenMP runtime - dev package
+Description-md5: ced9c077d900d44f367cd5d5caa0b9ee
+

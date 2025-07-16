@@ -1,0 +1,23 @@
+Package: libzstd-dev
+Architecture: amd64
+Version: 1.4.8+dfsg-3build1
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: libzstd
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 1328
+Depends: libzstd1 (= 1.4.8+dfsg-3build1)
+Filename: pool/main/libz/libzstd/libzstd-dev_1.4.8+dfsg-3build1_amd64.deb
+Size: 400792
+MD5sum: 830205743163015ecf897c2359f7c8c2
+SHA1: 795e8d538018500a35997446eac9cbe7af979c0d
+SHA256: 971297916405f1f184ec0ee5f18734b448a80b45813fe40ff2e00b77609689e7
+SHA512: bd312f8cfc91332113e5a3306142dad5e844dac5ebdb79c3493b62fa28867759acc066c5ffc7776d021c20af280a0c6bd41512a801c97d7fd69f36cfa7e26753
+Homepage: https://github.com/facebook/zstd
+Description: fast lossless compression algorithm -- development files
+Description-md5: 2a488d6e9949d76acce6c556e765f713
+

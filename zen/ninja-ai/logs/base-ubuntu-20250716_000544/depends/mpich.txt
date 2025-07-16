@@ -1,0 +1,9 @@
+mpich
+ |Depends: hwloc-nox
+  Depends: hwloc
+  Depends: libmpich12
+  Depends: libc6
+  Depends: libhwloc15
+  Depends: libslurm37
+  Recommends: libmpich-dev
+  Suggests: mpich-doc

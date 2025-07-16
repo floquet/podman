@@ -1,0 +1,5 @@
+libgoogle-perftools-dev
+  Depends: libgoogle-perftools4
+  Depends: libtcmalloc-minimal4
+  Depends: libunwind-dev
+    libunwind-15-dev

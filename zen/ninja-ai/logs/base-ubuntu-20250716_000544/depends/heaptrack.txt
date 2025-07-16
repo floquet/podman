@@ -1,0 +1,8 @@
+heaptrack
+  Depends: libboost-filesystem1.74.0
+  Depends: libboost-iostreams1.74.0
+  Depends: libboost-program-options1.74.0
+  Depends: libc6
+  Depends: libgcc-s1
+  Depends: libstdc++6
+  Depends: libheaptrack

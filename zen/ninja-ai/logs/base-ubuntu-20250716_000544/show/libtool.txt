@@ -1,0 +1,25 @@
+Package: libtool
+Architecture: all
+Version: 2.4.6-15build2
+Multi-Arch: foreign
+Priority: optional
+Section: devel
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Alastair McKinstry <mckinstry@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 1198
+Depends: gcc | c-compiler, cpp, libc6-dev | libc-dev, file, autotools-dev
+Recommends: libltdl-dev
+Suggests: libtool-doc, autoconf (>> 2.50), automaken, gfortran | fortran95-compiler, gcj-jdk
+Conflicts: autoconf (<= 2.12), automake (<= 1.3), libtool1.4
+Filename: pool/main/libt/libtool/libtool_2.4.6-15build2_all.deb
+Size: 163940
+MD5sum: 09830d0a054e6333bcbe28577ddf7f31
+SHA1: 619984040e997dfad6b487daa6118f4d5483a11b
+SHA256: fb994bc0152f4e77a791b51bc54fd5e38963aa6473e60c45369ef373b6119124
+SHA512: 0b352064cf04f6864ed9a7fc88c8b92adb712e486c854549a9b0fcc68103dc45c985483170ed082a5047b137e494f22d86abf2630e7d5523d4e06400199f81ad
+Homepage: https://www.gnu.org/software/libtool/
+Description: Generic library support script
+Description-md5: 40ea3da4a4ea75419ad95742898b3e52
+

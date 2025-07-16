@@ -1,0 +1,19 @@
+cmake
+  Depends: libarchive13
+  Depends: libc6
+  Depends: libcurl4
+  Depends: libexpat1
+  Depends: libgcc-s1
+  Depends: libjsoncpp25
+  Depends: librhash0
+  Depends: libstdc++6
+  Depends: libuv1
+  Depends: zlib1g
+  Depends: cmake-data
+  Depends: procps
+  Recommends: gcc
+  Recommends: make
+    make-guile
+  Suggests: cmake-doc
+  Suggests: ninja-build
+  Suggests: cmake-format

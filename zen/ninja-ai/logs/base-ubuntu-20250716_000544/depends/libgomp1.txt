@@ -1,0 +1,6 @@
+libgomp1
+  Depends: gcc-12-base
+  Depends: libc6
+  Breaks: <gcc-4.3>
+  Breaks: <gcc-4.4>
+  Breaks: <gcc-4.5>

@@ -1,0 +1,7 @@
+libcoarrays-openmpi-dev:
+  Installed: 2.9.2-3
+  Candidate: 2.9.2-3
+  Version table:
+ *** 2.9.2-3 500
+        500 http://archive.ubuntu.com/ubuntu jammy/universe amd64 Packages
+        100 /var/lib/dpkg/status

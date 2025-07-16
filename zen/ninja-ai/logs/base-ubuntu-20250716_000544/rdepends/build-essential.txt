@@ -1,0 +1,9 @@
+build-essential
+ |Depends: libc6-dev
+  Depends: <libc-dev>
+    libc6-dev
+  Depends: gcc
+  Depends: g++
+  Depends: make
+    make-guile
+  Depends: dpkg-dev

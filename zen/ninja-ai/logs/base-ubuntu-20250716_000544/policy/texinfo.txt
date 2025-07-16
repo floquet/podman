@@ -1,0 +1,7 @@
+texinfo:
+  Installed: 6.8-4build1
+  Candidate: 6.8-4build1
+  Version table:
+ *** 6.8-4build1 500
+        500 http://archive.ubuntu.com/ubuntu jammy/universe amd64 Packages
+        100 /var/lib/dpkg/status

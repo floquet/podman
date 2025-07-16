@@ -1,0 +1,13 @@
+sysprof
+  Depends: libc6
+  Depends: libdazzle-1.0-0
+  Depends: libglib2.0-0
+  Depends: libgtk-3-0
+  Depends: libpolkit-agent-1-0
+  Depends: libpolkit-gobject-1-0
+  Depends: libsysprof-4
+  Depends: libsysprof-ui-4
+ |Depends: dconf-gsettings-backend
+  Depends: <gsettings-backend>
+    dconf-gsettings-backend
+  Breaks: gnome-builder

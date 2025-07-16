@@ -1,0 +1,23 @@
+Package: libcoarrays-dev
+Architecture: amd64
+Version: 2.9.2-3
+Multi-Arch: same
+Priority: optional
+Section: universe/libdevel
+Source: open-coarrays
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Alastair McKinstry <mckinstry@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 117
+Depends: gfortran-10 | gfortran-mod-15, gfortran | fortran-compiler
+Filename: pool/universe/o/open-coarrays/libcoarrays-dev_2.9.2-3_amd64.deb
+Size: 40476
+MD5sum: 3dcd486386c8810b27306b2e40a9fbf9
+SHA1: 587906a4f55508ec12557ef7ced8ed63fb18393d
+SHA256: f71c48281bc067b0075341c7abab20a67592f7353b7d6ddb9fb1a1556e2f3071
+SHA512: ce8642cf421e7f10976a543295f0c4eaf898ebe2e5433c80896fca0f1c9fc5cf004b41636221065a44b191861d80bc02edaef922b1605a154e81d1ffccf1f65d
+Homepage: https://www.opencoarrays.org/
+Description: Co-Array Fortran libraries
+Description-md5: 443f0a64b05f6c1b44fde675d83efdae
+

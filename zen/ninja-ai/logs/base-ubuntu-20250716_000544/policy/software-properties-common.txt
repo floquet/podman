@@ -1,0 +1,9 @@
+software-properties-common:
+  Installed: 0.99.22.9
+  Candidate: 0.99.22.9
+  Version table:
+ *** 0.99.22.9 500
+        500 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 Packages
+        100 /var/lib/dpkg/status
+     0.99.22 500
+        500 http://archive.ubuntu.com/ubuntu jammy/main amd64 Packages

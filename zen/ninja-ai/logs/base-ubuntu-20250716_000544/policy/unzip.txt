@@ -1,0 +1,11 @@
+unzip:
+  Installed: 6.0-26ubuntu3.2
+  Candidate: 6.0-26ubuntu3.2
+  Version table:
+ *** 6.0-26ubuntu3.2 500
+        500 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 Packages
+        100 /var/lib/dpkg/status
+     6.0-26ubuntu3.1 500
+        500 http://security.ubuntu.com/ubuntu jammy-security/main amd64 Packages
+     6.0-26ubuntu3 500
+        500 http://archive.ubuntu.com/ubuntu jammy/main amd64 Packages

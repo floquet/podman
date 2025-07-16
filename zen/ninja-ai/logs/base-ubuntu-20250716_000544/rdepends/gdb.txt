@@ -1,0 +1,24 @@
+gdb
+  Depends: libbabeltrace1
+  Depends: libc6
+  Depends: libdebuginfod1
+  Depends: libexpat1
+  Depends: libgcc-s1
+  Depends: libgmp10
+  Depends: libipt2
+  Depends: liblzma5
+  Depends: libmpfr6
+  Depends: libncursesw6
+  Depends: libpython3.10
+  Depends: libreadline8
+  Depends: libsource-highlight4v5
+  Depends: libstdc++6
+  Depends: libtinfo6
+  Depends: libxxhash0
+  Depends: zlib1g
+  Conflicts: gdb
+  Recommends: <libc-dbg>
+    libc6-dbg
+  Suggests: gdb-doc
+  Suggests: gdbserver
+  Replaces: gdb
