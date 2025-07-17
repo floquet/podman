@@ -1,0 +1,9 @@
+libmpfr-dev:
+  Installed: 4.2.1-1build1.1
+  Candidate: 4.2.1-1build1.1
+  Version table:
+ *** 4.2.1-1build1.1 500
+        500 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 Packages
+        100 /var/lib/dpkg/status
+     4.2.1-1build1 500
+        500 http://archive.ubuntu.com/ubuntu noble/main amd64 Packages

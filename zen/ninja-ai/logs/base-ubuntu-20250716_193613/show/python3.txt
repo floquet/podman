@@ -1,0 +1,58 @@
+Package: python3
+Architecture: amd64
+Version: 3.12.3-0ubuntu2
+Multi-Arch: allowed
+Priority: important
+Section: python
+Source: python3-defaults
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Matthias Klose <doko@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 81
+Provides: python3-profiler, python3-supported-max (= 3.12), python3-supported-min (= 3.12)
+Pre-Depends: python3-minimal (= 3.12.3-0ubuntu2)
+Depends: python3.12 (>= 3.12.3-0~), libpython3-stdlib (= 3.12.3-0ubuntu2)
+Suggests: python3-doc (>= 3.12.3-0ubuntu2), python3-tk (>= 3.12.3-0~), python3-venv (>= 3.12.3-0ubuntu2)
+Conflicts: python3-distutils
+Replaces: python3-minimal (<< 3.1.2-2)
+Filename: pool/main/p/python3-defaults/python3_3.12.3-0ubuntu2_amd64.deb
+Size: 23018
+MD5sum: 8aad334a32f5035adc9aafa43bcfa087
+SHA1: 88cc1d992d071b9bc806e11b3b1a38375af724e7
+SHA256: 987c52e9eeee5867c1af29fc2c35db104cf5d1157fdfc6afabcb95f854751344
+SHA512: dde09f67c9b5b0f75e9b75d554cb0a37a117d593110df3aca0e3bcb04dae4e2a1785f8e2f29c7cb7f25afd0ab0f87d0a435b98c3bca848136b6d1fc942e571ab
+Homepage: https://www.python.org/
+Description: interactive high-level object-oriented language (default python3 version)
+Description-md5: 0ecdf066f028bd0154785ab35ec2967f
+Task: cloud-minimal, minimal, server-minimal
+
+Package: python3
+Architecture: amd64
+Version: 3.12.3-0ubuntu1
+Multi-Arch: allowed
+Priority: important
+Section: python
+Source: python3-defaults
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Matthias Klose <doko@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 82
+Provides: python3-profiler, python3-supported-max (= 3.12), python3-supported-min (= 3.12)
+Pre-Depends: python3-minimal (= 3.12.3-0ubuntu1)
+Depends: python3.12 (>= 3.12.3-0~), libpython3-stdlib (= 3.12.3-0ubuntu1)
+Suggests: python3-doc (>= 3.12.3-0ubuntu1), python3-tk (>= 3.12.3-0~), python3-venv (>= 3.12.3-0ubuntu1)
+Conflicts: python3-distutils
+Replaces: python3-minimal (<< 3.1.2-2)
+Filename: pool/main/p/python3-defaults/python3_3.12.3-0ubuntu1_amd64.deb
+Size: 24100
+MD5sum: ecfd2b6c555b35487cd6df984aa56ae8
+SHA1: 3c9eace610068d3767177675f59f033be827be57
+SHA256: 4e0327510491374556c3a1af16af1cbf27eb94d228c9391efe116a8b84261f44
+SHA512: d5c6db1993a79a4d35ef409925a3485b3c6c38dca05ea10a134f6b0e895f8adca87ddabc0e077a7f636b2b5cc37f7615d01972e5290ef00b63a6360cdb80097c
+Homepage: https://www.python.org/
+Description: interactive high-level object-oriented language (default python3 version)
+Description-md5: 0ecdf066f028bd0154785ab35ec2967f
+Task: cloud-minimal, minimal, server-minimal
+

@@ -1,0 +1,22 @@
+Package: build-essential
+Architecture: amd64
+Version: 12.10ubuntu1
+Priority: optional
+Build-Essential: yes
+Section: devel
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Matthias Klose <doko@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 17
+Depends: libc6-dev | libc-dev, gcc (>= 4:12.3), g++ (>= 4:12.3), make, dpkg-dev (>= 1.17.11)
+Filename: pool/main/b/build-essential/build-essential_12.10ubuntu1_amd64.deb
+Size: 4928
+MD5sum: 4d68ffae811efe26d2bbb7dea480f0e7
+SHA1: fb88ce706d33862bcf5602dbd5c8206ff5a6aa27
+SHA256: 9b2159b95a4c01937309783c7c8a6ec8dfbcb7ffd604951c9713ac52ee9c7268
+SHA512: 42b3ac4560118e11c2d88aea99d40faa7054f38d72086b4dfbc3bb222baf227d7326038e7f652e030ee30bf5cfdd570c7931fc8f19f40b7ce14a29ec340f27c2
+Description: Informational list of build-essential packages
+Description-md5: 90ef0ef86cafda0bd16f746eb621d9da
+Task: xubuntu-desktop, ubuntustudio-photography, ubuntukylin-desktop, ubuntukylin-desktop, ubuntukylin-desktop-minimal, ubuntu-mate-core, ubuntu-mate-desktop, ubuntu-budgie-desktop-minimal, ubuntu-budgie-desktop, ubuntu-budgie-desktop-raspi, ubuntu-unity-desktop, edubuntu-desktop-gnome-minimal, edubuntu-desktop-gnome, edubuntu-desktop-gnome-raspi, ubuntucinnamon-desktop-minimal, ubuntucinnamon-desktop
+

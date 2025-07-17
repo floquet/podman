@@ -1,0 +1,54 @@
+Package: git
+Architecture: amd64
+Version: 1:2.43.0-1ubuntu7.3
+Multi-Arch: foreign
+Priority: optional
+Section: vcs
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Jonathan Nieder <jrnieder@gmail.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 21692
+Provides: git-completion, git-core
+Depends: libc6 (>= 2.38), libcurl3t64-gnutls (>= 7.56.1), libexpat1 (>= 2.0.1), libpcre2-8-0 (>= 10.34), zlib1g (>= 1:1.2.2), perl, liberror-perl, git-man (>> 1:2.43.0), git-man (<< 1:2.43.0-.)
+Recommends: ca-certificates, patch, less, ssh-client
+Suggests: gettext-base, git-daemon-run | git-daemon-sysvinit, git-doc, git-email, git-gui, gitk, gitweb, git-cvs, git-mediawiki, git-svn
+Breaks: bash-completion (<< 1:1.90-1), cogito (<= 0.18.2+), dgit (<< 5.1~), git-buildpackage (<< 0.6.5), git-el (<< 1:2.32.0~rc2-1~), gitosis (<< 0.2+20090917-7), gitpkg (<< 0.15), guilt (<< 0.33), openssh-client (<< 1:6.8), stgit (<< 0.15), stgit-contrib (<< 0.15)
+Filename: pool/main/g/git/git_2.43.0-1ubuntu7.3_amd64.deb
+Size: 3679758
+MD5sum: 6c61ddc375af3c756aae3148ac62a57e
+SHA1: f2c23357e9f5e912de92e65aace32c5d12e00723
+SHA256: 099bb129f543adc4c14203334b0fa0a909f8bf038c4d56bc9cc7c774ebf78f87
+SHA512: d052942a22c062e1621b1433e769bbd5d3b26f605162fd619f18718bf47ec495a1f51478b57b065f44556d80f7410e17e2027dd079f9beb9b1a4b62c590ad510
+Homepage: https://git-scm.com/
+Description: fast, scalable, distributed revision control system
+Description-md5: c1f968556452a190fe359bffd151c012
+Task: cloud-image, cloud-image, ubuntu-wsl, server, ubuntu-server-raspi, kubuntu-desktop, lubuntu-desktop, ubuntustudio-desktop-core, ubuntustudio-desktop
+
+Package: git
+Architecture: amd64
+Version: 1:2.43.0-1ubuntu7
+Multi-Arch: foreign
+Priority: optional
+Section: vcs
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Jonathan Nieder <jrnieder@gmail.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 21684
+Provides: git-completion, git-core
+Depends: libc6 (>= 2.38), libcurl3t64-gnutls (>= 7.56.1), libexpat1 (>= 2.0.1), libpcre2-8-0 (>= 10.34), zlib1g (>= 1:1.2.2), perl, liberror-perl, git-man (>> 1:2.43.0), git-man (<< 1:2.43.0-.)
+Recommends: ca-certificates, patch, less, ssh-client
+Suggests: gettext-base, git-daemon-run | git-daemon-sysvinit, git-doc, git-email, git-gui, gitk, gitweb, git-cvs, git-mediawiki, git-svn
+Breaks: bash-completion (<< 1:1.90-1), cogito (<= 0.18.2+), dgit (<< 5.1~), git-buildpackage (<< 0.6.5), git-el (<< 1:2.32.0~rc2-1~), gitosis (<< 0.2+20090917-7), gitpkg (<< 0.15), guilt (<< 0.33), openssh-client (<< 1:6.8), stgit (<< 0.15), stgit-contrib (<< 0.15)
+Filename: pool/main/g/git/git_2.43.0-1ubuntu7_amd64.deb
+Size: 3673594
+MD5sum: 2d2f6374b0087a8be3aca2ba7bee8c31
+SHA1: af7a519c8946f7c28fce65d6a40c918559f84bbe
+SHA256: 664e394169ca5f1643b096059cf45169e360ced9e96ed378465dd03d47309074
+SHA512: 76deaddeb3edd34e1b179e48cff25ac585edb4cab7c5254b1e208d202b2156ac576c2310f9f2417b585d211e9b22dff74a78402e6f0de728d7ed872a29276ed8
+Homepage: https://git-scm.com/
+Description: fast, scalable, distributed revision control system
+Description-md5: c1f968556452a190fe359bffd151c012
+Task: cloud-image, cloud-image, ubuntu-wsl, server, ubuntu-server-raspi, kubuntu-desktop, lubuntu-desktop, ubuntustudio-desktop-core, ubuntustudio-desktop
+

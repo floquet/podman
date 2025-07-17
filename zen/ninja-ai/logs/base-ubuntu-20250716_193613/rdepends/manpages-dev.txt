@@ -1,0 +1,10 @@
+manpages-dev
+  Depends: manpages
+  Breaks: inn2-dev
+  Breaks: manpages
+  Suggests: <man-browser>
+    jed-extra
+    konqueror
+    man-db
+  Replaces: inn2-dev
+  Replaces: manpages

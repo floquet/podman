@@ -1,0 +1,27 @@
+Package: gdb
+Architecture: amd64
+Version: 15.0.50.20240403-0ubuntu1
+Priority: optional
+Section: devel
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Héctor Orón Martínez <zumbi@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 12519
+Provides: gdb-minimal (= 15.0.50.20240403-0ubuntu1)
+Depends: libbabeltrace1 (>= 1.5.4), libc6 (>= 2.38), libdebuginfod1t64 (>= 0.188), libexpat1 (>= 2.0.1), libgcc-s1 (>= 4.2), libgmp10 (>= 2:6.3.0+dfsg), libipt2 (>= 2.0), liblzma5 (>= 5.1.1alpha+20110809), libmpfr6 (>= 3.1.3), libncursesw6 (>= 6), libpython3.12t64 (>= 3.12.1), libreadline8t64 (>= 8.2~beta), libsource-highlight4t64 (>= 3.1.9), libstdc++6 (>= 12), libtinfo6 (>= 6), libxxhash0 (>= 0.6.5), libzstd1 (>= 1.5.5), zlib1g (>= 1:1.2.0)
+Recommends: libc-dbg
+Suggests: gdb-doc, gdbserver
+Conflicts: gdb
+Replaces: gdb
+Filename: pool/main/g/gdb/gdb_15.0.50.20240403-0ubuntu1_amd64.deb
+Size: 4009966
+MD5sum: 68b967d2514b20030af2c59587534542
+SHA1: 95a13e3b42dd6caca2b3ce7dae2657e4f98452c1
+SHA256: af69a5097def0b3a35f01261ffa1412a9cb491f0382aa45e691f5ae4b4d4eb72
+SHA512: 3ae9a0ed13bcc30081f51eb0a91069557a818dfd0a12700a7147086c8c9321ff6e8118aa841c60da1dabf465254489f958079d84c07d9e75b12f201be8ecf222
+Homepage: https://www.gnu.org/s/gdb/
+Description: GNU Debugger
+Description-md5: 4f2b8eb95df2ba7a5b11e0301c48b8e4
+Task: ubuntu-desktop-minimal, ubuntu-desktop, kubuntu-desktop, xubuntu-desktop, ubuntustudio-desktop-core, ubuntustudio-desktop, ubuntukylin-desktop, ubuntukylin-desktop, ubuntukylin-desktop-minimal, ubuntu-mate-core, ubuntu-mate-desktop, ubuntu-budgie-desktop-minimal, ubuntu-budgie-desktop, ubuntu-budgie-desktop-raspi, ubuntu-unity-desktop, edubuntu-desktop-gnome-minimal, edubuntu-desktop-gnome, edubuntu-desktop-gnome-raspi, ubuntucinnamon-desktop-minimal, ubuntucinnamon-desktop, ubuntucinnamon-desktop, ubuntucinnamon-desktop-raspi
+

@@ -1,0 +1,27 @@
+Package: man-db
+Architecture: amd64
+Version: 2.12.0-4build2
+Multi-Arch: foreign
+Priority: standard
+Section: doc
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Colin Watson <cjwatson@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 2928
+Provides: man, man-browser
+Depends: bsdextrautils | bsdmainutils (<< 12.1.1~), groff-base, debconf (>= 0.5) | debconf-2.0, libc6 (>= 2.38), libgdbm6t64 (>= 1.16), libpipeline1 (>= 1.5.0), libseccomp2 (>= 2.1.0), zlib1g (>= 1:1.1.4)
+Suggests: apparmor, groff, less, www-browser
+Conflicts: man
+Replaces: man, nlsutils
+Filename: pool/main/m/man-db/man-db_2.12.0-4build2_amd64.deb
+Size: 1236636
+MD5sum: 3fb9f716096cc82aec2fc14dfc9e57a2
+SHA1: 2d9325a9d2c5d8bde2db7e19c4a7b93889b81106
+SHA256: d7ce31173a73bd3a93b7216a837a2e8641fff3fd7ae2dfc0ca705dbabe03e92b
+SHA512: d00d4d2acdc5e23c42b72e73e053611ac9b91f9a6be576968b40455b98fcc1bd47a3a04f1f6bb5b685dc66f4e83d06f307c395e96f9d4fc537ea5dba525c8b26
+Homepage: https://man-db.gitlab.io/man-db/
+Description: tools for reading manual pages
+Description-md5: fa4d579e45a7d37a797e795644e2648b
+Task: standard, ubuntu-wsl
+

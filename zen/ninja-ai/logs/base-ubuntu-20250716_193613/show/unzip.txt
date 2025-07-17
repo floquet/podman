@@ -1,0 +1,48 @@
+Package: unzip
+Architecture: amd64
+Version: 6.0-28ubuntu4.1
+Multi-Arch: foreign
+Priority: optional
+Section: utils
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Santiago Vila <sanvila@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 375
+Depends: libbz2-1.0, libc6 (>= 2.34)
+Suggests: zip
+Filename: pool/main/u/unzip/unzip_6.0-28ubuntu4.1_amd64.deb
+Size: 174454
+MD5sum: 68d7384522f8001d7a7e1e92a7977dbc
+SHA1: 5cc9d32036aac2bccdbc07d28d08b0d6a854d976
+SHA256: a505b9d491386167bd8e14e3383315a4a7d6539e4406745901ccf009a7988271
+SHA512: bcba217a8803e480d4228f18b5069505b7796b37d1ab5fba43e16223757fdbded69a9bad9014299a75b3cac2407748db648ebb214abf3c29e956c6344e92a8b6
+Homepage: https://infozip.sourceforge.net/UnZip.html
+Description: De-archiver for .zip files
+Description-md5: b83e2b495da5d292f3fe6ab67b088c47
+Task: ubuntu-desktop-minimal, ubuntu-desktop, ubuntu-desktop-raspi, kubuntu-desktop, xubuntu-minimal, xubuntu-desktop, lubuntu-desktop, ubuntustudio-desktop-core, ubuntustudio-desktop, ubuntukylin-desktop, ubuntukylin-desktop-minimal, ubuntu-mate-core, ubuntu-mate-desktop, ubuntu-budgie-desktop-minimal, ubuntu-budgie-desktop, ubuntu-budgie-desktop-raspi, ubuntu-unity-desktop, edubuntu-desktop-gnome-minimal, edubuntu-desktop-gnome-raspi, ubuntucinnamon-desktop-minimal, ubuntucinnamon-desktop-raspi
+
+Package: unzip
+Architecture: amd64
+Version: 6.0-28ubuntu4
+Multi-Arch: foreign
+Priority: optional
+Section: utils
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Santiago Vila <sanvila@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 375
+Depends: libbz2-1.0, libc6 (>= 2.34)
+Suggests: zip
+Filename: pool/main/u/unzip/unzip_6.0-28ubuntu4_amd64.deb
+Size: 174538
+MD5sum: d5a20a125eeeae1f1c265a1199ee6fd0
+SHA1: 1c5a2e3ad217de2371903d950d03a3730dbf4342
+SHA256: 9ea37bc2f1e43df0a98530d08e5bab1a8801bdaf0a4c81330861e788d9155bbc
+SHA512: 7b782e17ab882bbc14b90dcf34ee9ff76df2ccd5317d514b3b9fc1590a9aed7fd5f33f805b83a09037e08d4a3c937b89ddb28615a24436e6958e756a4234c41b
+Homepage: https://infozip.sourceforge.net/UnZip.html
+Description: De-archiver for .zip files
+Description-md5: b83e2b495da5d292f3fe6ab67b088c47
+Task: ubuntu-desktop-minimal, ubuntu-desktop, ubuntu-desktop-raspi, kubuntu-desktop, xubuntu-minimal, xubuntu-desktop, lubuntu-desktop, ubuntustudio-desktop-core, ubuntustudio-desktop, ubuntukylin-desktop, ubuntukylin-desktop-minimal, ubuntu-mate-core, ubuntu-mate-desktop, ubuntu-budgie-desktop-minimal, ubuntu-budgie-desktop, ubuntu-budgie-desktop-raspi, ubuntu-unity-desktop, edubuntu-desktop-gnome-minimal, edubuntu-desktop-gnome-raspi, ubuntucinnamon-desktop-minimal, ubuntucinnamon-desktop-raspi
+

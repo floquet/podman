@@ -1,0 +1,13 @@
+liblapack-dev
+  Depends: liblapack3
+ |Depends: libblas-dev
+  Depends: <libblas.so>
+    libatlas-base-dev
+    libblas-dev
+    libblis-openmp-dev
+    libblis-pthread-dev
+    libblis-serial-dev
+    libopenblas-openmp-dev
+    libopenblas-pthread-dev
+    libopenblas-serial-dev
+  Suggests: liblapack-doc

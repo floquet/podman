@@ -1,0 +1,7 @@
+ltrace:
+  Installed: 0.7.3-6.4ubuntu3
+  Candidate: 0.7.3-6.4ubuntu3
+  Version table:
+ *** 0.7.3-6.4ubuntu3 500
+        500 http://archive.ubuntu.com/ubuntu noble/universe amd64 Packages
+        100 /var/lib/dpkg/status

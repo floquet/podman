@@ -1,0 +1,21 @@
+Package: sysprof
+Architecture: amd64
+Version: 46.0-1build1
+Priority: optional
+Section: universe/devel
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 2496
+Depends: libadwaita-1-0 (>= 1.4~beta), libc6 (>= 2.38), libcairo2 (>= 1.2.4), libdex-1-1 (>= 0.3.1), libgcc-s1 (>= 3.4), libglib2.0-0t64 (>= 2.76.0), libgraphene-1.0-0 (>= 1.5.4), libgtk-4-1 (>= 4.10), libjson-glib-1.0-0 (>= 1.5.2), libpanel-1-1 (>= 1.3.0), libpango-1.0-0 (>= 1.14.0), libpolkit-agent-1-0 (>= 0.99), libpolkit-gobject-1-0 (>= 0.101), libstdc++6 (>= 4.1.1), libsysprof-6-6 (= 46.0-1build1), libsysprof-6-modules (= 46.0-1build1)
+Filename: pool/universe/s/sysprof/sysprof_46.0-1build1_amd64.deb
+Size: 449960
+MD5sum: 7cf73a35eb00136a52134a92e85661af
+SHA1: 9896134143d033b9053eb2d872e5dfe145715afc
+SHA256: ddd72ee6bae8a65b2390c6926dbb2fa93a870508af62784352deaa80d9d36cf4
+SHA512: 121068509cd7055b4bdfd0154b32166e3745f0cc663711baafe5419439ec3d3a63376e4a3bb36aa0cef7fb25d49f083d9e2774f08af90d378e618ab5cdde2a0c
+Homepage: https://wiki.gnome.org/Apps/Sysprof
+Description: system-wide Linux profiler
+Description-md5: 9eed05f73779350c69a87944de3a0134
+

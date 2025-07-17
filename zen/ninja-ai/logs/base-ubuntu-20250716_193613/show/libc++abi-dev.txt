@@ -1,0 +1,23 @@
+Package: libc++abi-dev
+Architecture: amd64
+Version: 1:18.0-59~exp2
+Multi-Arch: same
+Priority: extra
+Section: universe/libdevel
+Source: llvm-defaults (0.59~exp2)
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 14
+Depends: libc++abi-18-dev (>= 18~)
+Breaks: libc++abi1-11
+Filename: pool/universe/l/llvm-defaults/libc++abi-dev_18.0-59~exp2_amd64.deb
+Size: 5622
+MD5sum: 6b908ad79387cb1717936e9f35fa772d
+SHA1: 20643140b4394ad8d11784066b1670430f296b33
+SHA256: 8edd0f46f43e5dee2ba21a2be3b1e4a97e35ce074ae674eef85727dcbadcef92
+SHA512: c02e6fceb8f9b92321b905ef5a316e90d8c874536f0fb86c6c6cbd2f5bca335893428cbaa1cc211d3bdd7d7545f674e959ca7d0d86d8c70faee3cd8b924f308e
+Description: LLVM low level support for a standard C++ library (development files)
+Description-md5: de74d54ce43a3be3c55da5499dc775e8
+

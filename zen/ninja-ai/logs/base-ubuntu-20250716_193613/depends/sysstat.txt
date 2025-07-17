@@ -1,0 +1,17 @@
+sysstat
+  Depends: ucf
+  Depends: xz-utils
+ |Depends: debconf
+  Depends: <debconf-2.0>
+    cdebconf
+    debconf
+  Depends: libc6
+  Depends: libsensors5
+ |Recommends: systemd
+ |Recommends: cron
+  Recommends: <cron-daemon>
+    bcron
+    cronie
+    systemd-cron
+    cron
+  Suggests: isag

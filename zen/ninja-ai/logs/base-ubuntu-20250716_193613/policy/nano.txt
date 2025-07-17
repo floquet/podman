@@ -1,0 +1,10 @@
+nano:
+  Installed: 7.2-2ubuntu0.1
+  Candidate: 7.2-2ubuntu0.1
+  Version table:
+ *** 7.2-2ubuntu0.1 500
+        500 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 Packages
+        500 http://security.ubuntu.com/ubuntu noble-security/main amd64 Packages
+        100 /var/lib/dpkg/status
+     7.2-2build1 500
+        500 http://archive.ubuntu.com/ubuntu noble/main amd64 Packages

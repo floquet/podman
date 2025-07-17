@@ -1,0 +1,21 @@
+Package: coz-profiler
+Architecture: amd64
+Version: 0.2.2-2build2
+Priority: optional
+Section: universe/net
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Lluís Vilanova <llvilanovag@gmail.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 9184
+Depends: libc6 (>= 2.38), libdwarf++0t64 (>= 0.2), libelf++0t64 (>= 0.2), libgcc-s1 (>= 3.0), libstdc++6 (>= 13.1), python3, fonts-font-awesome, libjs-jquery, libjs-d3, libjs-d3-tip
+Filename: pool/universe/c/coz-profiler/coz-profiler_0.2.2-2build2_amd64.deb
+Size: 633194
+MD5sum: 8ce6f4338bed5a8d6de4b9fc8dfa6696
+SHA1: 070f72408d9d36cd7afe166f3ad56c620c6a66eb
+SHA256: 77bf11449239c7a7a8739d1d7ae6d13d3984aff7e89139dd7a1e417869aaac97
+SHA512: efb8ec277993758f861f0aed0fc99245a766a8b6e51d1d4a467a516b1a1642f05d4e40f32573ee2bdcc340cd0f0e12af116dce815dc1b397bdb44bf5071b8617
+Homepage: http://coz-profiler.org/
+Description: Finding Code that Counts with Causal Profiling
+Description-md5: bd06ad3ef15124be956a5814dc6562a3
+

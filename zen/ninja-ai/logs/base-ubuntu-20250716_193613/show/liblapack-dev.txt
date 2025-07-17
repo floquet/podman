@@ -1,0 +1,50 @@
+Package: liblapack-dev
+Architecture: amd64
+Version: 3.12.0-3build1.1
+Multi-Arch: same
+Priority: optional
+Section: devel
+Source: lapack
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 24616
+Provides: liblapack.so
+Depends: liblapack3 (= 3.12.0-3build1.1), libblas-dev | libblas.so
+Suggests: liblapack-doc
+Filename: pool/main/l/lapack/liblapack-dev_3.12.0-3build1.1_amd64.deb
+Size: 5196020
+MD5sum: 6fd3ca44bbdb924bd61253a4d709e014
+SHA1: bc68d06ea462b21a173bbe62aae20548ec9f5ca1
+SHA256: 4e3305fa5c01d3f78ae1c57e1769667275e63aae4d36cd00602f160602f6fa8a
+SHA512: a38fb43ed266ebad05601d8bee8da1d0f254c74f7aef2f8b9a764eed0f41ee424863ea45bfad04ae6ebc2a34cd5299a27926a7fa911d67e9b189ca619d5b1fd7
+Homepage: https://www.netlib.org/lapack/
+Description: Library of linear algebra routines 3 - static version
+Description-md5: 65560acd47f612ac798597cb69465bf3
+
+Package: liblapack-dev
+Architecture: amd64
+Version: 3.12.0-3build1
+Multi-Arch: same
+Priority: optional
+Section: devel
+Source: lapack
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 24616
+Provides: liblapack.so
+Depends: liblapack3 (= 3.12.0-3build1), libblas-dev | libblas.so
+Suggests: liblapack-doc
+Filename: pool/main/l/lapack/liblapack-dev_3.12.0-3build1_amd64.deb
+Size: 5195920
+MD5sum: 15a9c2d5126f36deea2c1574ef11ef6d
+SHA1: 38aaa8afbb76d084de3da7a7ae2a9b94ba5dafe1
+SHA256: 7070ea9000d03ec81767ecb9f9fa821830efd80766fc11b60a4278e81aab7366
+SHA512: 97e64999258af7076c33c059664230a6af45484067655ba277019ad67a88111d1f82f4ace3caf35d0687d8313102b69eb20a8603717473f055bd4c3b0135241b
+Homepage: https://www.netlib.org/lapack/
+Description: Library of linear algebra routines 3 - static version
+Description-md5: 65560acd47f612ac798597cb69465bf3
+

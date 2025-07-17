@@ -1,0 +1,7 @@
+kcachegrind:
+  Installed: 4:23.08.5-0ubuntu3
+  Candidate: 4:23.08.5-0ubuntu3
+  Version table:
+ *** 4:23.08.5-0ubuntu3 500
+        500 http://archive.ubuntu.com/ubuntu noble/universe amd64 Packages
+        100 /var/lib/dpkg/status

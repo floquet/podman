@@ -1,0 +1,7 @@
+manpages:
+  Installed: 6.7-2
+  Candidate: 6.7-2
+  Version table:
+ *** 6.7-2 500
+        500 http://archive.ubuntu.com/ubuntu noble/main amd64 Packages
+        100 /var/lib/dpkg/status

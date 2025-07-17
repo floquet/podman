@@ -1,0 +1,9 @@
+libisl-dev:
+  Installed: 0.26-3build1.1
+  Candidate: 0.26-3build1.1
+  Version table:
+ *** 0.26-3build1.1 500
+        500 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 Packages
+        100 /var/lib/dpkg/status
+     0.26-3build1 500
+        500 http://archive.ubuntu.com/ubuntu noble/main amd64 Packages

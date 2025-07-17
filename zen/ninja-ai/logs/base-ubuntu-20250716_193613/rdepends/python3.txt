@@ -1,0 +1,9 @@
+python3
+  PreDepends: python3-minimal
+  Depends: python3.12
+  Depends: libpython3-stdlib
+  Conflicts: <python3-distutils>
+  Suggests: python3-doc
+  Suggests: python3-tk
+  Suggests: python3-venv
+  Replaces: python3-minimal

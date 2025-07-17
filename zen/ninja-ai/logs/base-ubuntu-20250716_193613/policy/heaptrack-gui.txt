@@ -1,0 +1,7 @@
+heaptrack-gui:
+  Installed: 1.5.0+dfsg1-2ubuntu3
+  Candidate: 1.5.0+dfsg1-2ubuntu3
+  Version table:
+ *** 1.5.0+dfsg1-2ubuntu3 500
+        500 http://archive.ubuntu.com/ubuntu noble/universe amd64 Packages
+        100 /var/lib/dpkg/status

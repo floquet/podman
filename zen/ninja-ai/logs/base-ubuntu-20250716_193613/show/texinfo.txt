@@ -1,0 +1,25 @@
+Package: texinfo
+Architecture: all
+Version: 7.1-3build2
+Multi-Arch: foreign
+Priority: optional
+Section: universe/text
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian TeX Task Force <debian-tex-maint@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 7812
+Depends: perl:any, libtext-unidecode-perl, libxml-libxml-perl, texinfo-lib (>= 7.1-3build2), tex-common
+Suggests: texlive-base, texlive-latex-base, texlive-plain-generic, texlive-fonts-recommended
+Breaks: texinfo-doc-nonfree
+Replaces: texinfo-doc-nonfree
+Filename: pool/universe/t/texinfo/texinfo_7.1-3build2_all.deb
+Size: 1272972
+MD5sum: c2e80c851208bcc8fd5f03815df3ef9f
+SHA1: 32e9e66704ea02272479d9dc7720d376f4ad6107
+SHA256: d45be908b080a764422bf8dc337381b7ba697e4dae0fd59a862f97588a9ef71a
+SHA512: 3861f1c4cd52213332b0f2e7245a79babe0973d1779d91fb337a8465e62157f02db396802a4572ec07151489db96cef3e30e4b439fa187eee8bf5da0e86c798a
+Homepage: https://www.gnu.org/software/texinfo/
+Description: Documentation system for on-line information and printed output
+Description-md5: 1c7c77fec8377bb6e9c62acc5e9736a6
+

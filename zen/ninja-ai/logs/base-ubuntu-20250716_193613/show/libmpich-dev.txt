@@ -1,0 +1,23 @@
+Package: libmpich-dev
+Architecture: amd64
+Version: 4.2.0-5build3
+Multi-Arch: same
+Priority: extra
+Section: universe/libdevel
+Source: mpich
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 58620
+Depends: gfortran | fortran-compiler, g++, libmpich12 (= 4.2.0-5build3), gfortran-13 | gfortran-mod-15, mpich (= 4.2.0-5build3)
+Filename: pool/universe/m/mpich/libmpich-dev_4.2.0-5build3_amd64.deb
+Size: 10244270
+MD5sum: cabd794cac9e3aa5ac9fa57df82b2a5c
+SHA1: c99314e9658c593474a657118f71d51178b25d44
+SHA256: 0983cdd49bcdeea4a318ea3f70bf9a4d1cd5c2efcbdfbd7d9dd866bd4398b1fc
+SHA512: 59047311988bdc41efcbe1bfb5398e7bf9079468bedc310d0011cfcf229002f8eb89c18221b9ac79d2335cf9be5b73555fa2f0c100cc9888176923b7c5997294
+Homepage: https://www.mpich.org/
+Description: Development files for MPICH
+Description-md5: 205143ab86543f81bee9061da3c41b22
+

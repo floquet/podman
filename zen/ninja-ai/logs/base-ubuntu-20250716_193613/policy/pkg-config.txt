@@ -1,0 +1,7 @@
+pkg-config:
+  Installed: 1.8.1-2build1
+  Candidate: 1.8.1-2build1
+  Version table:
+ *** 1.8.1-2build1 500
+        500 http://archive.ubuntu.com/ubuntu noble/main amd64 Packages
+        100 /var/lib/dpkg/status

@@ -1,0 +1,21 @@
+Package: iotop
+Architecture: amd64
+Version: 0.6-42-ga14256a-0.2build1
+Priority: optional
+Section: admin
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Paul Wise <pabs@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 108
+Depends: python3 (<< 3.13), python3 (>= 3.12~), python3:any
+Filename: pool/main/i/iotop/iotop_0.6-42-ga14256a-0.2build1_amd64.deb
+Size: 24426
+MD5sum: 7a4ac08bde31b18d275f22255f545e70
+SHA1: c857d2f530a560572963ad23014f6d454bffd5f1
+SHA256: 4c4ba7acce87fbf5c0ef51faadc08df09fb9e286aa618dc3ba475fa8606657c0
+SHA512: ef0419c94d4505b03253d96db9e97aa18291af718a099d7ea883e737b67d2d36af6cfc3b3ca2368c1bc5459167fc084a0d96680bd7696621f1db4d15061d5205
+Homepage: http://guichaz.free.fr/iotop/
+Description: simple top-like I/O monitor
+Description-md5: c4f12688909987c39522befde2f1ee20
+

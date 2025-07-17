@@ -1,0 +1,6 @@
+Filesystem                            Size  Used Avail Use% Mounted on
+a2a0ee2c717462feb1de2f5afd59de5fd2d8  1.9T  533G  1.3T  29% /workspace
+shm                                    63M     0   63M   0% /dev/shm
+tmpfs                                 2.4G  224K  2.4G   1% /etc/hosts
+overlay                               120G   51G   69G  43% /
+tmpfs                                  64M     0   64M   0% /dev

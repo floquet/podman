@@ -1,0 +1,7 @@
+gdb:
+  Installed: 15.0.50.20240403-0ubuntu1
+  Candidate: 15.0.50.20240403-0ubuntu1
+  Version table:
+ *** 15.0.50.20240403-0ubuntu1 500
+        500 http://archive.ubuntu.com/ubuntu noble/main amd64 Packages
+        100 /var/lib/dpkg/status

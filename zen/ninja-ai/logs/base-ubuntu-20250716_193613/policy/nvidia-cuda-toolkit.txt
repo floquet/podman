@@ -1,0 +1,7 @@
+nvidia-cuda-toolkit:
+  Installed: 12.0.140~12.0.1-4build4
+  Candidate: 12.0.140~12.0.1-4build4
+  Version table:
+ *** 12.0.140~12.0.1-4build4 500
+        500 http://archive.ubuntu.com/ubuntu noble/multiverse amd64 Packages
+        100 /var/lib/dpkg/status

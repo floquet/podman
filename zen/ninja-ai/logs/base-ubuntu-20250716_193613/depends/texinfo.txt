@@ -1,0 +1,13 @@
+texinfo
+  Depends: <perl:any>
+    perl
+  Depends: libtext-unidecode-perl
+  Depends: libxml-libxml-perl
+  Depends: texinfo-lib
+  Depends: tex-common
+  Breaks: <texinfo-doc-nonfree>
+  Suggests: texlive-base
+  Suggests: texlive-latex-base
+  Suggests: texlive-plain-generic
+  Suggests: texlive-fonts-recommended
+  Replaces: <texinfo-doc-nonfree>

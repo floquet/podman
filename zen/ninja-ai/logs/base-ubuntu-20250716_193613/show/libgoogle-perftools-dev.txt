@@ -1,0 +1,23 @@
+Package: libgoogle-perftools-dev
+Architecture: amd64
+Version: 2.15-3build1
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: google-perftools
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 3566
+Depends: libgoogle-perftools4t64 (= 2.15-3build1), libtcmalloc-minimal4t64 (= 2.15-3build1), libunwind-dev
+Filename: pool/main/g/google-perftools/libgoogle-perftools-dev_2.15-3build1_amd64.deb
+Size: 469848
+MD5sum: 37fd776990d6d03acdcf37ef92bca4df
+SHA1: f0a6d92acd333d133cfa9534a656b0f34934377f
+SHA256: 565fe24a7d1206aa735f5ae772b542486fafc2d360b98eaefc23fc09da37219a
+SHA512: 801acca6e5ddc2c51db5de9fe11f6e5c81fb7136186540070cf46a7e66cf5c7e7d95dd5b1c20345b7db6547ebbed60ecc63f9818334cf3508a2fd48ddf41eceb
+Homepage: https://github.com/gperftools/gperftools
+Description: libraries for CPU and heap analysis, plus an efficient thread-caching malloc
+Description-md5: dbfe1cce18ce426a0a1a69ed420f918e
+

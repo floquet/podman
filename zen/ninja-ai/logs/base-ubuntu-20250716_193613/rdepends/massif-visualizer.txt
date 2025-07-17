@@ -1,0 +1,23 @@
+massif-visualizer
+  Depends: kio
+  Depends: libc6
+  Depends: libkchart2
+  Depends: libkf5archive5
+  Depends: libkf5completion5
+  Depends: libkf5configcore5
+  Depends: libkf5configgui5
+  Depends: libkf5configwidgets5
+  Depends: libkf5coreaddons5
+  Depends: libkf5i18n5
+  Depends: libkf5kiocore5
+  Depends: libkf5parts5
+  Depends: libkf5widgetsaddons5
+  Depends: libkf5xmlgui5
+  Depends: libqt5core5t64
+ |Depends: libqt5gui5t64
+  Depends: libqt5gui5-gles
+  Depends: libqt5printsupport5t64
+  Depends: libqt5svg5
+  Depends: libqt5widgets5t64
+  Depends: libstdc++6
+  Recommends: valgrind

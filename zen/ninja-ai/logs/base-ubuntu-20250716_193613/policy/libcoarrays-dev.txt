@@ -1,0 +1,7 @@
+libcoarrays-dev:
+  Installed: 2.10.2+ds-2.1build2
+  Candidate: 2.10.2+ds-2.1build2
+  Version table:
+ *** 2.10.2+ds-2.1build2 500
+        500 http://archive.ubuntu.com/ubuntu noble/universe amd64 Packages
+        100 /var/lib/dpkg/status

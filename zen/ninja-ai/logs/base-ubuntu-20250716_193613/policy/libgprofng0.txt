@@ -1,0 +1,10 @@
+libgprofng0:
+  Installed: 2.42-4ubuntu2.5
+  Candidate: 2.42-4ubuntu2.5
+  Version table:
+ *** 2.42-4ubuntu2.5 500
+        500 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 Packages
+        500 http://security.ubuntu.com/ubuntu noble-security/main amd64 Packages
+        100 /var/lib/dpkg/status
+     2.42-4ubuntu2 500
+        500 http://archive.ubuntu.com/ubuntu noble/main amd64 Packages

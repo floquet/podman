@@ -1,0 +1,7 @@
+gcc:
+  Installed: 4:13.2.0-7ubuntu1
+  Candidate: 4:13.2.0-7ubuntu1
+  Version table:
+ *** 4:13.2.0-7ubuntu1 500
+        500 http://archive.ubuntu.com/ubuntu noble/main amd64 Packages
+        100 /var/lib/dpkg/status

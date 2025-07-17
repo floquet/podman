@@ -2,12 +2,13 @@
 printf "%s\n" "$(tput bold)$(date) ${BASH_SOURCE[0]}$(tput sgr0)"
 
 # Create output directory if it doesn't exist
-mkdir -p /home/user/repos-xiuhcoatl/github/podman/zen/ninja-ai
+TARGET_DIR="/workspace/zen/ninja-ai/logs"
+mkdir -p ${TARGET_DIR}
 
 # Generate unique filename
 CONTAINER_ID=$(hostname)
 TIMESTAMP=$(date +%Y%m%d_%H%M%S)
-INTERROGATE_FILE="/home/user/repos-xiuhcoatl/github/podman/zen/ninja-ai/interrogate_${CONTAINER_ID}_${TIMESTAMP}.txt"
+INTERROGATE_FILE="${TARGET_DIR}/interrogate_${CONTAINER_ID}_${TIMESTAMP}.txt"
 
 # System and application interrogation
 {

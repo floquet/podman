@@ -1,0 +1,7 @@
+openmpi-common:
+  Installed: 4.1.6-7ubuntu2
+  Candidate: 4.1.6-7ubuntu2
+  Version table:
+ *** 4.1.6-7ubuntu2 500
+        500 http://archive.ubuntu.com/ubuntu noble/universe amd64 Packages
+        100 /var/lib/dpkg/status

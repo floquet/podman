@@ -1,0 +1,7 @@
+libpapi-dev:
+  Installed: 7.1.0-5build1
+  Candidate: 7.1.0-5build1
+  Version table:
+ *** 7.1.0-5build1 500
+        500 http://archive.ubuntu.com/ubuntu noble/universe amd64 Packages
+        100 /var/lib/dpkg/status

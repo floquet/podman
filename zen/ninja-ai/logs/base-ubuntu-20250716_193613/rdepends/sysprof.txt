@@ -1,0 +1,17 @@
+sysprof
+  Depends: libadwaita-1-0
+  Depends: libc6
+  Depends: libcairo2
+  Depends: libdex-1-1
+  Depends: libgcc-s1
+  Depends: libglib2.0-0t64
+  Depends: libgraphene-1.0-0
+  Depends: libgtk-4-1
+  Depends: libjson-glib-1.0-0
+  Depends: libpanel-1-1
+  Depends: libpango-1.0-0
+  Depends: libpolkit-agent-1-0
+  Depends: libpolkit-gobject-1-0
+  Depends: libstdc++6
+  Depends: libsysprof-6-6
+  Depends: libsysprof-6-modules

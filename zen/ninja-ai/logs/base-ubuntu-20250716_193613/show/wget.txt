@@ -1,0 +1,50 @@
+Package: wget
+Architecture: amd64
+Version: 1.21.4-1ubuntu4.1
+Multi-Arch: foreign
+Priority: standard
+Section: web
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Noël Köthe <noel@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 916
+Depends: libc6 (>= 2.38), libidn2-0 (>= 0.6), libpcre2-8-0 (>= 10.22), libpsl5t64 (>= 0.16.0), libssl3t64 (>= 3.0.0), libuuid1 (>= 2.16), zlib1g (>= 1:1.1.4)
+Recommends: ca-certificates
+Conflicts: wget-ssl
+Filename: pool/main/w/wget/wget_1.21.4-1ubuntu4.1_amd64.deb
+Size: 333628
+MD5sum: 4557c6eabb65cfc5e3885a8422cd2d5a
+SHA1: 15f6b668d6ca3bbcc4324413449623549433c424
+SHA256: 387c82d5a8a31cd2ea4e9bdb85fce07a8eeeb5dfaebb971b2839a80348f2eb26
+SHA512: af84fb4777e087fcbe82ec984d37b82fcb0fdb8d9858b06dc7b7baa1bdfa12d6dcb18ffaeb910431f4546c436e91e94210cceeaaf7cbb9c1f9bb77a2e7c51ef9
+Homepage: https://www.gnu.org/software/wget/
+Description: retrieves files from the web
+Description-md5: 63a4a740bcd9e8e94bf661e4f1806e02
+Task: cloud-minimal, standard, ubuntu-wsl
+
+Package: wget
+Architecture: amd64
+Version: 1.21.4-1ubuntu4
+Multi-Arch: foreign
+Priority: standard
+Section: web
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Noël Köthe <noel@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 916
+Depends: libc6 (>= 2.38), libidn2-0 (>= 0.6), libpcre2-8-0 (>= 10.22), libpsl5t64 (>= 0.16.0), libssl3t64 (>= 3.0.0), libuuid1 (>= 2.16), zlib1g (>= 1:1.1.4)
+Recommends: ca-certificates
+Conflicts: wget-ssl
+Filename: pool/main/w/wget/wget_1.21.4-1ubuntu4_amd64.deb
+Size: 333234
+MD5sum: ecd5b427e78625abc64433ca9c828435
+SHA1: c1fcc29bcf67bff861b7739234ea61fb5bcf0da1
+SHA256: 1d078bf2a22c2c6da84788818ebf055a10f5f6b5ea629f1dd0dd11660b51def6
+SHA512: 9678f39716122f76dc45c6eeed6e87395dc967187e9dc359a30b7bb2328aadaab33dda4fb8c7158efff69e1ab5c07c97191069e1f679f0a0593502fe7a44a5b2
+Homepage: https://www.gnu.org/software/wget/
+Description: retrieves files from the web
+Description-md5: 63a4a740bcd9e8e94bf661e4f1806e02
+Task: cloud-minimal, standard, ubuntu-wsl
+

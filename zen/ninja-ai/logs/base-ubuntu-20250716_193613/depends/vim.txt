@@ -1,0 +1,15 @@
+vim
+  Depends: vim-common
+  Depends: vim-runtime
+  Depends: libacl1
+  Depends: libc6
+  Depends: libgpm2
+  Depends: libpython3.12t64
+  Depends: libselinux1
+  Depends: libsodium23
+  Depends: libtinfo6
+  Suggests: <ctags>
+    exuberant-ctags
+    universal-ctags
+  Suggests: vim-doc
+  Suggests: vim-scripts

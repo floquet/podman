@@ -1,0 +1,23 @@
+openmpi-bin
+  Depends: libc6
+  Depends: libevent-core-2.1-7t64
+  Depends: libopenmpi3t64
+  Depends: openmpi-common
+ |Depends: openssh-client
+  Depends: <ssh-client>
+    openssh-client
+  Conflicts: openmpi-bin
+  Breaks: lam4-dev
+  Breaks: libmpich-dev
+  Breaks: libopenmpi-dev
+  Breaks: mpich
+ |Suggests: gfortran
+  Suggests: <fortran-compiler>
+    flang-15
+    flang-16
+    flang-17
+    flang-18
+    flang-19
+    gfortran
+    lfortran
+  Replaces: libopenmpi-dev

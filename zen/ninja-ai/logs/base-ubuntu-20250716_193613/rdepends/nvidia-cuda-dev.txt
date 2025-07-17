@@ -1,0 +1,60 @@
+nvidia-cuda-dev
+  Depends: libcudart12
+  Depends: libaccinj64-12.0
+  Depends: libcuinj64-12.0
+  Depends: libnvrtc12
+  Depends: libnvrtc-builtins12.0
+  Depends: libnvtoolsext1
+  Depends: libnvvm4
+  Depends: libcublas12
+  Depends: libcublaslt12
+  Depends: libnvblas12
+  Depends: libcufft11
+  Depends: libcufftw11
+  Depends: libcurand10
+  Depends: libcusolver11
+  Depends: libcusolvermg11
+  Depends: libcusparse12
+  Depends: libnppc12
+  Depends: libnppial12
+  Depends: libnppicc12
+  Depends: libnppidei12
+  Depends: libnppif12
+  Depends: libnppig12
+  Depends: libnppim12
+  Depends: libnppist12
+  Depends: libnppisu12
+  Depends: libnppitc12
+  Depends: libnpps12
+  Depends: libnvjpeg12
+  Depends: libcupti-dev
+  Depends: libnvidia-ml-dev
+  Depends: libcu++-dev
+  Depends: libcub-dev
+  Depends: libthrust-dev
+ |Depends: libnvidia-compute-535
+ |Depends: libnvidia-compute-535-server
+ |Depends: libnvidia-compute-525
+ |Depends: libnvidia-compute-525-server
+ |Depends: <libcuda.so.1>
+    libnvidia-compute-535
+    libnvidia-compute-535-server
+    libnvidia-compute-550
+    libnvidia-compute-565-server
+    libnvidia-compute-570
+    libnvidia-compute-570-server
+    libnvidia-compute-575
+    libnvidia-compute-575-server
+  Depends: <libcuda-12.0-1>
+    libnvidia-compute-535-server
+    libnvidia-compute-565-server
+    libnvidia-compute-570
+    libnvidia-compute-570-server
+    libnvidia-compute-575
+    libnvidia-compute-575-server
+  Breaks: <libcuda1>
+    libnvidia-compute-470
+    libnvidia-compute-470-server
+  Recommends: libgl-dev
+  Recommends: libvdpau-dev
+  Recommends: <libnvcuvid1>

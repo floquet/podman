@@ -1,0 +1,6 @@
+libgprofng0
+  Depends: libbinutils
+  Depends: libc6
+  Depends: libgcc-s1
+  Depends: libstdc++6
+  Depends: zlib1g

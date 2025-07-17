@@ -1,0 +1,46 @@
+man-db
+ |Depends: bsdextrautils
+  Depends: bsdmainutils
+  Depends: groff-base
+ |Depends: debconf
+  Depends: <debconf-2.0>
+    cdebconf
+    debconf
+  Depends: libc6
+  Depends: libgdbm6t64
+  Depends: libpipeline1
+  Depends: libseccomp2
+  Depends: zlib1g
+  Conflicts: <man>
+  Suggests: apparmor
+  Suggests: groff
+  Suggests: less
+  Suggests: <www-browser>
+    dillo
+    edbrowse
+    hv3
+    lynx
+    netsurf-fb
+    netsurf-gtk
+    chromium-browser
+    elinks
+    epiphany-browser
+    falkon
+    firefox
+    konqueror
+    links
+    links2
+    luakit
+    morph-browser
+    netrik
+    qutebrowser
+    sugar-browse-activity
+    surf
+    w3m
+    wslu
+    xemacs21-mule
+    xemacs21-mule-canna-wnn
+    xemacs21-nomule
+  Replaces: <man>
+    man-db
+  Replaces: <nlsutils>

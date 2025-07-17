@@ -1,0 +1,27 @@
+libmpich-dev
+ |Depends: gfortran
+  Depends: <fortran-compiler>
+    flang-15
+    flang-16
+    flang-17
+    flang-18
+    flang-19
+    gfortran
+    lfortran
+  Depends: g++
+  Depends: libmpich12
+ |Depends: gfortran-13
+  Depends: <gfortran-mod-15>
+    flang-15
+    flang-16
+    flang-17
+    flang-18
+    flang-19
+    gfortran
+    gfortran-10
+    gfortran-11
+    gfortran-12
+    gfortran-13
+    gfortran-14
+    gfortran-9
+  Depends: mpich

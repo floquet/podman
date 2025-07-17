@@ -1,0 +1,23 @@
+Package: nvidia-cuda-gdb
+Architecture: amd64
+Version: 12.0.140~12.0.1-4build4
+Priority: extra
+Section: multiverse/devel
+Source: nvidia-cuda-toolkit (12.0.1-4build4)
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 11203
+Depends: libbabeltrace1 (>= 1.5.4), libc6 (>= 2.38), libdebuginfod1t64 (>= 0.180), libexpat1 (>= 2.0.1), libgcc-s1 (>= 4.2), libgmp10 (>= 2:6.3.0+dfsg), libipt2 (>= 2.0), liblzma5 (>= 5.1.1alpha+20110809), libmpfr6 (>= 3.1.3), libncursesw6 (>= 6), libpython3.12t64 (>= 3.12.1), libreadline8t64 (>= 8), libsource-highlight4t64 (>= 3.1.9), libstdc++6 (>= 12), libtinfo6 (>= 6), libxxhash0 (>= 0.6.5), zlib1g (>= 1:1.2.0)
+Recommends: nvidia-cuda-toolkit-doc (= 12.0.1-4build4)
+Filename: pool/multiverse/n/nvidia-cuda-toolkit/nvidia-cuda-gdb_12.0.140~12.0.1-4build4_amd64.deb
+Size: 3801234
+MD5sum: ef3f506adbe7aaf59af765c76136fd89
+SHA1: 78f491b164049115a18df8eb4f56785731a08728
+SHA256: f377b52beaf1ece82968d4247f7f4fc0f18d0ab782e942b5fa52b42a10b062c4
+SHA512: cee0806d11826174bff1c6a816ea6a93557b334293a1bbab1ff28127ec094caba220de5c3c414e51ed7642b17e787fbb69a377f79df8097e97639e2f453355bd
+Homepage: https://developer.nvidia.com/cuda-zone
+Description: NVIDIA CUDA Debugger (GDB)
+Description-md5: 03d8613224997399b5d081ffb05a91f3
+

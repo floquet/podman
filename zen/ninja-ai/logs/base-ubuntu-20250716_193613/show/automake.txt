@@ -1,0 +1,25 @@
+Package: automake
+Architecture: all
+Version: 1:1.16.5-1.3ubuntu1
+Multi-Arch: foreign
+Priority: optional
+Section: devel
+Source: automake-1.16
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Eric Dorland <eric@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 1576
+Provides: automake-1.16, automaken
+Depends: autoconf, autotools-dev
+Suggests: autoconf-doc, gnu-standards
+Filename: pool/main/a/automake-1.16/automake_1.16.5-1.3ubuntu1_all.deb
+Size: 558172
+MD5sum: 0d3e4fe4ac2b80e59b7a6a867694f914
+SHA1: 98e88c17464981e574456000a04e2f36021d9066
+SHA256: 5ae9a98e73545002cd891f028859941af2a3c760cb6190e635c7ef36953912de
+SHA512: dd62fa468463de8d184a507d9ae2e83c55df2f4737e0de199cb309b44228b8ffd7c27280570731cd947551209f0e87c8113e8b457571264a506bb9b26f32baf0
+Homepage: https://www.gnu.org/software/automake/
+Description: Tool for generating GNU Standards-compliant Makefiles
+Description-md5: cab2176975a43b42c86cd4289740737e
+

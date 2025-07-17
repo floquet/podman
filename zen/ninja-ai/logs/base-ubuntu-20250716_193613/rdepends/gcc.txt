@@ -1,0 +1,20 @@
+gcc
+  Depends: cpp
+  Depends: cpp-x86-64-linux-gnu
+  Depends: gcc-13
+  Depends: gcc-x86-64-linux-gnu
+  Conflicts: gcc-doc
+ |Recommends: libc6-dev
+  Recommends: <libc-dev>
+    libc6-dev
+  Suggests: gcc-multilib
+  Suggests: make
+    make-guile
+  Suggests: manpages-dev
+  Suggests: autoconf
+  Suggests: automake
+  Suggests: libtool
+  Suggests: flex
+  Suggests: bison
+  Suggests: gdb
+  Suggests: gcc-doc

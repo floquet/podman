@@ -1,0 +1,7 @@
+oprofile:
+  Installed: 1.4.0-0ubuntu9
+  Candidate: 1.4.0-0ubuntu9
+  Version table:
+ *** 1.4.0-0ubuntu9 500
+        500 http://archive.ubuntu.com/ubuntu noble/universe amd64 Packages
+        100 /var/lib/dpkg/status

@@ -1,0 +1,30 @@
+libopenmpi-dev
+ |Depends: gfortran-13
+  Depends: <gfortran-mod-15>
+    flang-15
+    flang-16
+    flang-17
+    flang-18
+    flang-19
+    gfortran
+    gfortran-10
+    gfortran-11
+    gfortran-12
+    gfortran-13
+    gfortran-14
+    gfortran-9
+  Depends: libopenmpi3t64
+  Depends: openmpi-common
+  Depends: libibverbs-dev
+  Depends: libhwloc-dev
+  Depends: libevent-dev
+  Depends: libpmix-dev
+  Depends: libjs-jquery
+  Depends: libjs-jquery-ui
+  Depends: zlib1g-dev
+  Depends: openmpi-bin
+  Conflicts: libopenmpi-dev
+  Breaks: lam4-dev
+  Breaks: openmpi-doc
+  Recommends: libcoarrays-openmpi-dev
+  Suggests: openmpi-doc

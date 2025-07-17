@@ -1,0 +1,11 @@
+valgrind
+  Depends: libc6
+  Depends: libc6-dbg
+  Breaks: <valgrind-dev>
+  Recommends: gdb
+  Suggests: <valgrind-dbg>
+  Suggests: valgrind-mpi
+  Suggests: kcachegrind
+  Suggests: <alleyoop>
+  Suggests: <valkyrie>
+  Replaces: <valgrind-dev>

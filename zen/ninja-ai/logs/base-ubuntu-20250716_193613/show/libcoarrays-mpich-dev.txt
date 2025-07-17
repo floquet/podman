@@ -1,0 +1,23 @@
+Package: libcoarrays-mpich-dev
+Architecture: amd64
+Version: 2.10.2+ds-2.1build2
+Multi-Arch: same
+Priority: optional
+Section: universe/libdevel
+Source: open-coarrays
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Alastair McKinstry <mckinstry@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 2910
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libgfortran5 (>= 10), libmpich12 (>= 4.1.2-3), gfortran | fortran-compiler, mpich, libcaf-mpich-3t64 (= 2.10.2+ds-2.1build2), libcoarrays-dev
+Filename: pool/universe/o/open-coarrays/libcoarrays-mpich-dev_2.10.2+ds-2.1build2_amd64.deb
+Size: 403968
+MD5sum: cac06914470271122c970b41b6349344
+SHA1: 941f8d90487a0ed73d81f41bc70b79c9eb0e2fc6
+SHA256: cf8153c5958098ddaf2572bf01da92d6f97cb0a1577504bd839ad6d33d573b8c
+SHA512: 12cb4b34116744045668be17a04c6975585e594b0609a4d6ddb47b91dcfd8725bbff0396d66ad8098f83876bce73397fb367b4e39f0b7c52e880cbda76601b95
+Homepage: https://www.opencoarrays.org/
+Description: Co-Array Fortran libraries for - development files (MPICH)
+Description-md5: 26e66c932dd2e98f5060256749497024
+

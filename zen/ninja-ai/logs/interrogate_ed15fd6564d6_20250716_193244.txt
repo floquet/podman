@@ -1,0 +1,124 @@
+=== SYSTEM INTERROGATION ===
+Date: Wed Jul 16 19:32:44 UTC 2025
+Container ID: ed15fd6564d6
+Created by: /workspace/zen/ninja-ai/ubuntu-interrogate.sh
+
+=== OPERATING SYSTEM ===
+PRETTY_NAME="Ubuntu 24.04.2 LTS"
+NAME="Ubuntu"
+VERSION_ID="24.04"
+VERSION="24.04.2 LTS (Noble Numbat)"
+VERSION_CODENAME=noble
+ID=ubuntu
+ID_LIKE=debian
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+UBUNTU_CODENAME=noble
+LOGO=ubuntu-logo
+Kernel: Linux ed15fd6564d6 6.12.13-200.fc41.x86_64 #1 SMP PREEMPT_DYNAMIC Sat Feb  8 20:05:26 UTC 2025 x86_64 x86_64 x86_64 GNU/Linux
+Architecture: x86_64
+
+=== HARDWARE RESOURCES ===
+CPU Info:
+Architecture:                         x86_64
+CPU op-mode(s):                       32-bit, 64-bit
+Address sizes:                        39 bits physical, 48 bits virtual
+Byte Order:                           Little Endian
+CPU(s):                               8
+On-line CPU(s) list:                  0-7
+Vendor ID:                            GenuineIntel
+Model name:                           Intel(R) Core(TM) i7-8700B CPU @ 3.20GHz
+CPU family:                           6
+Model:                                158
+Thread(s) per core:                   1
+Core(s) per socket:                   8
+Socket(s):                            1
+Stepping:                             10
+BogoMIPS:                             6383.96
+Flags:                                fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch pti intel_ppin fsgsbase bmi1 hle avx2 smep bmi2 erms rdseed adx smap clflushopt xsaveopt xsavec xgetbv1 arat
+L1d cache:                            256 KiB (8 instances)
+L1i cache:                            256 KiB (8 instances)
+L2 cache:                             2 MiB (8 instances)
+L3 cache:                             12 MiB (1 instance)
+
+Memory:
+               total        used        free      shared  buff/cache   available
+Mem:            23Gi       630Mi        22Gi       996Ki       209Mi        22Gi
+Swap:             0B          0B          0B
+
+Disk Usage:
+Filesystem                            Size  Used Avail Use% Mounted on
+a2a0ee2c717462feb1de2f5afd59de5fd2d8  1.9T  510G  1.4T  28% /workspace
+shm                                    63M     0   63M   0% /dev/shm
+tmpfs                                 2.4G  224K  2.4G   1% /etc/hosts
+overlay                               120G   29G   91G  25% /
+tmpfs                                  64M     0   64M   0% /dev
+
+=== INSTALLED COMPILERS ===
+GCC:
+GCC not found
+
+G++:
+G++ not found
+
+Gfortran:
+Gfortran not found
+
+Clang:
+Clang not found
+
+Clang++:
+Clang++ not found
+
+=== DEVELOPMENT TOOLS ===
+Make: 
+CMake: 
+Ninja: Ninja not found
+Git: Git not found
+Python3: Python3 not found
+Pip3: Pip3 not found
+
+=== INSTALLED PACKAGES (APT) ===
+ii  base-passwd             3.6.3build1                  amd64        Debian base system master password and group files
+ii  debianutils             5.17build1                   amd64        Miscellaneous utilities specific to Debian
+ii  diffutils               1:3.10-1build1               amd64        File comparison utilities
+ii  findutils               4.9.0-5build1                amd64        utilities for finding files--find, xargs
+ii  gcc-14-base:amd64       14.2.0-4ubuntu2~24.04        amd64        GCC, the GNU Compiler Collection (base package)
+ii  grep                    3.11-4build1                 amd64        GNU grep, egrep and fgrep
+ii  libacl1:amd64           2.3.2-1build1.1              amd64        access control list - shared library
+ii  libassuan0:amd64        2.5.6-1build1                amd64        IPC library for the GnuPG components
+ii  libattr1:amd64          1:2.5.2-1build1.1            amd64        extended attribute handling - shared library
+ii  libaudit-common         1:3.1.2-2.1build1.1          all          Dynamic library for security auditing - common files
+ii  libaudit1:amd64         1:3.1.2-2.1build1.1          amd64        Dynamic library for security auditing
+ii  libbz2-1.0:amd64        1.0.8-5.1build0.1            amd64        high-quality block-sorting file compressor library - runtime
+ii  libcap-ng0:amd64        0.8.4-2build2                amd64        alternate POSIX capabilities library
+ii  libcrypt1:amd64         1:4.4.36-4build1             amd64        libcrypt shared library
+ii  libffi8:amd64           3.4.6-1build1                amd64        Foreign Function Interface library runtime
+ii  libgcc-s1:amd64         14.2.0-4ubuntu2~24.04        amd64        GCC support library
+ii  libgcrypt20:amd64       1.10.3-2build1               amd64        LGPL Crypto library - runtime library
+ii  libgpg-error0:amd64     1.47-3build2.1               amd64        GnuPG development runtime library
+ii  libhogweed6t64:amd64    3.9.1-2.2build1.1            amd64        low level cryptographic library (public-key cryptos)
+ii  libidn2-0:amd64         2.3.7-2build1.1              amd64        Internationalized domain names (IDNA2008/TR46) library
+
+=== ENVIRONMENT VARIABLES ===
+PATH: /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+LD_LIBRARY_PATH: 
+CC: 
+CXX: 
+FC: 
+
+=== NETWORK CONFIGURATION ===
+Network info not available
+
+=== RUNNING PROCESSES ===
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.0  0.0   4588  3728 pts/0    Ss   19:27   0:00 /bin/bash
+root          88  0.0  0.0   7888  3912 pts/0    R+   19:32   0:00 ps aux
+root          89  0.0  0.0   2708  1364 pts/0    S+   19:32   0:00 head -10
+
+=== MOUNTED FILESYSTEMS ===
+
+=== ALTERNATIVES CONFIGURATION ===
+No alternatives configured

@@ -1,0 +1,24 @@
+oprofile
+  Depends: adduser
+ |Depends: debconf
+  Depends: <debconf-2.0>
+    cdebconf
+    debconf
+  Depends: libopagent1
+  Depends: libc6
+  Depends: libgcc-s1
+  Depends: libpopt0
+  Depends: libsframe1
+  Depends: libstdc++6
+  Depends: libzstd1
+  Depends: zlib1g
+  Conflicts: <oprofile-modules0.2>
+  Conflicts: <oprofile-modules0.3>
+  Conflicts: <oprofile-modules0.4>
+  Conflicts: <oprofile-modules0.5>
+  Conflicts: <oprofile-modules0.6>
+  Conflicts: <oprofile-modules0.7>
+  Conflicts: <oprofile-modules0.8>
+  Recommends: binutils
+  Recommends: libjvmti-oprofile0
+  Replaces: <oprofile-common>

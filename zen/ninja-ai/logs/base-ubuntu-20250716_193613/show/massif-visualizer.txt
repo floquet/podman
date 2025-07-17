@@ -1,0 +1,22 @@
+Package: massif-visualizer
+Architecture: amd64
+Version: 0.7.0-4build2
+Priority: extra
+Section: universe/devel
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian QA Group <packages@qa.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 719
+Depends: kio, libc6 (>= 2.34), libkchart2 (>= 2.6.0), libkf5archive5 (>= 4.96.0), libkf5completion5 (>= 4.97.0), libkf5configcore5 (>= 4.98.0), libkf5configgui5 (>= 4.97.0), libkf5configwidgets5 (>= 4.96.0), libkf5coreaddons5 (>= 4.100.0), libkf5i18n5 (>= 4.97.0), libkf5kiocore5 (>= 4.96.0), libkf5parts5 (>= 4.96.0), libkf5widgetsaddons5 (>= 4.96.0), libkf5xmlgui5 (>= 4.98.0), libqt5core5t64 (>= 5.15.1), libqt5gui5t64 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5printsupport5t64 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5t64 (>= 5.2.0~alpha1), libstdc++6 (>= 4.1.1)
+Recommends: valgrind
+Filename: pool/universe/m/massif-visualizer/massif-visualizer_0.7.0-4build2_amd64.deb
+Size: 151342
+MD5sum: 4189b6a50fc9d9cfe525c431455f52c9
+SHA1: c998ae877badfe0442534b46e219e7768e32dc01
+SHA256: 8a5d7e55314604b2bcf83a0e34e691ccb8e6a596fd3520190caf9dbf540a8aa3
+SHA512: a7642e6e102fcec5cf7466879ec591fa2cd1a46e95fcbabdc3593e5782e8c804988900365cee7e842c838057ec7c0b2a102d5cf6b8d3e3c772bfc85ee5fe3978
+Homepage: https://projects.kde.org/projects/extragear/sdk/massif-visualizer
+Description: Tool for visualizing memory usage recorded by Valgrind Massif
+Description-md5: 6492b621e487cff7ae61f65201eeabe4
+

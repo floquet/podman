@@ -1,0 +1,4 @@
+ltrace
+  Depends: libc6
+  Depends: libelf1t64
+  Depends: libselinux1

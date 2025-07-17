@@ -1,0 +1,48 @@
+Package: libisl-dev
+Architecture: amd64
+Version: 0.26-3build1.1
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: isl
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 7401
+Depends: libisl23 (= 0.26-3build1.1)
+Conflicts: libcloog-isl-dev
+Filename: pool/main/i/isl/libisl-dev_0.26-3build1.1_amd64.deb
+Size: 912878
+MD5sum: 8dbf089a82dad8871e94699bff9a5277
+SHA1: 2f6a3d18381964e62c600c1c7f4844821baba1b2
+SHA256: 0bcba1efc300587ffd5a88e6d9f3a4be4a39da846eae7af6568147d47ca228b8
+SHA512: 06a5886a570c13cbbb881e2434f6bcdeeb3e00e12d0466415d794a886708a702926155b71a305e040eb4432aa2d703e6398cd478604408c88c61e03cef038fef
+Homepage: http://isl.gforge.inria.fr/
+Description: manipulating sets and relations of integer points bounded by linear constraints
+Description-md5: 9330fbca4463124a77a29e9568838474
+
+Package: libisl-dev
+Architecture: amd64
+Version: 0.26-3build1
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: isl
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 7401
+Depends: libisl23 (= 0.26-3build1)
+Conflicts: libcloog-isl-dev
+Filename: pool/main/i/isl/libisl-dev_0.26-3build1_amd64.deb
+Size: 912910
+MD5sum: 33fc7bdbd79c9286b01be791e21846b1
+SHA1: b896dd5b2c30856a95277dd2d7532413c020a93e
+SHA256: 94da633eb7ed01d23eb023dfb7024412961d85390c20c4c45b1af5f537dd7683
+SHA512: e62f0d9f71785dc878734019bc88d7df647844c5babce33935ff4d8bc8e75df9a1a48a379803cb76acebca7163b91afeac37696da3eec5e521c9e47f14a2c656
+Homepage: http://isl.gforge.inria.fr/
+Description: manipulating sets and relations of integer points bounded by linear constraints
+Description-md5: 9330fbca4463124a77a29e9568838474
+

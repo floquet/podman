@@ -1,0 +1,11 @@
+coz-profiler
+  Depends: libc6
+  Depends: libdwarf++0t64
+  Depends: libelf++0t64
+  Depends: libgcc-s1
+  Depends: libstdc++6
+  Depends: python3
+  Depends: fonts-font-awesome
+  Depends: libjs-jquery
+  Depends: libjs-d3
+  Depends: libjs-d3-tip

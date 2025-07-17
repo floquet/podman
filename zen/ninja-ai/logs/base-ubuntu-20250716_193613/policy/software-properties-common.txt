@@ -1,0 +1,9 @@
+software-properties-common:
+  Installed: 0.99.49.2
+  Candidate: 0.99.49.2
+  Version table:
+ *** 0.99.49.2 500
+        500 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 Packages
+        100 /var/lib/dpkg/status
+     0.99.48 500
+        500 http://archive.ubuntu.com/ubuntu noble/main amd64 Packages

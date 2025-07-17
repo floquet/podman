@@ -1,0 +1,21 @@
+Package: flang
+Architecture: amd64
+Version: 1:18.0-59~exp2
+Priority: optional
+Section: universe/devel
+Source: llvm-defaults (0.59~exp2)
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 22
+Depends: flang-18 (>= 18~)
+Filename: pool/universe/l/llvm-defaults/flang_18.0-59~exp2_amd64.deb
+Size: 5600
+MD5sum: 6295530464ee49f003c3a4bc2c939a7c
+SHA1: 72f94b1a65ae2de45b0f58ebafcef7be034f3700
+SHA256: ffcdb188eb068b3b63e8bbc94f90b5467e7b6d1398ef55efe15b150f68cb6a77
+SHA512: d79f4e50547d922fce854554fc71e5e0d3542dc8e6abf60f1490b5fb52dbeb6a6a736648d8ee98f89dfb1ee0c202ec9049a4fbaf7be7fad3a67e98866c42a18f
+Description: Fortran compiler
+Description-md5: bd017b88c85853e1292c78015b1d62a8
+

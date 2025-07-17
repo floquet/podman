@@ -1,0 +1,23 @@
+Package: kcachegrind
+Architecture: amd64
+Version: 4:23.08.5-0ubuntu3
+Priority: optional
+Section: universe/devel
+Origin: Ubuntu
+Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
+Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 4873
+Depends: kio, libc6 (>= 2.34), libkf5archive5 (>= 5.85.0), libkf5configcore5 (>= 5.56.0~), libkf5configwidgets5 (>= 4.96.0), libkf5coreaddons5 (>= 5.56.0~), libkf5dbusaddons5 (>= 5.56.0~), libkf5i18n5 (>= 5.56.0~), libkf5jobwidgets5 (>= 4.96.0), libkf5kiocore5 (>= 5.56.0~), libkf5widgetsaddons5 (>= 5.56.0~), libkf5xmlgui5 (>= 5.84.0), libqt5core5t64 (>= 5.15.1), libqt5dbus5t64 (>= 5.11.0~), libqt5gui5t64 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5widgets5t64 (>= 5.14.1), libstdc++6 (>= 4.1.1)
+Recommends: graphviz, valgrind
+Suggests: kcachegrind-converters, khelpcenter
+Filename: pool/universe/k/kcachegrind/kcachegrind_23.08.5-0ubuntu3_amd64.deb
+Size: 1114166
+MD5sum: 198409aa0460854acf91e4422d4eaed7
+SHA1: 3a9379718040e11d159c18c75139204d6ba3da36
+SHA256: 763711cdb2e60c463d98757b2d24a37e72e575890d733e777af3a2562341d7bb
+SHA512: 2cdbfbe2f69fa7486a9d51a007fd625626ce96394e3a02b39d3c76aa7fc3ba29ffe78fa210e2a994dafa03d5bf13977edbdb31368e283b9fba1842f7003fb1db
+Homepage: http://www.kde.org/
+Description: visualisation tool for the Valgrind profiler
+Description-md5: 4b04636e1d2e5397cf2634cf35707d11
+

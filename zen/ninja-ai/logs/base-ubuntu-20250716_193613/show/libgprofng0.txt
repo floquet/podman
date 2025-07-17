@@ -1,0 +1,50 @@
+Package: libgprofng0
+Architecture: amd64
+Version: 2.42-4ubuntu2.5
+Multi-Arch: same
+Priority: optional
+Build-Essential: yes
+Section: devel
+Source: binutils
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Matthias Klose <doko@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 3833
+Depends: libbinutils (= 2.42-4ubuntu2.5), libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), zlib1g (>= 1:1.1.4)
+Filename: pool/main/b/binutils/libgprofng0_2.42-4ubuntu2.5_amd64.deb
+Size: 848710
+MD5sum: bd7cd8a54405ea25482bc120d07e684b
+SHA1: 5b725f2aaeb68c1a96de037bdc9ace73644a18c0
+SHA256: bad6f9da5312a5c0c13e678a2d7eadf110a6b364ce3275162750af491d26135f
+SHA512: 4b3123fce7cf1e560e34ae9b71f595cdf5ec715f571634f3f7ad9cca752f37a9393db5dc4dff06900dcc7d76190e48198e20593aaab1908202b3a229d410f310
+Homepage: https://www.gnu.org/software/binutils/
+Description: GNU Next Generation profiler (runtime library)
+Description-md5: f46052f9dacaacc2ef39ad7058167163
+Task: ubuntu-wsl, xubuntu-desktop, ubuntustudio-photography, ubuntustudio-publishing, ubuntukylin-desktop, ubuntukylin-desktop, ubuntukylin-desktop-minimal, ubuntu-mate-core, ubuntu-mate-desktop, ubuntu-budgie-desktop-minimal, ubuntu-budgie-desktop, ubuntu-budgie-desktop-raspi, ubuntu-unity-desktop, edubuntu-desktop-gnome-minimal, edubuntu-desktop-gnome, edubuntu-desktop-gnome-raspi, ubuntucinnamon-desktop-minimal, ubuntucinnamon-desktop
+
+Package: libgprofng0
+Architecture: amd64
+Version: 2.42-4ubuntu2
+Multi-Arch: same
+Priority: optional
+Build-Essential: yes
+Section: devel
+Source: binutils
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Matthias Klose <doko@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 3849
+Depends: libbinutils (= 2.42-4ubuntu2), libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), zlib1g (>= 1:1.1.4)
+Filename: pool/main/b/binutils/libgprofng0_2.42-4ubuntu2_amd64.deb
+Size: 851218
+MD5sum: 9a62209171de3f5c984a492f57a4732c
+SHA1: 8ea4278349aa226498808b46bd5383b43f8cf7ed
+SHA256: b41ab4d68f66993413e0b8c82084d469a5317323adccf6feb96f79d9e1bea7d3
+SHA512: 3ac2a3a027e28576d0b530b646c1f6495dbcc36031c54e1bc0ea6db7aef9fe91cffbbf55ef3f7c77f3493ee460b398b8a26f168b6e4f390805baf39cda822231
+Homepage: https://www.gnu.org/software/binutils/
+Description: GNU Next Generation profiler (runtime library)
+Description-md5: f46052f9dacaacc2ef39ad7058167163
+Task: ubuntu-wsl, xubuntu-desktop, ubuntustudio-photography, ubuntustudio-publishing, ubuntukylin-desktop, ubuntukylin-desktop, ubuntukylin-desktop-minimal, ubuntu-mate-core, ubuntu-mate-desktop, ubuntu-budgie-desktop-minimal, ubuntu-budgie-desktop, ubuntu-budgie-desktop-raspi, ubuntu-unity-desktop, edubuntu-desktop-gnome-minimal, edubuntu-desktop-gnome, edubuntu-desktop-gnome-raspi, ubuntucinnamon-desktop-minimal, ubuntucinnamon-desktop
+

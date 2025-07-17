@@ -1,0 +1,4 @@
+curl
+  Depends: libc6
+  Depends: libcurl4t64
+  Depends: zlib1g

@@ -1,0 +1,19 @@
+nvidia-cuda-gdb
+  Depends: libbabeltrace1
+  Depends: libc6
+  Depends: libdebuginfod1t64
+  Depends: libexpat1
+  Depends: libgcc-s1
+  Depends: libgmp10
+  Depends: libipt2
+  Depends: liblzma5
+  Depends: libmpfr6
+  Depends: libncursesw6
+  Depends: libpython3.12t64
+  Depends: libreadline8t64
+  Depends: libsource-highlight4t64
+  Depends: libstdc++6
+  Depends: libtinfo6
+  Depends: libxxhash0
+  Depends: zlib1g
+  Recommends: nvidia-cuda-toolkit-doc

@@ -1,0 +1,85 @@
+octave
+  Depends: libamd3
+  Depends: libarpack2t64
+ |Depends: libblas3
+  Depends: <libblas.so.3>
+    libatlas3-base
+    libblas3
+    libblis4-openmp
+    libblis4-pthread
+    libblis4-serial
+    libopenblas0-openmp
+    libopenblas0-pthread
+    libopenblas0-serial
+  Depends: libbz2-1.0
+  Depends: libc6
+  Depends: libccolamd3
+  Depends: libcholmod5
+  Depends: libcolamd3
+  Depends: libcurl3t64-gnutls
+  Depends: libcxsparse4
+  Depends: libfftw3-double3
+  Depends: libfftw3-single3
+  Depends: <libfltk-gl1.3>
+    libfltk-gl1.3t64
+  Depends: <libfltk1.3>
+    libfltk1.3t64
+  Depends: libfontconfig1
+  Depends: libfreetype6
+  Depends: libgcc-s1
+  Depends: libgfortran5
+  Depends: libgl1
+  Depends: libgl2ps1.4
+  Depends: libglpk40
+ |Depends: libglu1-mesa
+  Depends: <libglu1>
+    libglu1-mesa
+  Depends: libgomp1
+  Depends: libgraphicsmagick++-q16-12t64
+  Depends: libgraphicsmagick-q16-3t64
+  Depends: libhdf5-103-1t64
+ |Depends: liblapack3
+  Depends: <liblapack.so.3>
+    libatlas3-base
+    liblapack3
+    libopenblas0-openmp
+    libopenblas0-pthread
+    libopenblas0-serial
+  Depends: libpcre2-8-0
+  Depends: libportaudio2
+  Depends: libqhull-r8.0
+  Depends: libqrupdate1
+  Depends: libqscintilla2-qt5-15
+  Depends: libqt5core5t64
+ |Depends: libqt5gui5t64
+  Depends: libqt5gui5-gles
+  Depends: libqt5help5
+  Depends: libqt5network5t64
+  Depends: libqt5printsupport5t64
+  Depends: libqt5widgets5t64
+  Depends: libqt5xml5t64
+  Depends: libreadline8t64
+  Depends: libsndfile1
+  Depends: libspqr4
+  Depends: libstdc++6
+  Depends: libsuitesparseconfig7
+  Depends: libsundials-ida6
+  Depends: libsundials-sunlinsol3
+  Depends: libumfpack6
+  Depends: libx11-6
+  Depends: zlib1g
+  Depends: texinfo
+  Depends: octave-common
+ |Recommends: gnuplot-qt
+ |Recommends: gnuplot-x11
+    gnuplot-qt
+  Recommends: gnuplot-nox
+    gnuplot-qt
+    gnuplot-x11
+ |Recommends: libopenblas0
+  Recommends: libblis4
+  Recommends: pstoedit
+  Recommends: epstool
+  Recommends: default-jre-headless
+  Recommends: octave-doc
+  Suggests: octave-dev

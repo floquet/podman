@@ -1,0 +1,20 @@
+Package: ltrace
+Architecture: amd64
+Version: 0.7.3-6.4ubuntu3
+Priority: optional
+Section: universe/utils
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Juan Cespedes <cespedes@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 382
+Depends: libc6 (>= 2.34), libelf1t64 (>= 0.131), libselinux1 (>= 3.1~)
+Filename: pool/universe/l/ltrace/ltrace_0.7.3-6.4ubuntu3_amd64.deb
+Size: 134192
+MD5sum: 589472cc69d8015852e2fb2a39ad3595
+SHA1: b49c481fbf801459b8a6090a2d857a8763c4cde2
+SHA256: 829ce2c5c867ba0a40fc12e63fe29a7caef7b27afa7d568083ef212332490c4a
+SHA512: 8676a4ea76fa6980d175af0a375de7901b4031479afd53c76c726ba8d94ef3e3860bf00ccb6bb2ac06910f36150e0234158f6bf150d78bbde8cdcd2acb47ac00
+Description: Tracks runtime library calls in dynamically linked programs
+Description-md5: ff2cc28bbc4f3ce119d059af641ea073
+

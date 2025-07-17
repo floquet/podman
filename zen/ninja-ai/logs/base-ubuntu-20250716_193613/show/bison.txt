@@ -1,0 +1,23 @@
+Package: bison
+Architecture: amd64
+Version: 2:3.8.2+dfsg-1build2
+Multi-Arch: foreign
+Priority: optional
+Section: devel
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Chuan-kai Lin <cklin@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 2456
+Depends: m4, libc6 (>= 2.38)
+Suggests: bison-doc
+Filename: pool/main/b/bison/bison_3.8.2+dfsg-1build2_amd64.deb
+Size: 748688
+MD5sum: 173f8b6f0b8245cae49267cd97f38399
+SHA1: 327426bda87fb13208dc91c4bfccc83bb8f45e8f
+SHA256: 18f487c400da3e968a44ecb3783a443641bcd14e2b080ed9ed1167f4aa2c1612
+SHA512: bbb1dcfae12a9e246c809bd1a8b93b9e4601e18c357833ec39e6af2e67509921451503c2ad0f6404f6c0496b34c26cb7344181944771cac11212fcef133d235e
+Homepage: https://www.gnu.org/software/bison/
+Description: YACC-compatible parser generator
+Description-md5: 3b8154d16aa228f689bcd81364e7088c
+

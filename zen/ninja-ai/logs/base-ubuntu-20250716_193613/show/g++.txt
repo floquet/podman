@@ -1,0 +1,25 @@
+Package: g++
+Architecture: amd64
+Version: 4:13.2.0-7ubuntu1
+Priority: optional
+Build-Essential: yes
+Section: devel
+Source: gcc-defaults (1.214ubuntu1)
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 13
+Provides: c++-compiler
+Depends: cpp (= 4:13.2.0-7ubuntu1), cpp-x86-64-linux-gnu (= 4:13.2.0-7ubuntu1), gcc (= 4:13.2.0-7ubuntu1), g++-13 (>= 13.2.0-11~), g++-x86-64-linux-gnu (= 4:13.2.0-7ubuntu1), gcc-13 (>= 13.2.0-11~)
+Suggests: g++-multilib
+Filename: pool/main/g/gcc-defaults/g++_13.2.0-7ubuntu1_amd64.deb
+Size: 1100
+MD5sum: 4ad944aa44dc1e47976a60d89b854334
+SHA1: 5fcf86dcc889a95ea95eec433f7c01f59e946271
+SHA256: 800a84b369c64b18d65f0fb5c1533de0446c880ee4f1cadad64e3363327f63f0
+SHA512: 5472831c47bd1bd163b72b1dcb253e081c0ecb724ea515548f8da4f0699f11fcf54bf8c33ab1e7f6f8a60d52f574662a9d0d5c945de188d3cde4dd4bab30145b
+Description: GNU C++ compiler
+Description-md5: 4d44b18774ae5123b7c3f70d940cf655
+Task: xubuntu-desktop, ubuntustudio-photography, ubuntustudio-publishing, ubuntukylin-desktop, ubuntukylin-desktop, ubuntukylin-desktop-minimal, ubuntu-mate-core, ubuntu-mate-desktop, ubuntu-budgie-desktop-minimal, ubuntu-budgie-desktop, ubuntu-budgie-desktop-raspi, ubuntu-unity-desktop, edubuntu-desktop-gnome-minimal, edubuntu-desktop-gnome, edubuntu-desktop-gnome-raspi, ubuntucinnamon-desktop-minimal, ubuntucinnamon-desktop
+

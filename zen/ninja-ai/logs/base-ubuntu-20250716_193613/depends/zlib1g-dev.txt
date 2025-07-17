@@ -1,0 +1,6 @@
+zlib1g-dev
+  Depends: zlib1g
+ |Depends: libc6-dev
+  Depends: <libc-dev>
+    libc6-dev
+  Conflicts: <zlib1-dev>

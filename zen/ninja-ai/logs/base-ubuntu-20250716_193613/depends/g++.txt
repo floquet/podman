@@ -1,0 +1,8 @@
+g++
+  Depends: cpp
+  Depends: cpp-x86-64-linux-gnu
+  Depends: gcc
+  Depends: g++-13
+  Depends: g++-x86-64-linux-gnu
+  Depends: gcc-13
+  Suggests: g++-multilib

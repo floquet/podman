@@ -8,7 +8,7 @@ function new_step() { counter=$((counter+1)); subcounter=0; echo -e "\nStep ${co
 function sub_step() { subcounter=$((subcounter+1)); echo -e "\n  Substep ${counter}.${subcounter}: $1"; }
 function elapsed()  { secs=$((SECONDS-start_time)); printf "\nTotal elapsed time: %02d:%02d (MM:SS)\n" $((secs/60)) $((secs%60)); }
 
-TARGET_DIR="/workspace/podman/zen/ninja-ai/logs/base-ubuntu-$(date +%Y%m%d_%H%M%S)"
+TARGET_DIR="/workspace/zen/ninja-ai/logs/base-ubuntu-$(date +%Y%m%d_%H%M%S)"
 
 new_step "Create directories $TARGET_DIR/{show,depends,policy,rdepends}"
 mkdir -p "$TARGET_DIR"/{show,depends,policy,rdepends}
@@ -137,6 +137,7 @@ function install_packages() {
     sub_step "apt-cache policy $package"
     apt-cache policy "$package" > "$TARGET_DIR/policy/$package.txt" &
   done
+  echo "Waiting for background apt-cache commands..."
   wait  # Wait for background apt-cache commands
 }
 

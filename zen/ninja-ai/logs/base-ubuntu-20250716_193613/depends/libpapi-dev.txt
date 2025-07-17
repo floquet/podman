@@ -1,0 +1,3 @@
+libpapi-dev
+  Depends: libpapi7.1t64
+  Depends: libsde1t64

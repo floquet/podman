@@ -1,0 +1,8 @@
+google-perftools
+  Depends: <perl:any>
+    perl
+  Depends: libgoogle-perftools4t64
+  Depends: curl
+  Recommends: graphviz
+  Recommends: gv
+  Suggests: libgoogle-perftools-dev
