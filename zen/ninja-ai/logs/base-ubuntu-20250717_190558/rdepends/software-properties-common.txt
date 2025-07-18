@@ -1,0 +1,16 @@
+software-properties-common
+  Depends: ca-certificates
+  Depends: gir1.2-glib-2.0
+  Depends: gir1.2-packagekitglib-1.0
+  Depends: packagekit
+  Depends: python-apt-common
+  Depends: python3
+  Depends: python3-dbus
+  Depends: python3-gi
+  Depends: python3-software-properties
+  Depends: <python3:any>
+    python3
+  Breaks: <python-software-properties>
+  Breaks: python3-software-properties
+  Replaces: <python-software-properties>
+  Replaces: python3-software-properties

@@ -1,0 +1,10 @@
+libcoarrays-openmpi-dev
+  Depends: libc6
+  Depends: libgfortran5
+  Depends: libopenmpi3
+ |Depends: gfortran
+  Depends: <fortran-compiler>
+    gfortran
+  Depends: openmpi-bin
+  Depends: libcaf-openmpi-3
+  Depends: libcoarrays-dev

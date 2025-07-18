@@ -1,0 +1,26 @@
+Package: man-db
+Architecture: amd64
+Version: 2.10.2-1
+Multi-Arch: foreign
+Priority: standard
+Section: doc
+Origin: Ubuntu
+Maintainer: Colin Watson <cjwatson@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 2824
+Provides: man, man-browser
+Depends: bsdextrautils | bsdmainutils (<< 12.1.1~), groff-base, debconf (>= 0.5) | debconf-2.0, libc6 (>= 2.34), libgdbm6 (>= 1.16), libpipeline1 (>= 1.5.0), libseccomp2 (>= 2.1.0), zlib1g (>= 1:1.1.4)
+Suggests: apparmor, groff, less, www-browser
+Conflicts: man
+Replaces: man, nlsutils
+Filename: pool/main/m/man-db/man-db_2.10.2-1_amd64.deb
+Size: 1186876
+MD5sum: a684f12c90e4c7123616d780a023bdaf
+SHA1: b996ae95f8ad24abca9ff612c734ca81ed885573
+SHA256: ef75d5dcea4aea5142e8b2b51b7c025836085cc8e58a154458434d2bd73635f4
+SHA512: ab4444e74210678fec7d1c3844981659674fc492e5d07b7869749ec40c24d63a4b5d159f319ee8dbf1b9247b846e3d2572bd4e7fb4665a4b6ef9384504d49571
+Homepage: https://nongnu.org/man-db/
+Description: tools for reading manual pages
+Description-md5: fa4d579e45a7d37a797e795644e2648b
+Task: standard
+

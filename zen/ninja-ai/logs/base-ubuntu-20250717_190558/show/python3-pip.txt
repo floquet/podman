@@ -1,0 +1,52 @@
+Package: python3-pip
+Architecture: all
+Version: 22.0.2+dfsg-1ubuntu0.6
+Priority: optional
+Section: universe/python
+Source: python-pip
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 6879
+Provides: pip
+Depends: ca-certificates, python3-distutils, python3-setuptools, python3-wheel, python3:any
+Recommends: build-essential, python3-dev (>= 3.2)
+Breaks: python-pip
+Replaces: python-pip
+Filename: pool/universe/p/python-pip/python3-pip_22.0.2+dfsg-1ubuntu0.6_all.deb
+Size: 1305706
+MD5sum: abe9d0d57681ca8b0244076eab9fecd9
+SHA1: f68cbfd166fb784855467fef4299bd49b81dc772
+SHA256: e3db3ebec8937b17255c90c061ae1f7c2768baa97d4ca60c92a8429be9dc62e1
+SHA512: 3306665c63389ce91dd516ee9aea7bcc05947ef5ebc3457add06ecdeaf33639afa0a179dda49f1936ae1613d46fb7408e3483af23ed7254fb174d043ffd53a2c
+Homepage: https://pip.pypa.io/en/stable/
+Description: Python package installer
+Description-md5: 9d251b212c019b715059567c86cd6fa2
+
+Package: python3-pip
+Architecture: all
+Version: 22.0.2+dfsg-1
+Priority: optional
+Section: universe/python
+Source: python-pip
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 6876
+Provides: pip
+Depends: ca-certificates, python3-distutils, python3-setuptools, python3-wheel, python3:any
+Recommends: build-essential, python3-dev (>= 3.2)
+Breaks: python-pip
+Replaces: python-pip
+Filename: pool/universe/p/python-pip/python3-pip_22.0.2+dfsg-1_all.deb
+Size: 1305536
+MD5sum: df02545f5335516724ed5775762830c6
+SHA1: 65f39a6ce0362ef5334a420b097fc026a4de9994
+SHA256: 188c64a430605bd02247b1b6f66afe6b08bd79a13af178822d759c35195cb034
+SHA512: 36c331d6a3d858f0c3ce48478a0c9a5df96c71a88f2f07bc1a2192b96a4b1e26509e8d03b2c1fd3e99f623315633c16d745158196976d1fdabf0fab931a6872b
+Homepage: https://pip.pypa.io/en/stable/
+Description: Python package installer
+Description-md5: 9d251b212c019b715059567c86cd6fa2
+

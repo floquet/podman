@@ -1,0 +1,10 @@
+libcoarrays-mpich-dev
+  Depends: libc6
+  Depends: libgfortran5
+  Depends: libmpich12
+ |Depends: gfortran
+  Depends: <fortran-compiler>
+    gfortran
+  Depends: mpich
+  Depends: libcaf-mpich-3
+  Depends: libcoarrays-dev

@@ -1,0 +1,6 @@
+g++
+  Depends: cpp
+  Depends: gcc
+  Depends: g++-11
+  Depends: gcc-11
+  Suggests: g++-multilib

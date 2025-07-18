@@ -1,0 +1,7 @@
+Filesystem                            Size  Used Avail Use% Mounted on
+a2a0ee2c717462feb1de2f5afd59de5fd2d8  1.9T  573G  1.3T  31% /Dropbox
+/dev/vda4                             120G   24G   96G  20% /etc/localtime
+tmpfs                                 2.4G  200K  2.4G   1% /etc/hosts
+shm                                    63M     0   63M   0% /dev/shm
+overlay                               120G   24G   96G  20% /
+tmpfs                                  64M     0   64M   0% /dev

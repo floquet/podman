@@ -1,0 +1,7 @@
+nvidia-cuda-dev:
+  Installed: 11.5.1-1ubuntu1
+  Candidate: 11.5.1-1ubuntu1
+  Version table:
+ *** 11.5.1-1ubuntu1 500
+        500 http://archive.ubuntu.com/ubuntu jammy/multiverse amd64 Packages
+        100 /var/lib/dpkg/status

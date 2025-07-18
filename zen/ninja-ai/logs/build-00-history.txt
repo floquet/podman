@@ -1,4 +1,19 @@
-#!/usr/bin/env bash
+    1  echo "export PS1='\[\033[32m\]\u\[\033[37m\]@\[\033[37m\]\h\[\033[33m\]:\w\[\033[0m\]# '" >> ~/.bashrc
+    2  ./bashrc
+    3  ~./.bashrc
+    4  pwd
+    5  ls
+    6  cd root/
+    7  ls
+    8  cd
+    9  ls
+   10  ls -alh
+   11  ./bashrc
+   12  source .bashrc 
+   13  cd .
+   14  cd ..
+   15  pwd
+   16  echo '#!/usr/bin/env bash
 printf "%s\n" "$(tput bold)$(date) ${BASH_SOURCE[0]}$(tput sgr0)"
 
 counter=0; subcounter=0; start_time=${SECONDS}
@@ -12,6 +27,10 @@ new_step "apt-get update"
 new_step "apt-get upgrade -y"
           apt-get upgrade -y
           
-new_step "elpased"
-          elpased
-          
+new_step "elapsed"
+          elapsed' > apt-refresh.sh
+   17  hmod +x apt-refresh.sh 
+   18  chmod +x apt-refresh.sh 
+   19  ./apt-refresh.sh 
+   20  history
+   21  history > /repos/github/podman/zen/ninja-ai/logs/build-00-history.txt

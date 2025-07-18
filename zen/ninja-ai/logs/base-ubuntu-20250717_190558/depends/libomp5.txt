@@ -1,0 +1,2 @@
+libomp5
+  Depends: libomp5-14

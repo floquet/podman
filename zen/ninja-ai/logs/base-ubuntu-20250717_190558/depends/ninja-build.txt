@@ -1,0 +1,4 @@
+ninja-build
+  Depends: libc6
+  Depends: libstdc++6
+  Suggests: python3

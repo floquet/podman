@@ -1,0 +1,11 @@
+clang
+  Depends: clang-14
+  Breaks: <clang-3.2>
+  Breaks: <clang-3.3>
+  Breaks: <clang-3.4>
+  Breaks: <clang-3.5>
+  Replaces: clang
+  Replaces: <clang-3.2>
+  Replaces: <clang-3.3>
+  Replaces: <clang-3.4>
+  Replaces: <clang-3.5>

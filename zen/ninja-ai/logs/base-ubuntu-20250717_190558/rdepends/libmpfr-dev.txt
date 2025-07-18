@@ -1,0 +1,6 @@
+libmpfr-dev
+  Depends: libgmp-dev
+  Depends: libmpfr6
+  Breaks: libgmp3-dev
+  Suggests: libmpfr-doc
+  Replaces: libgmp3-dev

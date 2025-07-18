@@ -1,0 +1,25 @@
+Package: autoconf
+Architecture: all
+Version: 2.71-2
+Multi-Arch: foreign
+Priority: optional
+Section: devel
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian QA Group <packages@qa.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 2032
+Depends: perl (>> 5.005), m4 (>= 1.4.13), debianutils (>= 1.8)
+Recommends: automake | automaken
+Suggests: autoconf-archive, gnu-standards, autoconf-doc, libtool, gettext
+Breaks: gettext (<< 0.10.39), pkg-config (<< 0.25-1.1)
+Filename: pool/main/a/autoconf/autoconf_2.71-2_all.deb
+Size: 337608
+MD5sum: a5c1029062b287f8df7b37dc43c9264f
+SHA1: f8eeb30ce97e0b41f14feb86bd0e02a600efcded
+SHA256: 96b528889794c4134015a63c75050f93d8aecdf5e3f2a20993c1433f4c61b80e
+SHA512: c450fb56789f533ac939beeaf19019aeaee417bc8de4b3234b0ac4a3575f114d803046f0475264d70a7b724727d2be4a4ce49023f120086b179ebf4e123018e7
+Homepage: https://www.gnu.org/software/autoconf/
+Description: automatic configure script builder
+Description-md5: 4336cf24a71f6337447f744a61a67166
+

@@ -1,0 +1,52 @@
+Package: zlib1g-dev
+Architecture: amd64
+Version: 1:1.2.11.dfsg-2ubuntu9.2
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: zlib
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Mark Brown <broonie@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 592
+Provides: libz-dev
+Depends: zlib1g (= 1:1.2.11.dfsg-2ubuntu9.2), libc6-dev | libc-dev
+Conflicts: zlib1-dev
+Filename: pool/main/z/zlib/zlib1g-dev_1.2.11.dfsg-2ubuntu9.2_amd64.deb
+Size: 164060
+MD5sum: 478e06cf530a26eda164d3902978045a
+SHA1: 6d348190feb8527c3641b9596aa7107d439d5df8
+SHA256: 679f94589586a433c31fa9f705a6fd2e3bfa2407542ba06227ce14f821647764
+SHA512: e6efd17bfc272414a34d2e1c10ae22ba2383fb076b50d60a4592017d41b6f3308b0537193390a488a3b99879c2b8aed59cd270bf511a4c54c5b83b40d884ba39
+Homepage: http://zlib.net/
+Description: compression library - development
+Description-md5: d7f4e8a626131fc83c643c5d59096290
+Task: ubuntustudio-publishing
+
+Package: zlib1g-dev
+Architecture: amd64
+Version: 1:1.2.11.dfsg-2ubuntu9
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: zlib
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Mark Brown <broonie@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 592
+Provides: libz-dev
+Depends: zlib1g (= 1:1.2.11.dfsg-2ubuntu9), libc6-dev | libc-dev
+Conflicts: zlib1-dev
+Filename: pool/main/z/zlib/zlib1g-dev_1.2.11.dfsg-2ubuntu9_amd64.deb
+Size: 163952
+MD5sum: 39dc35e6c7a4cd071724664c6ce192b3
+SHA1: 2925b77e147d2de9ded7a14abd71a426a0c09c6f
+SHA256: ddbadadcbfe2669de79eabac36a990f0f1666bb86a87d1a9cd56fd72620ca2db
+SHA512: 7bb93cb5d8da53947b331715d8148cea2ea7845cf78f45916e27133709a01d0844ccee8915b0707bd8dddb784a5e797bc79bce5a313f04c1c35c0099a2cd1080
+Homepage: http://zlib.net/
+Description: compression library - development
+Description-md5: d7f4e8a626131fc83c643c5d59096290
+Task: ubuntustudio-publishing
+

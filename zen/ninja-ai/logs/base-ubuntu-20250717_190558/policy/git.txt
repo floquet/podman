@@ -1,0 +1,10 @@
+git:
+  Installed: 1:2.34.1-1ubuntu1.15
+  Candidate: 1:2.34.1-1ubuntu1.15
+  Version table:
+ *** 1:2.34.1-1ubuntu1.15 500
+        500 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 Packages
+        500 http://security.ubuntu.com/ubuntu jammy-security/main amd64 Packages
+        100 /var/lib/dpkg/status
+     1:2.34.1-1ubuntu1 500
+        500 http://archive.ubuntu.com/ubuntu jammy/main amd64 Packages

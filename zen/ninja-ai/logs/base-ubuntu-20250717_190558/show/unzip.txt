@@ -1,0 +1,72 @@
+Package: unzip
+Architecture: amd64
+Version: 6.0-26ubuntu3.2
+Multi-Arch: foreign
+Priority: optional
+Section: utils
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Santiago Vila <sanvila@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 377
+Depends: libbz2-1.0, libc6 (>= 2.34)
+Suggests: zip
+Filename: pool/main/u/unzip/unzip_6.0-26ubuntu3.2_amd64.deb
+Size: 174540
+MD5sum: e2d0228deaba8d4402405420f2973d93
+SHA1: 5d14a16c19078fd3dcee7f84ac7327269ee609d6
+SHA256: 4f274ffc6774d52878322ef1e3eb6d185003e1607448e62893849825bfae347d
+SHA512: 819b391e0cc5df666aa19d8b52e98909e0958994cd6d0eeeabae77494dd6a83c0e9058a712312358f8d0e3a1009d5409376f1f3bbe74a6e2a9c1f4b6a971fc3e
+Homepage: http://www.info-zip.org/UnZip.html
+Description: De-archiver for .zip files
+Description-md5: b83e2b495da5d292f3fe6ab67b088c47
+Task: ubuntu-desktop-minimal, ubuntu-desktop, ubuntu-desktop-raspi, kubuntu-desktop, xubuntu-core, xubuntu-desktop, lubuntu-desktop, ubuntustudio-desktop-core, ubuntustudio-desktop, ubuntukylin-desktop, ubuntu-mate-core, ubuntu-mate-desktop, ubuntu-budgie-desktop, ubuntu-budgie-desktop-raspi
+
+Package: unzip
+Architecture: amd64
+Version: 6.0-26ubuntu3.1
+Multi-Arch: foreign
+Priority: optional
+Section: utils
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Santiago Vila <sanvila@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 376
+Depends: libbz2-1.0, libc6 (>= 2.34)
+Suggests: zip
+Filename: pool/main/u/unzip/unzip_6.0-26ubuntu3.1_amd64.deb
+Size: 174488
+MD5sum: fb824ea2b76f9e5151a479bd585ae6d4
+SHA1: b6901e375a7483af396831d605b6d5824c21c0a4
+SHA256: 61ef7f3b96ae95197ff17643cb3bad50b72df467dd11a595c91f643a2180113e
+SHA512: 2bf2071b93d9449f07aa4ccd75bb44f64317332c5b3d1f7a052f375146714c4cc894533694713e2ed7e0c1d6e6933e93972d0b09a3386208606237f8c87b273b
+Homepage: http://www.info-zip.org/UnZip.html
+Description: De-archiver for .zip files
+Description-md5: b83e2b495da5d292f3fe6ab67b088c47
+Task: ubuntu-desktop-minimal, ubuntu-desktop, ubuntu-desktop-raspi, kubuntu-desktop, xubuntu-core, xubuntu-desktop, lubuntu-desktop, ubuntustudio-desktop-core, ubuntustudio-desktop, ubuntukylin-desktop, ubuntu-mate-core, ubuntu-mate-desktop, ubuntu-budgie-desktop, ubuntu-budgie-desktop-raspi
+
+Package: unzip
+Architecture: amd64
+Version: 6.0-26ubuntu3
+Multi-Arch: foreign
+Priority: optional
+Section: utils
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Santiago Vila <sanvila@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 376
+Depends: libbz2-1.0, libc6 (>= 2.34)
+Suggests: zip
+Filename: pool/main/u/unzip/unzip_6.0-26ubuntu3_amd64.deb
+Size: 174226
+MD5sum: 405073e4dcbb74fcc2246fdadcb37e67
+SHA1: a27f7cf88e3a3b560db24fbb2a09d8c75edc624d
+SHA256: df92576c28558d7205500ef48d84bbdc526f8fbebe35c0c37aa183ca39790ac9
+SHA512: 6b6d30176ce75c3d6254d89c2b7ba5b6e5f115f6d2d1a5e5c6b65fa7685529ba1183f7097e4fe9be8c9084add17d5c6ed9e46e2604a7413a14a716c74354b77a
+Homepage: http://www.info-zip.org/UnZip.html
+Description: De-archiver for .zip files
+Description-md5: b83e2b495da5d292f3fe6ab67b088c47
+Task: ubuntu-desktop-minimal, ubuntu-desktop, ubuntu-desktop-raspi, kubuntu-desktop, xubuntu-core, xubuntu-desktop, lubuntu-desktop, ubuntustudio-desktop-core, ubuntustudio-desktop, ubuntukylin-desktop, ubuntu-mate-core, ubuntu-mate-desktop, ubuntu-budgie-desktop, ubuntu-budgie-desktop-raspi
+

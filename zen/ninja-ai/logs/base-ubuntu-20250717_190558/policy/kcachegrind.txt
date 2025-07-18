@@ -1,0 +1,7 @@
+kcachegrind:
+  Installed: 4:21.12.3-0ubuntu1
+  Candidate: 4:21.12.3-0ubuntu1
+  Version table:
+ *** 4:21.12.3-0ubuntu1 500
+        500 http://archive.ubuntu.com/ubuntu jammy/universe amd64 Packages
+        100 /var/lib/dpkg/status

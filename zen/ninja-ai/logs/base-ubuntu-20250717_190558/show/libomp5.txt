@@ -1,0 +1,22 @@
+Package: libomp5
+Architecture: amd64
+Version: 1:14.0-55~exp2
+Multi-Arch: same
+Priority: extra
+Section: universe/libs
+Source: llvm-defaults (0.55~exp2)
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 16
+Depends: libomp5-14 (>= 14~)
+Filename: pool/universe/l/llvm-defaults/libomp5_14.0-55~exp2_amd64.deb
+Size: 3060
+MD5sum: 45526492d3d783ba771e9272e9cb2c75
+SHA1: b4db03981328e603250b5082a9821da57d0b16e9
+SHA256: 2d11e3956e608ec18f93634bae7f9fa4c0e6d2096047bf387496988dbbea2fd2
+SHA512: d94ebc09843eb55e6e5be62ad18936d3db0659e2b9dea17c2e7c436506e812f10d0e6a638686997d12e0f4741efa42fa2669b30872fba9c758942d01c42834d3
+Description: LLVM OpenMP runtime
+Description-md5: 1857602f0c7622e7b639d5c31236a858
+

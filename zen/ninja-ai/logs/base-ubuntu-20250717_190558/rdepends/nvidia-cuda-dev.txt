@@ -1,0 +1,64 @@
+nvidia-cuda-dev
+  Depends: libcudart11.0
+  Depends: libaccinj64-11.5
+  Depends: libcuinj64-11.5
+  Depends: libnvrtc11.2
+  Depends: libnvrtc-builtins11.5
+  Depends: libnvtoolsext1
+  Depends: libnvvm4
+  Depends: libcublas11
+  Depends: libcublaslt11
+  Depends: libnvblas11
+  Depends: libcufft10
+  Depends: libcufftw10
+  Depends: libcurand10
+  Depends: libcusolver11
+  Depends: libcusolvermg11
+  Depends: libcusparse11
+  Depends: libnppc11
+  Depends: libnppial11
+  Depends: libnppicc11
+  Depends: libnppidei11
+  Depends: libnppif11
+  Depends: libnppig11
+  Depends: libnppim11
+  Depends: libnppist11
+  Depends: libnppisu11
+  Depends: libnppitc11
+  Depends: libnpps11
+  Depends: libnvjpeg11
+  Depends: libcupti-dev
+  Depends: libnvidia-ml-dev
+  Depends: libthrust-dev
+ |Depends: libnvidia-compute-495
+ |Depends: <libnvidia-compute-495-server>
+ |Depends: <libcuda.so.1>
+    libnvidia-compute-535
+    libnvidia-compute-535-server
+    libnvidia-compute-545
+    libnvidia-compute-550
+    libnvidia-compute-565-server
+    libnvidia-compute-570
+    libnvidia-compute-570-server
+    libnvidia-compute-575
+    libnvidia-compute-575-server
+  Depends: <libcuda-11.5-1>
+    libnvidia-compute-535
+    libnvidia-compute-535-server
+    libnvidia-compute-545
+    libnvidia-compute-550
+    libnvidia-compute-565-server
+    libnvidia-compute-570
+    libnvidia-compute-570-server
+    libnvidia-compute-575
+    libnvidia-compute-575-server
+  Breaks: <libcuda1>
+    libnvidia-compute-390
+    libnvidia-compute-418-server
+    libnvidia-compute-450-server
+    libnvidia-compute-470
+    libnvidia-compute-470-server
+ |Recommends: libgl1-mesa-dev
+  Recommends: libgl-dev
+  Recommends: libvdpau-dev
+  Recommends: <libnvcuvid1>

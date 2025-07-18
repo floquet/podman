@@ -1,0 +1,4 @@
+unzip
+  Depends: libbz2-1.0
+  Depends: libc6
+  Suggests: zip

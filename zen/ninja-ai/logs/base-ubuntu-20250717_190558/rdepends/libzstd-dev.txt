@@ -1,0 +1,2 @@
+libzstd-dev
+  Depends: libzstd1

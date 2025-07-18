@@ -1,14 +1,14 @@
 #!/usr/bin/env bash
 printf "%s\n" "$(tput bold)$(date) ${BASH_SOURCE[0]}$(tput sgr0)"
 
-# source /home/user/repos-xiuhcoatl/github/podman/zen/ninja-ai/base-ubuntu.sh 2>&1 | tee /home/user/repos-xiuhcoatl/github/podman/zen/ninja-ai/base-ubuntu-$(date +%Y%m%d_%H%M%S).txt
+# source /repos/github/podman/zen/ninja-ai/ubuntu-build-os.sh 2>&1 | tee /repos/github/podman/zen/ninja-ai/logs/base-ubuntu-$(date +%Y%m%d_%H%M%S).txt
 
 counter=0; subcounter=0; start_time=${SECONDS}
 function new_step() { counter=$((counter+1)); subcounter=0; echo -e "\nStep ${counter}: $1"; }
 function sub_step() { subcounter=$((subcounter+1)); echo -e "\n  Substep ${counter}.${subcounter}: $1"; }
 function elapsed()  { secs=$((SECONDS-start_time)); printf "\nTotal elapsed time: %02d:%02d (MM:SS)\n" $((secs/60)) $((secs%60)); }
 
-TARGET_DIR="/workspace/zen/ninja-ai/logs/base-ubuntu-$(date +%Y%m%d_%H%M%S)"
+TARGET_DIR="/repos/github/podman/zen/ninja-ai/logs/base-ubuntu-$(date +%Y%m%d_%H%M%S)"
 
 new_step "Create directories $TARGET_DIR/{show,depends,policy,rdepends}"
 mkdir -p "$TARGET_DIR"/{show,depends,policy,rdepends}
@@ -172,6 +172,12 @@ new_step "Intel install"
     sub_step "apt-get install -y intel-basekit intel-hpckit"
               apt-get install -y intel-basekit intel-hpckit
 
+new_step "Intel setup"
+    sub_step "echo 'source /opt/intel/oneapi/setvars.sh' >> ~/.bashrc"
+              echo 'source /opt/intel/oneapi/setvars.sh' >> ~/.bashrc
+    sub_step "source /opt/intel/oneapi/setvars.sh"
+              source /opt/intel/oneapi/setvars.sh
+
 new_step "Intel verification"
     sub_step "icx --version"
               icx --version
@@ -251,6 +257,9 @@ if has('mouse')
     set mouse=a
 endif
 EOF
+
+new_step "source /repos/github/podman/zen/ninja-ai/ubuntu-check-fortran.sh"
+          source /repos/github/podman/zen/ninja-ai/ubuntu-check-fortran.sh
 
 new_step "Close with elapsed time"
 elapsed

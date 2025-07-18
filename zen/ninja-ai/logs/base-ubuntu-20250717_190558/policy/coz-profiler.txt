@@ -1,0 +1,7 @@
+coz-profiler:
+  Installed: 0.2.2-2
+  Candidate: 0.2.2-2
+  Version table:
+ *** 0.2.2-2 500
+        500 http://archive.ubuntu.com/ubuntu jammy/universe amd64 Packages
+        100 /var/lib/dpkg/status

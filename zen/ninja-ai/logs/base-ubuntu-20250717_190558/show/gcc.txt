@@ -1,0 +1,27 @@
+Package: gcc
+Architecture: amd64
+Version: 4:11.2.0-1ubuntu1
+Priority: optional
+Section: devel
+Source: gcc-defaults (1.193ubuntu1)
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 50
+Provides: c-compiler, gcc-x86-64-linux-gnu (= 4:11.2.0-1ubuntu1)
+Depends: cpp (= 4:11.2.0-1ubuntu1), gcc-11 (>= 11.2.0-1~)
+Recommends: libc6-dev | libc-dev
+Suggests: gcc-multilib, make, manpages-dev, autoconf, automake, libtool, flex, bison, gdb, gcc-doc
+Conflicts: gcc-doc (<< 1:2.95.3)
+Filename: pool/main/g/gcc-defaults/gcc_11.2.0-1ubuntu1_amd64.deb
+Size: 5112
+MD5sum: 5cc3273b99ad19d1e7029c7411873c6f
+SHA1: def88673d4fd2c7620fdba33e77287ec43cb8305
+SHA256: be895c1a9611905254f818c41092f147f5f2a566f87f1817b5c36d977020bea7
+SHA512: 4f8d51089dc511f0da886fa577299078693f0b9383a5b4f6c96f27a590741a0c4c67c0c0964d6fa89a7aac866632e8f10a95496f0696e5149ec3b469ddda74f5
+Description: GNU C compiler
+Description-md5: c7efd71c7c651a9ac8b2adf36b137790
+Task: ubuntustudio-video, ubuntustudio-publishing, ubuntu-mate-core, ubuntu-mate-desktop
+Build-Essential: yes
+

@@ -1,0 +1,48 @@
+Package: cmake
+Architecture: amd64
+Version: 3.22.1-1ubuntu1.22.04.2
+Multi-Arch: foreign
+Priority: optional
+Section: devel
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian CMake Team <pkg-cmake-team@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 20742
+Depends: libarchive13 (>= 3.3.3), libc6 (>= 2.34), libcurl4 (>= 7.16.2), libexpat1 (>= 2.0.1), libgcc-s1 (>= 3.3.1), libjsoncpp25 (>= 1.9.5), librhash0 (>= 1.2.6), libstdc++6 (>= 12), libuv1 (>= 1.38.0), zlib1g (>= 1:1.1.4), cmake-data (= 3.22.1-1ubuntu1.22.04.2), procps
+Recommends: gcc, make
+Suggests: cmake-doc, ninja-build, cmake-format
+Filename: pool/main/c/cmake/cmake_3.22.1-1ubuntu1.22.04.2_amd64.deb
+Size: 5010038
+MD5sum: 12dcd8e5861a9d987fe58b59993d546e
+SHA1: 45528bec3eb7783375e20ea7c4efbd4ec6d071ab
+SHA256: 55a46b2f9bbc8899ae6772f0313ca2dd88801a514feaa488c88094c4fafa83c5
+SHA512: 5a5a89368d392cddc320800caf310f24e3c7d64330247ac6d50b7acf2d725a8c1b68d7dd9a8ebd2a32e66a443db6a8e213313bd8695de4c769382ff9ea8508c9
+Homepage: https://cmake.org/
+Description: cross-platform, open-source make system
+Description-md5: 47b53839da906127970f1e8c870afc2d
+
+Package: cmake
+Architecture: amd64
+Version: 3.22.1-1ubuntu1
+Multi-Arch: foreign
+Priority: optional
+Section: devel
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian CMake Team <pkg-cmake-team@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 20741
+Depends: libarchive13 (>= 3.3.3), libc6 (>= 2.34), libcurl4 (>= 7.16.2), libexpat1 (>= 2.0.1), libgcc-s1 (>= 3.3.1), libjsoncpp25 (>= 1.9.5), librhash0 (>= 1.2.6), libstdc++6 (>= 11), libuv1 (>= 1.38.0), zlib1g (>= 1:1.1.4), cmake-data (= 3.22.1-1ubuntu1), procps
+Recommends: gcc, make
+Suggests: cmake-doc, ninja-build, cmake-format
+Filename: pool/main/c/cmake/cmake_3.22.1-1ubuntu1_amd64.deb
+Size: 5012078
+MD5sum: 3baa16e28221a59f391fe8d7d7249861
+SHA1: dc7d3a21220a4f49b196ab43ed9488ca35fa1bb1
+SHA256: 5cda51128ca90f80de48a63f12818f8220bb4cd8fc42853500b8a4e71039b1c9
+SHA512: 876cd8a54a766523ebed5227bbccfd9773123bce7a2c6201ef2ca86c67cfcf673a7a0923969fd6c5ee2f072fcd4f402b2175d9cdf03a90825455bdc7f8150031
+Homepage: https://cmake.org/
+Description: cross-platform, open-source make system
+Description-md5: 47b53839da906127970f1e8c870afc2d
+

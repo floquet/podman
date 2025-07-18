@@ -1,0 +1,27 @@
+Package: liblapack-dev
+Architecture: amd64
+Version: 3.10.0-2ubuntu1
+Multi-Arch: same
+Priority: optional
+Section: devel
+Source: lapack
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 24385
+Provides: liblapack.so
+Depends: liblapack3 (= 3.10.0-2ubuntu1), libblas-dev | libblas.so
+Suggests: liblapack-doc
+Breaks: liblapack-pic (<< 3.8.0-3)
+Replaces: liblapack-pic (<< 3.8.0-3)
+Filename: pool/main/l/lapack/liblapack-dev_3.10.0-2ubuntu1_amd64.deb
+Size: 4773640
+MD5sum: 40dbea8ac0c7b1bac1d30b0d81d1aa2d
+SHA1: 74af1e8d4758e719f08b4d65a94b094ce2ebfd75
+SHA256: 37ea7dc25f82a26aeaf6220f50892c823d29aa23d303d2f7bdb4912d50eca92e
+SHA512: 0a9bb80c6095f759e5e1cae09f471be76a02c40b5f41f7db9650c774c79a58ec91a09c2360abf2a92e1a876c13173d19925e11618eaa513dec41b0743c03f2a0
+Homepage: https://www.netlib.org/lapack/
+Description: Library of linear algebra routines 3 - static version
+Description-md5: 65560acd47f612ac798597cb69465bf3
+

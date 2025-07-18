@@ -1,0 +1,7 @@
+pkg-config
+  Depends: libc6
+  Depends: libglib2.0-0
+  Depends: libdpkg-perl
+  Conflicts: <pkg-config-bin>
+  Suggests: dpkg-dev
+  Replaces: <pkg-config-bin>

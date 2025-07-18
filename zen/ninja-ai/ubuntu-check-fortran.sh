@@ -6,7 +6,7 @@ function new_step() { counter=$((counter+1)); subcounter=0; echo -e "\nStep ${co
 function sub_step() { subcounter=$((subcounter+1)); echo -e "\n  Substep ${counter}.${subcounter}: $1"; }
 function elapsed()  { secs=$((SECONDS-start_time)); printf "\nTotal elapsed time: %02d:%02d (MM:SS)\n" $((secs/60)) $((secs%60)); }
 
-TARGET_DIR="/workspace/podman/zen/ninja-ai/logs/fortran-check-$(date +%Y%m%d_%H%M%S)"
+TARGET_DIR="/repos/github/podman/zen/ninja-ai/logs/fortran-check-$(date +%Y%m%d_%H%M%S)"
 mkdir -p "$TARGET_DIR"
 
 new_step "Check Fortran compiler installation"
@@ -73,7 +73,7 @@ end program cotest' > "$TARGET_DIR/cotest.f90"
     
     sub_step "Attempt coarray compilation with caf"
         if command -v caf &> /dev/null; then
-            caf "$TARGET_DIR/cotest.f90" -o "$TARGET_DIR/cotest"
+            caf "$TARGET_DIR/cotest.f90" -o "$TARGET_DIR/cotest" 
             echo "Coarray compilation successful"
         else
             echo "caf compiler not available - trying gfortran with coarray flags"
@@ -104,3 +104,28 @@ new_step "System information"
         ls -la /usr/bin/*fortran* /usr/bin/*gfortran* 2>/dev/null || echo "No additional Fortran compilers found"
 
 elapsed
+
+
+#Step 6: Test Coarray Fortran compilation
+#
+#  Substep 6.1: Create coarray test program
+#
+#  Substep 6.2: Attempt coarray compilation with caf
+#Coarray compilation successful
+#
+#  Substep 6.3: Run coarray test
+#--------------------------------------------------------------------------
+#mpiexec has detected an attempt to run as root.
+#
+#Running as root is *strongly* discouraged as any mistake (e.g., in
+#defining TMPDIR) or bug can result in catastrophic damage to the OS
+#file system, leaving your system in an unusable state.
+#
+#We strongly suggest that you run mpiexec as a non-root user.
+#
+#You can override this protection by adding the --allow-run-as-root option
+#to the cmd line or by setting two environment variables in the following way:
+#the variable OMPI_ALLOW_RUN_AS_ROOT=1 to indicate the desire to override this
+#protection, and OMPI_ALLOW_RUN_AS_ROOT_CONFIRM=1 to confirm the choice and
+#add one more layer of certainty that you want to do so.
+#We reiterate our advice against doing so - please proceed at your own risk.

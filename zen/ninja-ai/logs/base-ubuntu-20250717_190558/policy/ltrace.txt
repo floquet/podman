@@ -1,0 +1,9 @@
+ltrace:
+  Installed: 0.7.3-6.1ubuntu6.22.04.1
+  Candidate: 0.7.3-6.1ubuntu6.22.04.1
+  Version table:
+ *** 0.7.3-6.1ubuntu6.22.04.1 500
+        500 http://archive.ubuntu.com/ubuntu jammy-updates/universe amd64 Packages
+        100 /var/lib/dpkg/status
+     0.7.3-6.1ubuntu6 500
+        500 http://archive.ubuntu.com/ubuntu jammy/universe amd64 Packages

@@ -1,0 +1,10 @@
+wget:
+  Installed: 1.21.2-2ubuntu1.1
+  Candidate: 1.21.2-2ubuntu1.1
+  Version table:
+ *** 1.21.2-2ubuntu1.1 500
+        500 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 Packages
+        500 http://security.ubuntu.com/ubuntu jammy-security/main amd64 Packages
+        100 /var/lib/dpkg/status
+     1.21.2-2ubuntu1 500
+        500 http://archive.ubuntu.com/ubuntu jammy/main amd64 Packages

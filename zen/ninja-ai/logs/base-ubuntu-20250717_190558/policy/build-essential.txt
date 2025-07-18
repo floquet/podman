@@ -1,0 +1,7 @@
+build-essential:
+  Installed: 12.9ubuntu3
+  Candidate: 12.9ubuntu3
+  Version table:
+ *** 12.9ubuntu3 500
+        500 http://archive.ubuntu.com/ubuntu jammy/main amd64 Packages
+        100 /var/lib/dpkg/status
