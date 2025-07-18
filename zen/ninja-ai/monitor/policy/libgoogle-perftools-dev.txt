@@ -1,0 +1,6 @@
+libgoogle-perftools-dev:
+  Installed: (none)
+  Candidate: 2.9.1-0ubuntu3
+  Version table:
+     2.9.1-0ubuntu3 500
+        500 http://archive.ubuntu.com/ubuntu jammy/main amd64 Packages

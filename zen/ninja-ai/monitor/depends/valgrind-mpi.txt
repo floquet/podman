@@ -1,0 +1,4 @@
+valgrind-mpi
+  Depends: libc6
+  Depends: valgrind
+  Recommends: gdb

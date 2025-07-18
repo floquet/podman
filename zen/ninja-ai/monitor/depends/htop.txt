@@ -1,0 +1,9 @@
+htop
+  Depends: libc6
+  Depends: libncursesw6
+  Depends: libnl-3-200
+  Depends: libnl-genl-3-200
+  Depends: libtinfo6
+  Suggests: lm-sensors
+  Suggests: lsof
+  Suggests: strace

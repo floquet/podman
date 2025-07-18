@@ -1,0 +1,12 @@
+manpages-dev
+  Depends: manpages
+  Breaks: libattr1-dev
+  Breaks: libbsd-dev
+  Breaks: manpages
+  Suggests: <man-browser>
+    gman
+    jed-extra
+    konqueror
+    man-db
+  Replaces: libattr1-dev
+  Replaces: libbsd-dev

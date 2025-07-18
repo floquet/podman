@@ -1,0 +1,7 @@
+man-db:
+  Installed: 2.10.2-1
+  Candidate: 2.10.2-1
+  Version table:
+ *** 2.10.2-1 500
+        500 http://archive.ubuntu.com/ubuntu jammy/main amd64 Packages
+        100 /var/lib/dpkg/status

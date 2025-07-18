@@ -1,0 +1,7 @@
+google-perftools:
+  Installed: 2.9.1-0ubuntu3
+  Candidate: 2.9.1-0ubuntu3
+  Version table:
+ *** 2.9.1-0ubuntu3 500
+        500 http://archive.ubuntu.com/ubuntu jammy/universe amd64 Packages
+        100 /var/lib/dpkg/status

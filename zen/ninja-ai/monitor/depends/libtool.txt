@@ -1,0 +1,38 @@
+libtool
+ |Depends: gcc
+  Depends: <c-compiler>
+    bcc
+    clang-11
+    clang-12
+    clang-13
+    clang-14
+    clang-15
+    gcc
+    gcc-10
+    gcc-11
+    gcc-12
+    gcc-9
+    pcc
+    tcc
+  Depends: cpp
+ |Depends: libc6-dev
+  Depends: <libc-dev>
+    libc6-dev
+  Depends: file
+  Depends: autotools-dev
+  Conflicts: autoconf
+  Conflicts: automake
+  Conflicts: <libtool1.4>
+  Recommends: libltdl-dev
+  Suggests: libtool-doc
+  Suggests: autoconf
+  Suggests: <automaken>
+    automake
+    automake1.11
+ |Suggests: gfortran
+  Suggests: <fortran95-compiler>
+    gfortran-10
+    gfortran-11
+    gfortran-12
+    gfortran-9
+  Suggests: <gcj-jdk>

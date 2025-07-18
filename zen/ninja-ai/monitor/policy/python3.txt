@@ -1,0 +1,11 @@
+python3:
+  Installed: 3.10.6-1~22.04.1
+  Candidate: 3.10.6-1~22.04.1
+  Version table:
+ *** 3.10.6-1~22.04.1 500
+        500 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 Packages
+        100 /var/lib/dpkg/status
+     3.10.6-1~22.04 500
+        500 http://security.ubuntu.com/ubuntu jammy-security/main amd64 Packages
+     3.10.4-0ubuntu2 500
+        500 http://archive.ubuntu.com/ubuntu jammy/main amd64 Packages

@@ -1,0 +1,10 @@
+libgmp-dev
+  Depends: libgmp10
+  Depends: libgmpxx4ldbl
+  Conflicts: <libgmp10-dev>
+  Suggests: gmp-doc
+  Suggests: libgmp10-doc
+  Suggests: libmpfr-dev
+  Replaces: <libgmp10-dev>
+    libgmp-dev
+  Replaces: libgmp3-dev

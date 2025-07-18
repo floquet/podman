@@ -1,0 +1,15 @@
+autoconf
+  Depends: perl
+  Depends: m4
+  Depends: debianutils
+  Breaks: gettext
+  Breaks: pkg-config
+ |Recommends: automake
+  Recommends: <automaken>
+    automake
+    automake1.11
+  Suggests: autoconf-archive
+  Suggests: gnu-standards
+  Suggests: autoconf-doc
+  Suggests: libtool
+  Suggests: gettext

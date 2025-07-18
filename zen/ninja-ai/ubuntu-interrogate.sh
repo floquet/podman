@@ -2,7 +2,7 @@
 printf "%s\n" "$(tput bold)$(date) ${BASH_SOURCE[0]}$(tput sgr0)"
 
 # Create output directory if it doesn't exist
-TARGET_DIR="/workspace/zen/ninja-ai/logs"
+TARGET_DIR="/repos/github/podman/zen/ninja-ai/logs"
 mkdir -p ${TARGET_DIR}
 
 # Generate unique filename

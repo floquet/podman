@@ -1,0 +1,23 @@
+Package: libcoarrays-openmpi-dev
+Architecture: amd64
+Version: 2.9.2-3
+Multi-Arch: same
+Priority: optional
+Section: universe/libdevel
+Source: open-coarrays
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Alastair McKinstry <mckinstry@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 8384
+Depends: libc6 (>= 2.14), libgfortran5 (>= 10), libopenmpi3 (>= 4.1.0), gfortran | fortran-compiler, openmpi-bin, libcaf-openmpi-3 (= 2.9.2-3), libcoarrays-dev
+Filename: pool/universe/o/open-coarrays/libcoarrays-openmpi-dev_2.9.2-3_amd64.deb
+Size: 452388
+MD5sum: ed72c190456b597f3fb81a8292d3eca9
+SHA1: efdeeaf9d88dc4538f987c42243ff6bc4063c686
+SHA256: 01c3b067293403616638f2d7d12bc5036a7b5a45453cc066aa2955f410901f9e
+SHA512: 73acb36ce40fa42d646122321d3472b3a18246027dbf912dfccb21fa0966aecc4740bcba7e7dfc6279b1839dc47b6df96a2a14aadf387af62c743ee303ce047d
+Homepage: https://www.opencoarrays.org/
+Description: Co-Array Fortran libraries  - development files (OpenMPI)
+Description-md5: 521eab5b3cd3a12d232bdf03341cde88
+

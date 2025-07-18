@@ -1,0 +1,5 @@
+automake
+  Depends: autoconf
+  Depends: autotools-dev
+  Suggests: autoconf-doc
+  Suggests: gnu-standards

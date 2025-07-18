@@ -1,0 +1,7 @@
+mpich:
+  Installed: 4.0-3
+  Candidate: 4.0-3
+  Version table:
+ *** 4.0-3 500
+        500 http://archive.ubuntu.com/ubuntu jammy/universe amd64 Packages
+        100 /var/lib/dpkg/status

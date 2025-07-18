@@ -1,0 +1,7 @@
+libisl-dev:
+  Installed: 0.24-2build1
+  Candidate: 0.24-2build1
+  Version table:
+ *** 0.24-2build1 500
+        500 http://archive.ubuntu.com/ubuntu jammy/main amd64 Packages
+        100 /var/lib/dpkg/status

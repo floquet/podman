@@ -1,0 +1,19 @@
+texinfo
+  Depends: libc6
+  Depends: perl
+  Depends: <perlapi-5.34.0>
+    perl-base
+  Depends: libtext-unidecode-perl
+  Depends: libxml-libxml-perl
+  Depends: tex-common
+  Breaks: <ja-trans>
+  Breaks: <tetex-base>
+  Breaks: <tetex-bin>
+  Breaks: <texinfo-doc-nonfree>
+  Suggests: texlive-base
+  Suggests: texlive-latex-base
+  Suggests: texlive-plain-generic
+  Suggests: texlive-fonts-recommended
+  Replaces: <tetex-base>
+  Replaces: <tetex-bin>
+  Replaces: <texinfo-doc-nonfree>

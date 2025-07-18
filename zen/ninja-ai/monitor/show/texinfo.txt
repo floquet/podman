@@ -1,0 +1,25 @@
+Package: texinfo
+Architecture: amd64
+Version: 6.8-4build1
+Multi-Arch: foreign
+Priority: optional
+Section: universe/text
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian TeX maintainers <debian-tex-maint@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 11372
+Depends: libc6 (>= 2.34), perl, perlapi-5.34.0, libtext-unidecode-perl, libxml-libxml-perl, tex-common (>= 6)
+Suggests: texlive-base, texlive-latex-base, texlive-plain-generic, texlive-fonts-recommended
+Breaks: ja-trans (<= 0.7-3.1), tetex-base (<< 3.0), tetex-bin (<< 3.0), texinfo-doc-nonfree
+Replaces: tetex-base (<< 1.0.2+20000804-9), tetex-bin (<< 3.0), texinfo-doc-nonfree
+Filename: pool/universe/t/texinfo/texinfo_6.8-4build1_amd64.deb
+Size: 1423056
+MD5sum: c0a4d8773f63e7cf43c8ef6a61660a05
+SHA1: d4964c13212b1b97351be498cc461ab4cf511da6
+SHA256: 64d0431820e423b1375526494cf112a517c487f247776b8a3cd1557d91b472f6
+SHA512: 9f8fdfcb72f78af1668306c0e7b87b7ccb58e0056e0c0054b494644f0eee0e87dc1fb5f84700dcb10d573b850845d19af5a2c566b6538828937f57d380efc2af
+Homepage: https://www.gnu.org/software/texinfo/
+Description: Documentation system for on-line information and printed output
+Description-md5: 1c7c77fec8377bb6e9c62acc5e9736a6
+
