@@ -1,0 +1,3 @@
+strace
+  Depends: libc6
+  Depends: libunwind8

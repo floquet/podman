@@ -1,0 +1,7 @@
+libtool:
+  Installed: 2.4.6-15build2
+  Candidate: 2.4.6-15build2
+  Version table:
+ *** 2.4.6-15build2 500
+        500 http://archive.ubuntu.com/ubuntu jammy/main amd64 Packages
+        100 /var/lib/dpkg/status

@@ -1,0 +1,22 @@
+Package: libc++-dev
+Architecture: amd64
+Version: 1:14.0-55~exp2
+Multi-Arch: same
+Priority: extra
+Section: universe/libdevel
+Source: llvm-defaults (0.55~exp2)
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 16
+Depends: libc++-14-dev (>= 14~)
+Filename: pool/universe/l/llvm-defaults/libc++-dev_14.0-55~exp2_amd64.deb
+Size: 3184
+MD5sum: 9c88d7342fd54ae327505a12791fee2f
+SHA1: caf79f60ec7fc5d0bff56c9bb25372a0eb07e90b
+SHA256: 2de8b8c689056325b4691b6ead1aa112666edf71b65f0ded69f471bf2f7c2d34
+SHA512: 48c310b9dd9009e8772c44944a2d23211094c9b87c051428d5cd318e236a9edf440b00b6904de05be556b12de683e726e2c96905ff7744a681e677339f180784
+Description: LLVM C++ Standard library (development files)
+Description-md5: d6ddd828f191a901b236b63f6c33ebd7
+

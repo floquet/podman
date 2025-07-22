@@ -1,0 +1,7 @@
+automake:
+  Installed: 1:1.16.5-1.3
+  Candidate: 1:1.16.5-1.3
+  Version table:
+ *** 1:1.16.5-1.3 500
+        500 http://archive.ubuntu.com/ubuntu jammy/main amd64 Packages
+        100 /var/lib/dpkg/status

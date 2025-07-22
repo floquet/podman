@@ -1,0 +1,46 @@
+Package: curl
+Architecture: amd64
+Version: 7.81.0-1ubuntu1.20
+Multi-Arch: foreign
+Priority: optional
+Section: web
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Alessandro Ghedini <ghedo@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 444
+Depends: libc6 (>= 2.34), libcurl4 (= 7.81.0-1ubuntu1.20), zlib1g (>= 1:1.1.4)
+Filename: pool/main/c/curl/curl_7.81.0-1ubuntu1.20_amd64.deb
+Size: 194104
+MD5sum: fa3987fa75e333d931f51bd448d5b730
+SHA1: 7e91d7c63bc4b5333460667582bc7f17b994fafd
+SHA256: 46dcc747c8750a47147c83eab05cb4024823cc9f3585ac3e6a701a5579090c67
+SHA512: 30a25d96905158896b379da5f2be8409024f2c691f21c5f3111532a89305406abd489ccaff06a89f31564f89ae5fee0854bf36a7c5787f4fc5c669e5efe992fb
+Homepage: https://curl.haxx.se
+Description: command line tool for transferring data with URL syntax
+Description-md5: f83293d10df083ae6f7bb7d01642913c
+Task: server-minimal, cloud-image, ubuntu-wsl, server, ubuntu-server-raspi, ubuntustudio-publishing, ubuntu-budgie-desktop, ubuntu-budgie-desktop-raspi
+
+Package: curl
+Architecture: amd64
+Version: 7.81.0-1
+Multi-Arch: foreign
+Priority: optional
+Section: web
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Alessandro Ghedini <ghedo@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 441
+Depends: libc6 (>= 2.34), libcurl4 (= 7.81.0-1), zlib1g (>= 1:1.1.4)
+Filename: pool/main/c/curl/curl_7.81.0-1_amd64.deb
+Size: 194076
+MD5sum: 4e0b624508fc30038b57d3c021c2e470
+SHA1: 5449a9893f383975f4052e4546fccace7720f776
+SHA256: db4d0fbae50d3bb80754342615e242c73460dc5d59bdd41f08de19b26472d821
+SHA512: 43a9cc6cde18038f84d552a0257a15d2abd0cec55623997f6a6497ed5a15183f2ef37dc6eb4448f0961ca41a4cf775fcea09df252dbbfb9c7432995c26146349
+Homepage: https://curl.haxx.se
+Description: command line tool for transferring data with URL syntax
+Description-md5: f83293d10df083ae6f7bb7d01642913c
+Task: server-minimal, cloud-image, ubuntu-wsl, server, ubuntu-server-raspi, ubuntustudio-publishing, ubuntu-budgie-desktop, ubuntu-budgie-desktop-raspi
+

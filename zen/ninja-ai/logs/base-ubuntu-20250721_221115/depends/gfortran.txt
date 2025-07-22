@@ -1,0 +1,6 @@
+gfortran
+  Depends: cpp
+  Depends: gcc
+  Depends: gfortran-11
+  Suggests: gfortran-multilib
+  Suggests: gfortran-doc

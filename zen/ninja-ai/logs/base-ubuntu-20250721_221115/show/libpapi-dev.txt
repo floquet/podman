@@ -1,0 +1,23 @@
+Package: libpapi-dev
+Architecture: amd64
+Version: 6.0.0~dfsg-2
+Multi-Arch: same
+Priority: extra
+Section: universe/libdevel
+Source: papi
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian HPC Team <debian-hpc@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 905
+Depends: libpapi6.0 (= 6.0.0~dfsg-2)
+Filename: pool/universe/p/papi/libpapi-dev_6.0.0~dfsg-2_amd64.deb
+Size: 237396
+MD5sum: 0bde905a3555434dad86e840b4925438
+SHA1: 4d2e7669e9d050402f4eca20a18d221444439824
+SHA256: c075e976ed0c8add7532f48f04964371544a41526a0f93b2f75271c9c38ae3cb
+SHA512: 4de8d6e2ef9569d1f079ce577278c86372dfc465bb4671c2b1592ec31f8a96baf31b0722932cfeeabe1b55b27d401025a4c9dc4444075429d56257a4702236ed
+Homepage: https://icl.utk.edu/papi/software/index.html
+Description: PAPI development files (headers and API documentation)
+Description-md5: ad8c33eae9baf7e2a45dc255ff4527ee
+

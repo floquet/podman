@@ -1,0 +1,7 @@
+libzstd-dev:
+  Installed: 1.4.8+dfsg-3build1
+  Candidate: 1.4.8+dfsg-3build1
+  Version table:
+ *** 1.4.8+dfsg-3build1 500
+        500 http://archive.ubuntu.com/ubuntu jammy/main amd64 Packages
+        100 /var/lib/dpkg/status

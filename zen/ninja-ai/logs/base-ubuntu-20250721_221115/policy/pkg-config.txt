@@ -1,0 +1,7 @@
+pkg-config:
+  Installed: 0.29.2-1ubuntu3
+  Candidate: 0.29.2-1ubuntu3
+  Version table:
+ *** 0.29.2-1ubuntu3 500
+        500 http://archive.ubuntu.com/ubuntu jammy/main amd64 Packages
+        100 /var/lib/dpkg/status

@@ -1,0 +1,2 @@
+libpapi-dev
+  Depends: libpapi6.0

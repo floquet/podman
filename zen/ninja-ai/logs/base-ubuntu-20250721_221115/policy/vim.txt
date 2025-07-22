@@ -1,0 +1,10 @@
+vim:
+  Installed: 2:8.2.3995-1ubuntu2.24
+  Candidate: 2:8.2.3995-1ubuntu2.24
+  Version table:
+ *** 2:8.2.3995-1ubuntu2.24 500
+        500 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 Packages
+        500 http://security.ubuntu.com/ubuntu jammy-security/main amd64 Packages
+        100 /var/lib/dpkg/status
+     2:8.2.3995-1ubuntu2 500
+        500 http://archive.ubuntu.com/ubuntu jammy/main amd64 Packages

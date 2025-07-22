@@ -1,0 +1,23 @@
+Package: ninja-build
+Architecture: amd64
+Version: 1.10.1-1
+Multi-Arch: foreign
+Priority: optional
+Section: universe/devel
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Felix Geyer <fgeyer@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 350
+Depends: libc6 (>= 2.15), libstdc++6 (>= 5.2)
+Suggests: python3
+Filename: pool/universe/n/ninja-build/ninja-build_1.10.1-1_amd64.deb
+Size: 111368
+MD5sum: 5a1d24d808ef8e49f1dcaffe30cc130d
+SHA1: 5f8e5502db0920683c4761c7650cd83d35de7bd1
+SHA256: ca8aae8ac7efad41d1f96a7e227653bd62b24e89cc7ddb18cec262f1869877b2
+SHA512: 382ac9106cf00b5fdb1971655d7bae01fdf15e4060127cf84fa07d7e3628aecb68ae88fafd827780ad8c3fbb80f251bf4e72a74bfe2c1add2b56e71ba3c9a70d
+Homepage: https://ninja-build.org/
+Description: small build system closest in spirit to Make
+Description-md5: 5ef1371c63de86fcf36c1ddc875d2f26
+

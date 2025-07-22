@@ -1,0 +1,7 @@
+liblapack-dev:
+  Installed: 3.10.0-2ubuntu1
+  Candidate: 3.10.0-2ubuntu1
+  Version table:
+ *** 3.10.0-2ubuntu1 500
+        500 http://archive.ubuntu.com/ubuntu jammy/main amd64 Packages
+        100 /var/lib/dpkg/status

@@ -1,0 +1,12 @@
+manpages
+  Breaks: attr
+  Breaks: keyutils
+  Breaks: manpages-dev
+  Suggests: <man-browser>
+    gman
+    jed-extra
+    konqueror
+    man-db
+  Replaces: attr
+  Replaces: keyutils
+  Replaces: manpages-dev

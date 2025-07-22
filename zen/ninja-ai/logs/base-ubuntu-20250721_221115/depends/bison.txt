@@ -1,0 +1,4 @@
+bison
+  Depends: m4
+  Depends: libc6
+  Suggests: bison-doc

@@ -1,0 +1,7 @@
+htop:
+  Installed: 3.0.5-7build2
+  Candidate: 3.0.5-7build2
+  Version table:
+ *** 3.0.5-7build2 500
+        500 http://archive.ubuntu.com/ubuntu jammy/main amd64 Packages
+        100 /var/lib/dpkg/status

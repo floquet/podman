@@ -1,0 +1,22 @@
+Package: strace
+Architecture: amd64
+Version: 5.16-0ubuntu3
+Priority: standard
+Section: utils
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Steve McIntyre <93sam@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 2000
+Depends: libc6 (>= 2.34), libunwind8
+Filename: pool/main/s/strace/strace_5.16-0ubuntu3_amd64.deb
+Size: 566994
+MD5sum: 465955e3f0140bc447adaa5af3710121
+SHA1: fd83159d61aa159fcb8e8888c39e0f090c1aad2f
+SHA256: 847a3535be015325f127f121d2ea5ac042b32bd20a5861a94cb7782b09857b1f
+SHA512: ae49d654109bb99bd9b579cb15f0caa884dfa9e42dffab7f645530f35bc905d2825caf1b2bd7f64b46646183eb0d16e672ab990261bc362f8df8dbfceafe777b
+Homepage: https://strace.io
+Description: System call tracer
+Description-md5: a6e8380fce2adad855bb56e32092b29f
+Task: standard
+

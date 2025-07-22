@@ -1,0 +1,7 @@
+strace:
+  Installed: 5.16-0ubuntu3
+  Candidate: 5.16-0ubuntu3
+  Version table:
+ *** 5.16-0ubuntu3 500
+        500 http://archive.ubuntu.com/ubuntu jammy/main amd64 Packages
+        100 /var/lib/dpkg/status

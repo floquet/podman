@@ -1,0 +1,11 @@
+python3-pip
+  Depends: ca-certificates
+  Depends: python3-distutils
+  Depends: python3-setuptools
+  Depends: python3-wheel
+  Depends: <python3:any>
+    python3
+  Breaks: python-pip
+  Recommends: build-essential
+  Recommends: python3-dev
+  Replaces: python-pip

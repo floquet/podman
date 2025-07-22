@@ -1,0 +1,9 @@
+nano
+  Depends: libc6
+  Depends: libncursesw6
+  Depends: libtinfo6
+  Conflicts: <pico>
+  Breaks: nano-tiny
+  Suggests: hunspell
+  Replaces: nano-tiny
+  Replaces: <pico>

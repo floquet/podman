@@ -1,0 +1,21 @@
+Package: heaptrack
+Architecture: amd64
+Version: 1.3.0-1ubuntu1
+Priority: optional
+Section: universe/devel
+Origin: Ubuntu
+Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
+Original-Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 381
+Depends: libboost-filesystem1.74.0 (>= 1.74.0), libboost-iostreams1.74.0 (>= 1.74.0), libboost-program-options1.74.0 (>= 1.74.0), libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), libheaptrack (= 1.3.0-1ubuntu1)
+Filename: pool/universe/h/heaptrack/heaptrack_1.3.0-1ubuntu1_amd64.deb
+Size: 127022
+MD5sum: ce4fd106fb8a8bce3fe2aca5fc93a37d
+SHA1: ce215432748ac058c015b284bba08a3b2cdc51b0
+SHA256: 81bda189874fe03e19a5e56d04d810d1ddad55dcc73373933c1c5d2353156a25
+SHA512: 73d168752269d5a900794ce928fcb8c0e00b93780b6b92ac2974f79cc8e5b25a3723d7fabb90264f5ee073138a70919d8b00e09506101d934149329cce5325d3
+Homepage: https://github.com/KDE/heaptrack
+Description: heap memory profiler for Linux
+Description-md5: 56d96531fdd564d2850fedeec3b1576e
+

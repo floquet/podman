@@ -1,0 +1,23 @@
+Package: htop
+Architecture: amd64
+Version: 3.0.5-7build2
+Priority: optional
+Section: utils
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Daniel Lange <DLange@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 334
+Depends: libc6 (>= 2.34), libncursesw6 (>= 6), libnl-3-200 (>= 3.2.7), libnl-genl-3-200 (>= 3.2.7), libtinfo6 (>= 6)
+Suggests: lm-sensors, lsof, strace
+Filename: pool/main/h/htop/htop_3.0.5-7build2_amd64.deb
+Size: 128078
+MD5sum: c0e29142235dbfe71966d96d2afe2b28
+SHA1: 21afa71a99694c298868e1829299159d815c7179
+SHA256: ce8362bb923d011c5ed8ed22022e31b73bc66ce02cb69281218ae96af80cf4df
+SHA512: 02b5132f7f7cf5f433eb64711618a80f8851c62dda3cd0b9046d04cfe60ccbdacf1a7f17a7d5d90147f78feef755746c43df5113e5e871a5e851cdce3ed62ac9
+Homepage: https://htop.dev/
+Description: interactive processes viewer
+Description-md5: 8eb5aa19b3c92a975dc78e2165f6688d
+Task: cloud-image, ubuntu-wsl, server, ubuntu-server-raspi, lubuntu-desktop, ubuntu-mate-core, ubuntu-mate-desktop, ubuntu-budgie-desktop, ubuntu-budgie-desktop-raspi
+
