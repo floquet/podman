@@ -66,43 +66,55 @@ echo "podman images"
 
 elapsed
 
-# Mon Jul 21 21:11:14 MDT 2025 ./xiuhcoatl-prep-external-storage.sh
+# dantopa@Xiuhcoatl:xiuhcoatl $ ./xiuhcoatl-create-stage-00.sh
+# Wed Jul 23 14:50:49 MDT 2025 ./xiuhcoatl-create-stage-00.sh
 
-# Step 1: Create Podman config directory (where Podman looks for storage settings)
+# Step 1: Pull Ubuntu 22.04 base IMAGE from registry (this is downloading the template)
+# podman pull ubuntu:22.04
+# Resolved "ubuntu" as an alias (/etc/containers/registries.conf.d/000-shortnames.conf)
+# Trying to pull docker.io/library/ubuntu:22.04...
+# Getting image source signatures
+# Copying blob sha256:1d387567261efec2a352c45b8d512a8db5c246122fb9f246ae9190252a0c3adb
+# Copying config sha256:1d3ca894b30cbedfe4217dc20baaa99475eac44046a1b7e5ec6addf35cb90334
+# Writing manifest to image destination
+# 1d3ca894b30cbedfe4217dc20baaa99475eac44046a1b7e5ec6addf35cb90334
 
-# Step 2: Create storage directory on external drive (where IMAGES and CONTAINER data will live)
+# Step 2: Verify the Ubuntu IMAGE was downloaded and stored on external drive
+# podman images
+# REPOSITORY                TAG         IMAGE ID      CREATED     SIZE
+# docker.io/library/ubuntu  22.04       1d3ca894b30c  9 days ago  80.4 MB
 
-# Step 3: Set proper permissions on external storage directory
+# Step 3: Create and run a CONTAINER from the Ubuntu IMAGE
+# /bin/bash: error while loading shared libraries: libc.so.6: cannot change memory protections
 
-# Step 4: Create storage.conf file (tells Podman to use external drive instead of internal)
+# Step 4: Commit the modified CONTAINER to create a new IMAGE
+# podman commit con-stage-00-base-ubuntu img-stage-00-base-ubuntu
+# Getting image source signatures
+# Copying blob sha256:3cc982388b71ef357e0157e0b7d3059dcefa4dc9fd2e3815bde6c6ce040302f3
+# Copying blob sha256:dcfa7e9d73bd114cab994361aa520b3dfc142227213dfe3f34ee01002f0fbb62
+# Copying config sha256:8c75713d3d5d39ee45122c9143fb4ab72f294135bb4961beec1410505d0b8b97
+# Writing manifest to image destination
+# 8c75713d3d5d39ee45122c9143fb4ab72f294135bb4961beec1410505d0b8b978c75713d3d5d39ee45122c9143fb4ab72f294135bb4961beec1410505d0b8b97
 
-# Step 5: Verify configuration was created
-# [storage]
-# # CONCEPT: driver = how Podman stores IMAGES in layers (overlay is standard)
-# driver = "overlay"
-# # CONCEPT: runroot = temporary files for RUNNING CONTAINERS (stays on fast internal drive)
-# runroot = "/run/user/1000/containers"
-# # CONCEPT: graphroot = where IMAGES are stored permanently (moved to external drive)
-# graphroot = "/Volumes/samsung-t7-shield-boot-ubuntu-24.02/podman-storage"
+# Step 5: Verify our new custom IMAGE was created
+# podman images
+# REPOSITORY                          TAG         IMAGE ID      CREATED                 SIZE
+# localhost/img-stage-00-base-ubuntu  latest      8c75713d3d5d  Less than a second ago  80.4 MB
+# docker.io/library/ubuntu            22.04       1d3ca894b30c  9 days ago              80.4 MB
 
-# [storage.options]
-# additionalimagestores = []
+# Step 6: Clean up - remove the temporary CONTAINER (we keep the IMAGE)
+# podman rm con-stage-00-base-ubuntu
+# con-stage-00-base-ubuntu
 
-# [storage.options.overlay]
-# mountopt = "nodev,metacopy=on"
+# Step 7: Final verification - show what we have
+# CONCEPT: We started with ubuntu:22.04 IMAGE (template)
+# CONCEPT: We created a CONTAINER (running copy) from that IMAGE
+# CONCEPT: We modified the CONTAINER by running commands inside it
+# CONCEPT: We saved the modified CONTAINER as img-stage-00-base-ubuntu IMAGE
+# CONCEPT: Now we have a new IMAGE template ready for stage-01
+# podman images
+# REPOSITORY                          TAG         IMAGE ID      CREATED                 SIZE
+# localhost/img-stage-00-base-ubuntu  latest      8c75713d3d5d  Less than a second ago  80.4 MB
+# docker.io/library/ubuntu            22.04       1d3ca894b30c  9 days ago              80.4 MB
 
-# Step 6: Test Podman recognizes new storage location
-# store:
-#   configFile: /var/home/core/.config/containers/storage.conf
-#   containerStore:
-#     number: 0
-#     paused: 0
-#     running: 0
-#     stopped: 0
-#   graphDriverName: overlay
-#   graphOptions: {}
-#   graphRoot: /var/home/core/.local/share/containers/storage
-#   graphRootAllocated: 127995891712
-
-# Total elapsed time: 00:01 (MM:SS)
-
+# Total elapsed time: 00:05 (MM:SS)

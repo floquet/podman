@@ -1,0 +1,76 @@
+[1mWed Jul 23 00:46:20 MDT 2025 ./xiuhcoatl-genesis.sh(B[m
+
+[36mStep 1: WARNING: This will DESTROY all Podman data(B[m
+• Deletes containers/images
+• Configures storage at:
+  /Volumes/samsung-t7-shield-boot-ubuntu-24.02/podman-storage
+Continue? (y/N) 
+[36mStep 2: Purge existing Podman data(B[m
+
+  [33m2.1: List running containers (reference)(B[m
+
+[37m$ podman ps -a(B[m
+Cannot connect to Podman. Please verify your connection to the Linux system using `podman system connection list`, or try `podman machine init` and `podman machine start` to manage a new Linux VM
+Error: unable to connect to Podman socket: Get "http://d/v5.4.2/libpod/_ping": dial unix /var/folders/z2/dyld4b113d72phgychy5cs2h0000gn/T/storage-run-501/podman/podman.sock: connect: no such file or directory
+
+  [33m2.2: Stop all containers(B[m
+
+[37m$ podman stop -a || echo 'No containers to stop'(B[m
+Cannot connect to Podman. Please verify your connection to the Linux system using `podman system connection list`, or try `podman machine init` and `podman machine start` to manage a new Linux VM
+Error: unable to connect to Podman socket: Get "http://d/v5.4.2/libpod/_ping": dial unix /var/folders/z2/dyld4b113d72phgychy5cs2h0000gn/T/storage-run-501/podman/podman.sock: connect: no such file or directory
+No containers to stop
+
+  [33m2.3: Remove all containers(B[m
+
+[37m$ podman rm -a || echo 'No containers to remove'(B[m
+Cannot connect to Podman. Please verify your connection to the Linux system using `podman system connection list`, or try `podman machine init` and `podman machine start` to manage a new Linux VM
+Error: unable to connect to Podman socket: Get "http://d/v5.4.2/libpod/_ping": dial unix /var/folders/z2/dyld4b113d72phgychy5cs2h0000gn/T/storage-run-501/podman/podman.sock: connect: no such file or directory
+No containers to remove
+
+  [33m2.4: Nuclear reset(B[m
+
+[37m$ podman system reset --force(B[m
+Error: unknown flag: --force
+See 'podman system --help'
+
+[36mStep 3: Configure external storage(B[m
+
+  [33m3.1: Create storage directory(B[m
+
+[37m$ mkdir -pv "/Volumes/samsung-t7-shield-boot-ubuntu-24.02/podman-storage"(B[m
+
+[37m$ chmod -v 755 "/Volumes/samsung-t7-shield-boot-ubuntu-24.02/podman-storage"(B[m
+
+  [33m3.2: Generate storage.conf(B[m
+
+[37m$ cat > "/Users/dantopa//.config/containers/storage.conf" << EOF
+[storage]
+driver = "overlay"
+graphroot = "/Volumes/samsung-t7-shield-boot-ubuntu-24.02/podman-storage"
+EOF(B[m
+
+[36mStep 4: Verification(B[m
+
+  [33m4.1: Show configuration(B[m
+
+[37m$ cat "/Users/dantopa//.config/containers/storage.conf"(B[m
+[storage]
+driver = "overlay"
+graphroot = "/Volumes/samsung-t7-shield-boot-ubuntu-24.02/podman-storage"
+
+  [33m4.2: Start Podman VM (macOS)(B[m
+
+[37m$ podman machine start(B[m
+Error: podman-machine-default: VM does not exist
+
+  [33m4.3: Verify storage path(B[m
+
+[37m$ podman info --format '{{.Store.GraphRoot}}'(B[m
+OS: darwin/amd64
+buildOrigin: pkginstaller
+provider: applehv
+version: 5.4.2
+
+Cannot connect to Podman. Please verify your connection to the Linux system using `podman system connection list`, or try `podman machine init` and `podman machine start` to manage a new Linux VM
+Error: unable to connect to Podman socket: Get "http://d/v5.4.2/libpod/_ping": dial unix /var/folders/z2/dyld4b113d72phgychy5cs2h0000gn/T/storage-run-501/podman/podman.sock: connect: no such file or directory
+./xiuhcoatl-genesis.sh: line 62: elapsed: command not found

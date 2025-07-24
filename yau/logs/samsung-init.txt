@@ -1,0 +1,501 @@
+Wed Jul 23 14:18:54 MDT 2025
+   99  cafrun -n 4 ./a.out 
+  100  vim test_coarray.f08 
+  101  port list installed | grep mpi
+  102  mpif90-mpich-gcc14 
+  103  mpif90-mpich-gcc14 caf
+  104  /opt/local/bin/mpif90-mpich-gcc14 #Wflags $fflags $oflgas -o test_mpi test_mpi.f90
+  105  /opt/local/bin/mpif90-mpich-gcc14 #Wflags $fflags $oflgas -o test_coarray test_coarray..f90
+  106  lss
+  107  '
+  108  rm test_coarry 
+  109  rm a.out 
+  110  vim $core/fortran.sh 
+  111  sr
+  112  echo $allflags
+  113  echo $oflags
+  114  source $core/fortran.sh 
+  115  echo $oflags
+  116  echo $allflags
+  117  vim $core/fortran.sh 
+  118  source $core/fortran.sh 
+  119  echo $allflags
+  120  /opt/local/bin/mpif90-mpich-gcc14 -w
+  121  /opt/local/bin/mpif90-mpich-gcc14 -w
+  122  /opt/local/bin/mpif90-mpich-gcc14 -v
+  123  lss
+  124  chmox +x test-parallel.sh 
+  125  chmod +x test-parallel.sh 
+  126  ./test-parallel.sh 
+  127  /opt/local/bin/mpif90-mpich-gcc14 -w
+  128  /opt/local/bin/mpif90-mpich-gcc14 -h
+  129  caf -w
+  130  caf -v
+  131  /opt/local/bin/mpif90-mpich-gcc14 -v
+  132  /opt/local/mpif90-openmpi-mp -v
+  133  /opt/local/mpif90-openmpi-mp
+  134  history
+  135  cd github
+  136  git clone https://github.com/Beliavsky/Burkardt-Fortran-90-codes-SC.git
+  137  mpif90 -w
+  138  /opt/local/bin/mpif90-mpich-gcc14 -o test_mpi test_mpi.f90
+  139  gof
+  140  cd astradian/lib/
+  141  lss
+  142  cd tests/
+  143  lss
+  144  cd c
+  145  cd achates/
+  146  lss
+  147  /opt/local/bin/mpif90-mpich-gcc14 -o test_mpi test_mpi.f90
+  148  /opt/local/bin/mpirun-mpich-gcc14 test_mpi
+  149  ./test-parallel.sh 
+  150  ./test-parallel.sh 
+  151  port installed | grep 'mpi'
+  152  port installed | grep 'coarrays'
+  153  port installed | grep 'coarray'
+  154  caf $allflags -o test_coarray test_coarray.f08 
+  155  vim test_coarray.f08 
+  156  caf $allflags -o test_coarray test_coarray.f08 
+  157  cafrun -n 4 test_coarray
+  158  vim 
+  159  vim test_coarray.f08 
+  160  cafrun -n 4 ./test_coarray
+  161  ./test-parallel.sh 
+  162  ./test-parallel.sh 2>&1 | tee test-parallel.txt
+  163  vim test-parallel.txt 
+  164  lss
+  165  mpirun -w
+  166  /opt/local/bin/mpif90-mpich-gcc14 -v
+  167  caf -w
+  168  /opt/local/bin/mpif90-mpich-gcc14 $allflags -o test_coarray test_coarray.f08 
+  169  /opt/local/bin/mpif90-mpich-gcc14 $allflags -fcoarry=lib -o test_coarray test_coarray.f08 
+  170  /opt/local/bin/mpif90-mpich-gcc14 $allflags -fcoarray=lib -o test_coarray test_coarray.f08 
+  171  /opt/local/bin/mpif90-mpich-gcc14 $allflags -fcoarray=lib -o test_coarray test_coarray.f08 -I/opt/local/include -L/opt/local/lib -lcaf_mpi -lcaf
+  172  port contents opencoarrays | grep libcaf
+  173  /opt/local/bin/mpif90-mpich-gcc14 -fcoarray=lib   -I/opt/local/include   -L/opt/local/lib   -lcaf_mpi   -o test_coarray test_coarray.f08
+  174  caf --show test_coarray.f08
+  175  ./test-parallel.sh 
+  176  /opt/local/bin/mpif90-mpich-gcc14   -I/opt/local/include/OpenCoarrays-2.10.2_GNU-14.2.0   -fcoarray=lib   -lpthread   test_coarray.f08   /opt/local/lib/libcaf_mpi.a
+  177  lss
+  178  cafrun -n 4 a.out
+  179  cafrun -n 4 ./a.out
+  180  time cafrun -n 4 ./a.out
+  181  time cafrun  --show -n 4 ./a.out
+  182  cafrun  --show -n 4 ./a.out
+  183  mpirun -n 4 ./test_coarray
+  184  port contents mpich | grep mpirun
+  185  port contents mpich 
+  186  sudo port install mpich-gcc14
+  187  port contents mpich | grep mpirun
+  188  mpirun -n 4 ./test_coarray
+  189  port contents mpich-gcc14 | grep mpirun
+  190  /opt/local/bin/mpirun-mpich-gcc14 -n 4 ./test_coarray
+  191  ./test-parallel.sh 
+  192  /opt/local/bin/mpif90-mpich-gcc14 -I/opt/local/include/OpenCoarrays-2.10.2_GNU-14.2.0 -fcoarray=lib -lpthread test_coarray.f08 /opt/local/lib/libcaf_mpi.a
+  193  /opt/local/bin/mpif90-mpich-gcc14   -I/opt/local/include/OpenCoarrays-2.10.2_GNU-14.2.0   -fcoarray=lib   -lpthread   -o test-coarry
+  194    test_coarray.f08   /opt/local/lib/libcaf_mpi.a
+  195  dantopa@Xiuhcoatl:achates $ /opt/local/bin/mpif90-mpich-gcc14 -I/opt/local/include/OpenCoarrays-2.10.2_GNU-14.2.0 -fcoarray=lib -lpthread test_coarray.f08 /opt/local/lib/libcaf_mpi.a
+  196  dantopa@Xiuhcoatl:achates $ /opt/local/bin/mpif90-mpich-gcc14   -I/opt/local/include/OpenCoarrays-2.10.2_GNU-14.2.0   -fcoarray=lib   -lpthread   -o test-coarry
+  197    test_coarray.f08   /opt/local/lib/libcaf_mpi.a
+  198  Undefined symbols for architecture x86_64:
+  199    "_main", referenced from:
+  200        <initial-undefines>
+  201  ld: symbol(s) not found for architecture x86_64
+  202  collect2: error: ld returned 1 exit status
+  203  bash: test_coarray.f08: command not found
+  204  which mpif90-openmpi-gcc14
+  205  ./test-parallel.sh 
+  206  echo $allflags
+  207  source $core/fortran.sh 
+  208  echo $allflags
+  209  source $core/fortran.sh 
+  210  source $core/fortran.sh 
+  211  source $core/fortran.sh cat -n $core/fortran.sh 
+  212  cat -n $core/fortran.sh 
+  213  ./test-parallel.sh 
+  214  ./test-parallel.sh 
+  215  /opt/local/bin/mpif90-mpich-gcc14 -I/opt/local/include/OpenCoarrays-2.10.2_GNU-14.2.0 -fcoarray=lib -lpthread -o test-coarry test_coarray.f08 /opt/local/lib/libcaf_mpi.a
+  216  /opt/local/bin/mpirun-mpich-gcc14 -n 4 ./test_coarray
+  217  gospack 
+  218  cd xiuhcoatl-monterey-spack/
+  219  initspack 
+  220  spack info gcc
+  221  git pull
+  222  gopres
+  223  cd clohessy–wiltshire/
+  224  grep -Inr --include=*.tex 'Existence and Uniqueness' .
+  225  cd repos-xiuhcoatl/
+  226  lss
+  227  pwd
+  228  ps -aux
+  229  ps -au
+  230  ps
+  231  spack info gcc
+  232  ls /Volumes/
+  233  ds
+  234  \begin{frame}{Linear Pendulum (Small-Angle Approximation)}
+  235  \begin{block}{Equation of Motion}
+  236  \begin{equation*}
+  237  \frac{d^2\theta}{dt^2} + \frac{g}{L}\theta = 0 \quad \text{(assuming $|\theta| \ll 1$)}
+  238  \end{equation*}
+  239  \end{block}
+  240  \begin{block}{Autonomous System Representation}
+  241  Let $x_1 = \theta$, $x_2 = \dot{\theta}$:
+  242  \begin{equation*}
+  243  \begin{cases}
+  244  \dot{x}_1 = x_2 \\
+  245  \dot{x}_2 = -\frac{g}{L}x_1
+  246  \end{cases}
+  247  \end{equation*}
+  248  \end{block}
+  249  \begin{itemize}
+  250      \item Approximation valid near $\theta \approx 0$
+  251      \item Linear system (harmonic oscillator)
+  252      \item Phase portrait shows concentric ellipses
+  253  \end{itemize}
+  254  \end{frame}
+  255  df -h
+  256  # Check Podman storage usage
+  257  podman system df
+  258  podman info | grep -A 5 "store"
+  259  podman system prune -a
+  260  cat $core/docker.sh 
+  261  cat -n $core/podman.sh 
+  262  podman ps -a
+  263  podman start spack-dev
+  264  cd GitHub
+  265  cd podman/
+  266  pwd
+  267  lss
+  268  cd zen/ninja-ai/
+  269  lss
+  270  chmod +x base-start-spackdev.sh 
+  271  ./base-start-spackdev.sh 
+  272  podman ls -a
+  273  podman ps -a
+  274  podman commit ed15fd6564d6 gcc-dev-container:saved
+  275  podman ps -a
+  276  lss
+  277  ./base-start-spackdev.sh 
+  278  pwd
+  279  echo $HOME/
+  280  v
+  281  echo $lrepos
+  282   podman restart -l
+  283  podman ps -a
+  284  podman restart ed15 
+  285  docker start -ai gcc-dev-container -v ${lrepos}:/workspace
+  286  docker start -ai gcc-dev-container -v "${lrepos}:/workspace"
+  287  podman run -it gcc-dev-container 
+  288  podman start -it gcc-dev-container 
+  289  podman run -it --name gcc-dev-container 
+  290  docker start -ai gcc-dev-container
+  291  podman run -it --name gcc-dev-container
+  292  podman ps -a
+  293  podman exec -it gcc-dev-container /bin/bash
+  294  zpodman exec -it gcc-dev-container /bin/bash -v ${lrepos}:/workspace
+  295  podman exec -it gcc-dev-container /bin/bash
+  296  podman exec -it gcc-dev-container /bin/bash -v ${lrepos}:/workspace
+  297  cat $core/docker.sh 
+  298  ls /Volumes/
+  299  vim $core/podman.sh
+  300  ls $core/
+  301  vim $core/podman.sh
+  302  vim $core/podman.sh
+  303  cat -n $core/podman.sh 
+  304  vim $core/podman.sh 
+  305  vim $core/podman.sh 
+  306  cat $core/podman.sh 
+  307  v
+  308  pwd
+  309  cd
+  310  ls Dropbox/
+  311  cd /Users/dantopa/GitHub/podman/zen/ninja-ai
+  312  ls ~/Dropbox/
+  313  vim $core/podman.sh 
+  314  source $core/podman.sh 
+  315  vim $core/podman.sh 
+  316  source $core/podman.sh 
+  317  run_base 
+  318  ls /Volumes/spacktivity/
+  319  echo $lrepos
+  320  v
+  321  ls $lrepos
+  322  run_base 
+  323  ls /Volumes/spacktivity/
+  324  mount | grep spacktivity
+  325  afpfs on /Volumes/spacktivity (nodev, nosuid, mounted by dantopa)
+  326  afpfs on /Volumes/spacktivity 
+  327  pwd
+  328  mkdir -p ~/spacklink
+  329  ln -sfn /Volumes/spacktivity ~/spacklink
+  330  cat $core/podman.sh 
+  331  vim $core/podman.sh 
+  332  sr
+  333  run_base 
+  334  cat $core/podman.sh 
+  335  vim $core/podman.sh 
+  336  sr
+  337  run_base 
+  338  vim $core/podman.sh 
+  339  cat $core/podman.sh 
+  340  echo $CONTAINER_ENGINE 
+  341  $CONTAINER_ENGINE run -it         --name ubuntu-base         --hostname ubuntu-base         -v /etc/localtime:/etc/localtime:ro         -v "${lrepos}:/repos"         -v "~/spacklink:/spacktivity"
+  342          -v ~/Dropbox:/Dropbox         "$BASE_IMAGE" /bin/bash
+  343  $CONTAINER_ENGINE run -it     --name ubuntu-base     --hostname ubuntu-base     -v /etc/localtime:/etc/localtime:ro     -v "${lrepos}:/repos"     -v "${HOME}/spacklink:/spacktivity"     -v "${HOME}/Dropbox:/Dropbox"     "$BASE_IMAGE" /bin/bash
+  344  cat $core/podman.sh 
+  345  vim $core/podman.sh 
+  346  sr
+  347  run_base
+  348  vim $core/podman.sh 
+  349  vim $core/podman.sh 
+  350  run_base
+  351  sr
+  352  run_base
+  353  vim $core/podman.sh 
+  354  sr $core/podman.sh 
+  355  run_base
+  356  declare -f run_base
+  357  vim $core/podman.sh 
+  358  cat $core/podman.sh 
+  359  source $core/podman.sh 
+  360  vim $core/podman.sh 
+  361  vim $core/podman.sh 
+  362  source $core/podman.sh 
+  363  run_base
+  364  podman run -it --name ubuntu-0-base  -v /etc/localtime:/etc/localtime:ro -v "${lrepos}:/repos" -v "~/spacklink:/spacktivity" -v "${HOME}/Dropbox:/Dropbox" docker.io/library/ubuntu:22.04 /bin/bash 
+  365  podman run -it --name ubuntu-0-base  -v /etc/localtime:/etc/localtime:ro -v "${lrepos}:/repos" -v "${HOME}/spacklink:/spacktivity" -v "${HOME}/Dropbox:/Dropbox" docker.io/library/ubuntu:22.04 /bin/bash
+  366  podman commit ubuntu-0-base ubuntu-0-base
+  367  podman ps -a
+  368  podman run -it --name ubuntu-0-base  -v /etc/localtime:/etc/localtime:ro -v "${lrepos}:/repos" -v "${HOME}/spacklink:/spacktivity" -v "${HOME}/Dropbox:/Dropbox" docker.io/library/ubuntu:22.04 /bin/bash
+  369  podman start -ai ubuntu-0-base
+  370  podman commit 95555f51ea63 ubuntu-0-base
+  371  podman start -ai ubuntu-0-base
+  372  podman commit 95555f51ea63 ubuntu-0-base
+  373  podman commit 95555f51ea63 ubuntu-1-apt
+  374  podman ps -a
+  375  podman start -ai ubuntu-1-apt
+  376  podman run -it --name ubuntu-1-apt-container -v /etc/localtime:/etc/localtime:ro -v "${lrepos}:/repos" -v "${HOME}/spacklink:/spacktivity" -v "${HOME}/Dropbox:/Dropbox" ubuntu-1-apt /bin/bash
+  377  podman commit ubuntu-1-apt-container ubuntu-1-apt
+  378  podman start -ai ubuntu-1-apt-container
+  379  podman start -ai ubuntu-1-apt-container
+  380  podman commit 97c08cc3b93d ubuntu-1-apt
+  381  podman ps -a
+  382  podman start -ai ubuntu-1-apt
+  383  podman start -ai ubuntu-1-apt-container
+  384  podman stop -a
+  385  podman rm -af
+  386  podman rmi -af
+  387  podman system prune -af --volumes
+  388  podman run -it --name ubuntu-00-base  -v /etc/localtime:/etc/localtime:ro -v "${lrepos}:/repos" -v "${HOME}/spacklink:/spacktivity" -v "${HOME}/Dropbox:/Dropbox" docker.io/library/ubuntu:22.04 /bin/bash
+  389  podman ps -a
+  390  podman images
+  391  podman commit 95555f51ea63 ubuntu-00-base
+  392  podman commit a8911d8b4594 ubuntu-00-base
+  393  podman ps -a
+  394  podman images
+  395  podman commit a8911d8b4594 ubuntu-01-deluxe
+  396  podman images
+  397  podman ps -a
+  398  podman start -ai ubuntu-01-deluxe
+  399  podman stop -a
+  400  podman rm -af
+  401  podman rmi -af
+  402  podman system prune -af --volumes
+  403  podman ps -a; podman image ls
+  404  podman run -it --name co-00-base   -v /etc/localtime:/etc/localtime:ro   -v "${lrepos}:/repos"   -v "${HOME}/spacklink:/spacktivity"   -v "${HOME}/Dropbox:/Dropbox"   docker.io/library/ubuntu:22.04 /bin/bash
+  405  podman commit ubuntu-00-base ubuntu-00-base
+  406  podman commit co-00-base im-00-base
+  407  podman run -it --name co-01-deluxe   -v /etc/localtime:/etc/localtime:ro   -v "${lrepos}:/repos"   -v "${HOME}/spacklink:/spacktivity"   -v "${HOME}/Dropbox:/Dropbox"   im-00-base /bin/bash
+  408  podman commit co-01-deluxe im-01-deluxe
+  409  podman start -ai co-01-deluxe
+  410  podman commit co-01-deluxe im-01-deluxe
+  411  podman start -ai co-01-deluxe
+  412  podman commit co-01-deluxe im-01-deluxe-gcc
+  413  date
+  414  podman container ls
+  415  podman ps -a
+  416  podman image ls
+  417  podman start -ai co-01-deluxe
+  418  podman commit co-01-deluxe im-02-spack-basic
+  419  podman system prune -a
+  420  podman volume prune
+  421  podman commit co-01-deluxe im-02-spack-basic
+  422  cd GitHub
+  423  cd podman/
+  424  ls
+  425  mkdir yau
+  426  cd yau/
+  427  pwd
+  428  ls ../zen/
+  429  cd ../zen/ninja-ai/
+  430  lss
+  431  cd ..
+  432  cd ..
+  433  mkdir -p yau/scripts/xiuhcoatl yau/scripts/pod yau/logs yau/notes yau/config
+  434  cd zen/ninja-ai
+  435  ls
+  436  cat -n fresh-ubuntu.sh 
+  437  cd ..
+  438  cd ..
+  439  cd yau/
+  440  ls
+  441  lss
+  442  cd scripts/
+  443  lss
+  444  cd xiuhcoatl/
+  445  lss
+  446  vim xiuhcoatl-prep-external-storage.sh
+  447  vim xiuhcoatl-prep-external-storage.sh
+  448  chmod +x *.sh
+  449  lss
+  450  ./xiuhcoatl-prep-external-storage.sh 
+  451  vim xiuhcoatl-prep-external-storage.sh 
+  452  vim xiuhcoatl-create-stage-00.sh
+  453  chmod +x *.sh
+  454  ./xiuhcoatl-create-stage-00.sh 
+  455  vim xiuhcoatl-create-stage-01.sh
+  456  cd ../pod/
+  457  cat -n pod-stage-01.sh 
+  458  pwd
+  459  ls
+  460  cat -n $core/docker.sh 
+  461  echo lrepos
+  462  echo $lrepos
+  463  cd ..
+  464  cd xiuhcoatl/
+  465  lss
+  466  vim xiuhcoatl-create-stage-01.sh 
+  467  chmod +x *.sh
+  468  ./xiuhcoatl-create-stage-01.sh 
+  469  ./xiuhcoatl-create-stage-01.sh 
+  470  ./xiuhcoatl-create-stage-01.sh 
+  471  podman ps -a
+  472  podman image ls
+  473  cd ..
+  474  cd pod/
+  475  ls pod-build-spack.sh 
+  476  pwd
+  477  ls pod-build-spack.sh 
+  478  cd ..
+  479  ls
+  480  cd xiuhcoatl/
+  481  ls
+  482  vim xiuhcoatl-create-stage-02.sh
+  483  vim xiuhcoatl-create-stage-02.sh
+  484  cat xiuhcoatl-create-stage-02.sh 
+  485  vim xiuhcoatl-create-stage-02.sh
+  486  vim xiuhcoatl-create-stage-02.sh
+  487  chmod +x *.sh
+  488  ./xiuhcoatl-create-stage-02.sh 
+  489  grep -Inr --include=*.tex '\\pLogo' .
+  490  grep -Inr --include=*.tex '\\pCover' .
+  491  grep -Inr --include=*.tex 'eq:Rotat' .
+  492  grep -Inr --include=*.tex '\\thead' .
+  493  grep -Inr --include=*.tex '\\fixedheight' .
+  494  grep -Inr --include=*.tex 'pCovers' .
+  495  cd pres/cwh-textbook/
+  496  ls
+  497  grep -Irn --include=*.tex 'Urosticte-k1X,w3' .
+  498  grep -Irn --include=*.tex 'Urosticte-k1X,w3' .
+  499  podman machine list
+  500  cd $GitHub
+  501  cd GitHub
+  502  lss
+  503  cd podman/
+  504  ls
+  505  cd yau/
+  506  cd scripts/
+  507  ls
+  508  cd xiuhcoatl/
+  509  vim xiuhcoatl-genesis.sh
+  510  vim xiuhcoatl-podman-migration-teaching-script.sh
+  511  chmod +x *.sh
+  512  ./xiuhcoatl-podman-migration-teaching-script.sh 
+  513  lss
+  514  vim xiuhcoatl-genesis.sh 
+  515  ./xiuhcoatl-genesis.sh 2>&1 | tee -a xiuhcoatl-genesis.txt
+  516  podman system connection list
+  517  podman machine init
+  518  podman machine stop 2>/dev/null || true
+  519  podman machine rm -f podman-machine-default 2>/dev/null || true
+  520  podman machine init --cpus 2 --memory 2048 --disk-size 20 \
+  521  podman machine lsit
+  522  podman machine list
+  523  podman machine list
+  524  ls /Volumes/
+  525  df -h /Volumes/samsung-t7-shield-boot-ubuntu-24.02/
+  526  cat /proc/cpuinfo
+  527  lss
+  528  cat xiuhcoatl-prep-external-storage.sh 
+  529  vim xiuhcoatl-genesis-01.sh
+  530  df -h /Volumes/samsung-t7-shield-boot-ubuntu-24.02/
+  531  vim xiuhcoatl-genesis-01.sh
+  532  ./xiuhcoatl-genesis-01.sh
+  533  chmod +x *.sh
+  534  ./xiuhcoatl-genesis-01.sh
+  535  podman machine list
+  536  cat xiuhcoatl-genesis-01.sh 
+  537  vim xiuhcoatl-genesis-02.sh
+  538  chmod +x *.sh
+  539  ./xiuhcoatl-genesis-02.sh 
+  540  vim xiuhcoatl-genesis-03.sh
+  541  chmod +x *.sh
+  542  ./xiuhcoatl-genesis-03.sh 
+  543  podman system connection list
+  544  podman machine stop xiuhcoatl-ext
+  545  podman machine start xiuhcoatl-ext
+  546  podman info
+  547  podman system connection remove xiuhcoatl-ext
+  548  podman machine list
+  549  podman system connection add xiuhcoatl-ext   ssh://core@127.0.0.1:59668/run/user/501/podman/podman.sock   --default
+  550  podman info
+  551  podman machine ssh xiuhcoatl-ext
+  552  podman machine list
+  553  vim xiuhcoatl-genesis-04.sh
+  554  vim xiuhcoatl-genesis-04.sh
+  555  chmod +x *.sh
+  556  ./xiuhcoatl-genesis-04.sh 
+  557  cat xiuhcoatl-genesis-04.sh 
+  558  lsof -iTCP -sTCP:LISTEN -nP | grep podman
+  559  podman machine ssh xiuhcoatl-ext
+  560  rm -rf /Volumes/samsung-t7-shield-boot-ubuntu-24.02/podman-storage
+  561  vim xiuhcoatl-genesis-05.sh
+  562  ./xiuhcoatl-genesis-05.sh 
+  563  chmod +x *.sh
+  564  ./xiuhcoatl-genesis-05.sh 
+  565  podman machine list
+  566  ls /Volumes/
+  567  podman system reset --force
+  568  podman system reset
+  569  3podman machine stop
+  570  podman machine stop
+  571  podman machine rm --force
+  572  rm -rf ~/Library/Containers/com.docker.docker
+  573  rm -rf ~/.local/share/containers
+  574  rm -rf ~/.config/containers
+  575  rm -rf ~/.cache/containers
+  576  mkdir -p /Volumes/samsung-t7-shield-boot-ubuntu-24.02/podman-storage
+  577  podman machine init   --rootful   --volume /Volumes/samsung-t7-shield-boot-ubuntu-24.02/podman-storage:/var/lib/containers
+  578  podman machine start
+  579  podman info | grep 'GraphRoot'
+  580  podman machine list
+  581  podman machine start
+  582  podman machine ssh
+  583  podman machine stop
+  584  podman machine rm --force
+  585  # Step 2: Purge old external storage (optional)
+  586  rm -rf /Volumes/samsung-t7-shield-boot-ubuntu-24.02/podman-storage
+  587  # Step 3: Create clean storage directory
+  588  mkdir -p /Volumes/samsung-t7-shield-boot-ubuntu-24.02/podman-storage
+  589  # Step 4: Create Podman machine with bind mount to external drive
+  590  podman machine init   --rootful   --volume /Volumes/samsung-t7-shield-boot-ubuntu-24.02/podman-storage:/var/lib/containers
+  591  # Step 5: Start the machine
+  592  podman machine start
+  593  ls -l /var/lib/containers
+  594  podman machine ssh
+  595  ls ../
+  596  ls ..//../
+  597  date > ..//../logs/samsung-init.txt
+  598  history >> ..//../logs/samsung-init.txt

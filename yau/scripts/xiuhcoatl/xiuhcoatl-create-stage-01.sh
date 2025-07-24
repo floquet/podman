@@ -5,7 +5,7 @@
 #          run it as a CONTAINER, execute our pod-stage-01.sh script inside the CONTAINER,
 #          then save the modified CONTAINER as img-stage-01-deluxe-ubuntu IMAGE
 
-printf "%s\n" "$(tput bold)$ (date) ${BASH_SOURCE[0]}$(tput sgr0)"
+printf "%s\n" "$(tput bold)$(date) ${BASH_SOURCE[0]}$(tput sgr0)"
 
 counter=0; subcounter=0; start_time=${SECONDS}
 function new_step() { counter=$((counter+1)); subcounter=0; echo -e "\nStep ${counter}: $1"; }
